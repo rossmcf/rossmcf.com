@@ -6,9 +6,10 @@ title = "Wishlist"
 
 ## Drums
 - [DW Satin Oil Big Rock Ebony](https://www.thomann.de/gb/dw_satin_oil_big_rock_ebony.htm), £4156
+- [DW 9000 XF Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £323
 - [Paiste Signature Reflector Heavy Hi-Hat 14"](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £445
-- [DW 9002 XF Double Pedal](https://www.thomann.de/gb/dw_9002_xf_double_pedal.htm), £605
-- [DW 9120M Drum Throne](http://www.drumshop.co.uk/buy/drum-workshop-9120m-series-throne.htm), £168
+- [Roc n Soc Drum Throne](http://www.adcdrums.co.uk/roc-n-soc-drum-thrones__p-298.aspx), Black/Motorcycle/Standard, £145
+- [DW 9701 Boom Stand](https://www.thomann.de/gb/dw_9701_cymbal_boom_stand.htm), £162
 
 ## Clothing
 - [Topo Designs Puffer Vest](http://topodesigns.com/collections/mens-outerwear/products/puffer-vest?variant=958920485), Black, Large, $149
