@@ -6,7 +6,8 @@ title = "Wishlist"
 
 ## Drums
 - [DW Satin Oil Big Rock Ebony](https://www.thomann.de/gb/dw_satin_oil_big_rock_ebony.htm), £4156
-- [DW 9000 XF Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £323
+- [DW 9000 XF Bass Drum Pedal](https://drummersonly.co.uk/product/dw-9000xf-single-pedal-with-extended-footboard/), £310
+- [DW 9002 XF Bass Drum Pedal](https://drummersonly.co.uk/product/dw-9002xf-double-pedal-with-extended-footboard), £551
 - [Paiste Signature Reflector Heavy Hi-Hat 14"](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £445
 - [Roc n Soc Drum Throne](http://www.adcdrums.co.uk/roc-n-soc-drum-thrones__p-298.aspx), Black/Motorcycle/Standard, £145
 - [DW 9701 Boom Stand](https://www.thomann.de/gb/dw_9701_cymbal_boom_stand.htm), £162
@@ -32,6 +33,7 @@ title = "Wishlist"
 - [The Visual Display of Quantitative Information](http://www.amazon.co.uk/dp/0961392142/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I4CR4MH70C9OE), £23.77
 - [A Perfect Union of Contrary Things](https://www.amazon.co.uk/dp/1495024423/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I3DR54E3R7GNH5), £13.59
 - [The Prince](https://www.amazon.co.uk/Prince-Original-Classic-Capstone-Classics/dp/0857080784), £7.99
+- [Radical Candor](https://www.amazon.co.uk/Radical-Candor-Without-Losing-Humanity/dp/1509845356/ref=sr_1_1?ie=UTF8&qid=1491553896&sr=8-1&keywords=radical+candor), £12
 
 ## Art
 - [OK Llama by Shyama Golden](http://society6.com/product/OK-Llama_Print#1=45), $19+
