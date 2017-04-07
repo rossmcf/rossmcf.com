@@ -6,7 +6,6 @@ title = "Wishlist"
 
 ## Drums
 - [DW Satin Oil Big Rock Ebony](https://www.thomann.de/gb/dw_satin_oil_big_rock_ebony.htm), £4156
-- [DW 9000 XF Bass Drum Pedal](https://drummersonly.co.uk/product/dw-9000xf-single-pedal-with-extended-footboard/), £310
 - [DW 9002 XF Bass Drum Pedal](https://drummersonly.co.uk/product/dw-9002xf-double-pedal-with-extended-footboard), £551
 - [Paiste Signature Reflector Heavy Hi-Hat 14"](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £445
 - [Roc n Soc Drum Throne](http://www.adcdrums.co.uk/roc-n-soc-drum-thrones__p-298.aspx), Black/Motorcycle/Standard, £145
