@@ -15,9 +15,8 @@ title = "Wishlist"
 - [Topo Designs Puffer Vest](http://topodesigns.com/collections/mens-outerwear/products/puffer-vest?variant=958920485), Black, Large, $149
 
 ## Tech
-- [LG 27" 4K Monitor](https://www.amazon.co.uk/dp/B01D7OZR2G/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=40WXNNEUGEVQ&coliid=IR7EPM1SU5XVZ), £399
+- [LG 27" 4K Monitor](https://www.amazon.co.uk/dp/B01D7OZR2G), £399
 - [Roost Laptop Stand](https://www.therooststand.com), $74.95
-- [Remarkable Tablet](https://getremarkable.com), $349
 - [Mu Duo Foldable Charger](http://www.themu.co.uk/products/mu-duo), £22
 
 ## Home
@@ -28,18 +27,18 @@ title = "Wishlist"
 - [IL Equipment Load Cell Kit](http://ilequipment.com/collections/all/products/load-cell?variant=1101715720), Any Size/Colour, from $26
 
 ## Books
-- [Reflections, An Oral History of Twin Peaks](https://www.amazon.co.uk/dp/061596883X/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I1E8OX4AVL50WX), £13.99
-- [The Secret History of Twin Peaks](https://www.amazon.co.uk/dp/144729386X/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I1K2XJUC0IEHG7), £9.99
-- [The Visual Display of Quantitative Information](http://www.amazon.co.uk/dp/0961392142/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I4CR4MH70C9OE), £23.77
-- [A Perfect Union of Contrary Things](https://www.amazon.co.uk/dp/1495024423/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I3DR54E3R7GNH5), £13.59
+- [Reflections, An Oral History of Twin Peaks](https://www.amazon.co.uk/dp/061596883X), £13.99
+- [The Secret History of Twin Peaks](https://www.amazon.co.uk/dp/144729386X), £9.99
+- [The Visual Display of Quantitative Information](http://www.amazon.co.uk/dp/0961392142), £23.77
+- [A Perfect Union of Contrary Things](https://www.amazon.co.uk/dp/1495024423), £13.59
 - [The Prince](https://www.amazon.co.uk/Prince-Original-Classic-Capstone-Classics/dp/0857080784), £7.99
-- [Radical Candor](https://www.amazon.co.uk/Radical-Candor-Without-Losing-Humanity/dp/1509845356/ref=sr_1_1?ie=UTF8&qid=1491553896&sr=8-1&keywords=radical+candor), £12
+- [Radical Candor](https://www.amazon.co.uk/Radical-Candor-Without-Losing-Humanity/dp/1509845356), £12
 
 ## Art
 - [OK Llama by Shyama Golden](http://society6.com/product/OK-Llama_Print#1=45), $19+
 - [Home Sweet Brachiosaurus by Shyama Golden](http://society6.com/product/Home-Sweet-Brachiosaurus-YH57_Print#1=45), $19+
 - [Ferry from Ardrossan Harbor by Laura Bell](http://www.youshouldbuyart.com/products/laura-bell-ferry-from-ardrossan-harbor), $60+
-- [Ire Works, Vinyl](https://www.amazon.co.uk/dp/B000VXXEV8/ref=wl_it_dp_o_pd_S_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I2WCBX2IMMUT40), £20.30
+- [Ire Works, Vinyl](https://www.amazon.co.uk/dp/B000VXXEV8), £20.30
 
 ## Games
 - [Frisbee Golf Disc Set](http://www.catchthespirit.co.uk/shop/disc-golf-department/disc-golf-sets/discmania-pro-disc-golf-set), £39.95
