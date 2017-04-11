@@ -16,6 +16,7 @@ title = "Wishlist"
 
 ## Tech
 - [LG 27" 4K Monitor](https://www.amazon.co.uk/dp/B01D7OZR2G/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=40WXNNEUGEVQ&coliid=IR7EPM1SU5XVZ), £399
+- [Roost Laptop Stand](https://www.therooststand.com), $74.95
 - [Remarkable Tablet](https://getremarkable.com), $349
 - [Mu Duo Foldable Charger](http://www.themu.co.uk/products/mu-duo), £22
 
