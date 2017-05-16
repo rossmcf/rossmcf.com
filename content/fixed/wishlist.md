@@ -15,7 +15,6 @@ title = "Wishlist"
 - [Topo Designs Puffer Vest](http://topodesigns.com/collections/mens-outerwear/products/puffer-vest?variant=958920485), Black, Large, $149
 
 ## Tech
-- [LG 27" 4K Monitor](https://www.amazon.co.uk/dp/B01D7OZR2G), £399
 - [Roost Laptop Stand](https://www.therooststand.com), $74.95
 - [Mu Duo Foldable Charger](http://www.themu.co.uk/products/mu-duo), £22
 
@@ -35,8 +34,7 @@ title = "Wishlist"
 - [Radical Candor](https://www.amazon.co.uk/Radical-Candor-Without-Losing-Humanity/dp/1509845356), £12
 
 ## Art
-- [OK Llama by Shyama Golden](http://society6.com/product/OK-Llama_Print#1=45), $19+
-- [Home Sweet Brachiosaurus by Shyama Golden](http://society6.com/product/Home-Sweet-Brachiosaurus-YH57_Print#1=45), $19+
+- [Can Do by Gale Galligan](https://society6.com/product/can-do-9at_print#s6-4570807p4a1v45), £18+
 - [Ferry from Ardrossan Harbor by Laura Bell](http://www.youshouldbuyart.com/products/laura-bell-ferry-from-ardrossan-harbor), $60+
 - [Ire Works, Vinyl](https://www.amazon.co.uk/dp/B000VXXEV8), £20.30
 
