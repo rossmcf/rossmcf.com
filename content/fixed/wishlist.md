@@ -33,6 +33,9 @@ title = "Wishlist"
 - [The Prince](https://www.amazon.co.uk/Prince-Original-Classic-Capstone-Classics/dp/0857080784), £7.99
 - [Radical Candor](https://www.amazon.co.uk/Radical-Candor-Without-Losing-Humanity/dp/1509845356), £12
 
+## Office Decoration
+- [Ripley & Powerloader](https://www.amazon.co.uk/Funko-Reaction-Aliens-Ripley-Loader/dp/B01EV22OA6/ref=sr_1_8?ie=UTF8&qid=1496156813&sr=8-8&keywords=ripley+figure), £27.65
+
 ## Art
 - [Can Do by Gale Galligan](https://society6.com/product/can-do-9at_print#s6-4570807p4a1v45), £18+
 - [Ferry from Ardrossan Harbor by Laura Bell](http://www.youshouldbuyart.com/products/laura-bell-ferry-from-ardrossan-harbor), $60+
