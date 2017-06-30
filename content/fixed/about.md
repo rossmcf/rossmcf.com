@@ -10,3 +10,5 @@ I'm a software engineer, recovering academic, and [lapsed Scotsman](/blog/on-bei
 I live in West Wales with my wife, two daughters, and two dachshunds. Dw i'n dysgu Cymraeg.
 
 I don't blog often, as you can see.
+
+The Internet is full of my [abbreviated thoughts](https://twitter.com/rossmcf) and [sloppy code](https://github.com/rossmcf).
