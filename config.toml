@@ -8,6 +8,8 @@ publishdir          = "public"
 author              = "Ross McFarlane"
 title               = "Ross McFarlane"
 pygmentsuseclasses  = true
+pygmentsUseClassic  = true
+#pygmentsCodeFences  = true
 # disqusshortname     = "" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-93936167-1"
@@ -36,3 +38,15 @@ twitter                = "//twitter.com/rossmcf"
 
 avatar                 = "img/profile2.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # do not use in the same time as avatar
+
+[mediaTypes]
+[mediaTypes."application/atom"]
+suffix = "xml"
+
+[outputFormats.Atom]
+mediaType = "application/atom"
+baseName = "index"
+isPlainText = false
+
+[outputs]
+home = [ "HTML", "Atom" ]

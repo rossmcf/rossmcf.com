@@ -1,6 +1,6 @@
 +++
 title= "Advice for New PhD Students"
-description= ""
+description= "Some advice for PhD students I offered to Computer Science at the University of Liverpool"
 date= "2010-09-30"
 highlight= "true"
 +++

@@ -5,21 +5,20 @@ title = "Wishlist"
 +++
 
 ## Drums
-- [DW Satin Oil Big Rock Ebony](https://www.thomann.de/gb/dw_satin_oil_big_rock_ebony.htm), £4156
 - [DW 9002 XF Bass Drum Pedal](https://drummersonly.co.uk/product/dw-9002xf-double-pedal-with-extended-footboard), £551
+- [DW Drum Rack](https://www.thomann.de/gb/dw_9000_main_drum_rack_dwcprkmain.htm), £468
 - [Paiste Signature Reflector Heavy Hi-Hat 14"](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £445
-- [Roc n Soc Drum Throne](http://www.adcdrums.co.uk/roc-n-soc-drum-thrones__p-298.aspx), Black/Motorcycle/Standard, £145
-- [DW 9701 Boom Stand](https://www.thomann.de/gb/dw_9701_cymbal_boom_stand.htm), £162
 
 ## Clothing
 - [Topo Designs Puffer Vest](http://topodesigns.com/collections/mens-outerwear/products/puffer-vest?variant=958920485), Black, Large, $149
 
 ## Tech
+- [Aiaiai TMA-2 Wireless](https://www.indiegogo.com/projects/the-worlds-first-wireless-modular-headphone-system-music-bluetooth#/), Tonmeister Configuration, $200
 - [Roost Laptop Stand](https://www.therooststand.com), $74.95
 - [Mu Duo Foldable Charger](http://www.themu.co.uk/products/mu-duo), £22
 
 ## Home
-- [Lumio Light](http://www.hellolumio.com/shop/), $125-190
+- [Elgato Eve Remote Control Plug](https://www.amazon.co.uk/dp/B01KHLWAHM/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=IB6F1IT9TU2QP), £34.95
 
 ## Travel
 - [Laundry Stuff Sack](http://www.tombihn.com/PROD/travellaundrystuffsack.html), Size Aeronaut 45, Any colour, $45
@@ -35,6 +34,9 @@ title = "Wishlist"
 
 ## Office Decoration
 - [Ripley & Powerloader](https://www.amazon.co.uk/Funko-Reaction-Aliens-Ripley-Loader/dp/B01EV22OA6/ref=sr_1_8?ie=UTF8&qid=1496156813&sr=8-8&keywords=ripley+figure), £27.65
+- [Rick](https://www.amazon.co.uk/dp/B01FIF06VY/ref=wl_it_dp_o_pC_S_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=IPEZA6QB7Y28G&psc=1), £13.05
+- [Agent Cooper](https://www.amazon.co.uk/dp/B01MT8S7U2/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=I1OXCZ3P08S7H5&psc=1), £14.86
+
 
 ## Art
 - [Can Do by Gale Galligan](https://society6.com/product/can-do-9at_print#s6-4570807p4a1v45), £18+
