@@ -1,0 +1,43 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Ross McFarlane</title>
+	<link href="http://rossmcf.com/cy/index.xml" rel="self"/>
+	<link href="http://rossmcf.com/cy/"/>
+	<updated>2017-06-07T23:00:00+00:00</updated>
+	<id>http://rossmcf.com/cy/</id>
+	<generator>Hugo -- gohugo.io</generator>
+	<entry>
+		<title type="html"><![CDATA[Ma&#39;s o &#39;ma]]></title>
+		<link href="http://rossmcf.com/cy/blog/mas-o-ma/"/>
+		<id>http://rossmcf.com/cy/blog/mas-o-ma/</id>
+		<author>
+			<name>Ross McFarlane</name>
+		</author>
+		<published>2017-06-07T23:00:00+00:00</published>
+		<updated>2017-06-07T23:00:00+00:00</updated>
+		<content type="html"><![CDATA[
+
+<p>Dw i wedi bod yn ysgrifennu cerdd ar gyfer cystadleuaeth Gŵyl y Dysgwyr Sir Benfro. Ar ôl arllwys sawl awr yn ysgrifennu, ail-ysgrifennu, ac yn edrych lan pob gair yn yr iaith, (cystadleuol? fi?) mae wedi gorffen. Dw i&rsquo;n meddwl.</p>
+
+<p>Roedd y thema&rsquo;r cystadleuaeth &lsquo;mur&rsquo;. Achos Gŵyl y Dysgwyr yw e,  ro&rsquo;n i wedi bod yn meddwl am y barrier iaith, a&rsquo;r waliau&rsquo;r dosbarth.</p>
+
+<p>Dyma fe:</p>
+
+<h2 id="ma-s-o-ma">Ma’s o ‘ma</h2>
+
+<p>Dim ond chwech o saith tan naw <br />
+Rhwng pedair wal, yn ddistaw <br />
+Yn pipo dros fur heniaith <br />
+Cyn cael ein saethu i lawr <br /></p>
+
+<p>Fe ddylwn i dorri’r iâ <br />
+Rhaid i fi fy atgoffa <br />
+I ymweld â’r byd arall <br />
+Allan, drwy&rsquo;r drws, ma’s o ‘ma</p>
+
+<p>Gadewch y laptop ar gau <br />
+Dewch â’ch trwyn ma’s o’r llyfrau <br />
+Tu hwnt i’r dosbarth a’r cwrs <br />
+A chewch sgwrs ‘da un, neu ddau <br /></p>
+]]></content>
+	</entry>
+</feed>

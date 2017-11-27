@@ -2,7 +2,7 @@ baseurl             = "http://rossmcf.com"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
-languageCode        = "en-GB"
+defaultContentLanguage = "en"
 layoutdir           = "layouts"
 publishdir          = "public"
 author              = "Ross McFarlane"
@@ -39,14 +39,27 @@ twitter                = "//twitter.com/rossmcf"
 avatar                 = "img/profile2.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # do not use in the same time as avatar
 
+[Languages]
+[Languages.en]
+title = "Ross McFarlane"
+weight = 1
+[Languages.en.params]
+linkedin = "english-link"
+
+[Languages.cy]
+title = "Ross McFarlane"
+weight = 2
+[Languages.cy.params]
+author = "Ross ap McFarlane"
+
 [mediaTypes]
 [mediaTypes."application/atom"]
 suffix = "xml"
+
+[outputs]
+home = [ "HTML", "Atom" ]
 
 [outputFormats.Atom]
 mediaType = "application/atom"
 baseName = "index"
 isPlainText = false
-
-[outputs]
-home = [ "HTML", "Atom" ]
