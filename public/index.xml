@@ -219,11 +219,12 @@ func NewMoratorium(event time.Time, duration time.Duration, options ...Option) *
 <h2 id="drums">Drums</h2>
 
 <ul>
-<li><a href="https://drummersonly.co.uk/product/dw-9002xf-double-pedal-with-extended-footboard">DW 9002 XF Bass Drum Pedal</a>, £551</li>
 <li><a href="https://www.thomann.de/gb/dw_9000_main_drum_rack_dwcprkmain.htm">DW Drum Rack</a>, £468</li>
-<li><a href="https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm">Paiste Signature Reflector Heavy Hi-Hat 14&rdquo;</a>, £445</li>
+<li><a href="https://www.drumshop.co.uk/collections/drum-racks/products/gibraltar-gsvms-ds-stealth-vms-w-double-snare-basket">Gibraltar Stealth Rack</a>, £182</li>
 <li><a href="https://www.amazon.co.uk/Shure-SE215-CL-High-quality-Isolating-Earphones/dp/B004V3Q1ZA/ref=sr_1_1?ie=UTF8&amp;qid=1511805496&amp;sr=8-1&amp;keywords=shure+se215CLA">Shure SE215 In-Ear Monitors</a>, £69</li>
 <li><a href="https://www.grahamrusselldrums.com/vater-american-hickory-1a-drum-sticks.html">Vater 1A Drum Sticks</a>, £8.95</li>
+<li><a href="https://drummersonly.co.uk/product/dw-9002xf-double-pedal-with-extended-footboard">DW 9002 XF Bass Drum Pedal</a>, £551</li>
+<li><a href="https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm">Paiste Signature Reflector Heavy Hi-Hat 14&rdquo;</a>, £445</li>
 </ul>
 
 <h2 id="tech">Tech</h2>
@@ -236,7 +237,7 @@ func NewMoratorium(event time.Time, duration time.Duration, options ...Option) *
 <h2 id="home">Home</h2>
 
 <ul>
-<li><a href="https://www.apple.com/uk/homepod/">Apple HomePod</a>, ≈£349, Available December</li>
+<li><a href="https://www.apple.com/uk/homepod/">Apple HomePod</a>, ≈£349, Available 2018</li>
 <li><a href="https://www.amazon.co.uk/dp/B01KHLWAHM/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&amp;colid=J37ATPS6ULEQ&amp;coliid=IB6F1IT9TU2QP">Elgato Eve Remote Control Plug</a>, £34.95</li>
 </ul>
 
