@@ -57,9 +57,14 @@ author = "Ross ap McFarlane"
 suffix = "xml"
 
 [outputs]
-home = [ "HTML", "Atom" ]
+home = [ "HTML", "Atom", "jsonfeed" ]
 
 [outputFormats.Atom]
 mediaType = "application/atom"
 baseName = "index"
 isPlainText = false
+
+[outputFormats.jsonfeed]
+mediaType = "application/json"
+baseName = "feed"
+isPlainText = true
