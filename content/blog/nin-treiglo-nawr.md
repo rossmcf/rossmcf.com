@@ -33,7 +33,7 @@ _Cytgan_
 Fe dreiglais i rhy bell<br />
 A troiodd pethau’n hell<br />
 Pan archebais beint a phecyn creision<br />
-Wrth edrych lan i'r llawr<br />
+Wrth edrych lan o'r llawr<br />
 Dw i'n poeni tipyn nawr<br />
 Ond dwi'n byth yn mynd i fod yn ddigalon<br />
 
