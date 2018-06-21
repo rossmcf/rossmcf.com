@@ -16,8 +16,10 @@ title = "Wishlist"
 - [Apple HomePod](https://www.apple.com/uk/homepod/), £319
 - [Elgato Eve Remote Control Plug](https://www.amazon.co.uk/dp/B01KHLWAHM/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=IB6F1IT9TU2QP), £34.95
 
-## Travel
+## Little Things
+- [Zojirushi Travel Mug](https://www.amazon.co.uk/Zojirushi-Stainless-Steel-Travel-Mug/dp/B00CHOUI86/ref=pd_sbs_201_4?_encoding=UTF8&psc=1&refRID=N6CF43Y4WHY1P9G910CP), £35
 - [Laundry Stuff Sack](http://www.tombihn.com/PROD/travellaundrystuffsack.html), Size Aeronaut 45, Any colour, $45
+- [Alan Card Case](https://www.freitag.ch/en/f57?productID=463281), £35
 - [IL Equipment Load Cell Kit](http://ilequipment.com/collections/all/products/load-cell?variant=1101715720), Any Size/Colour, from $26
 
 ## Books
