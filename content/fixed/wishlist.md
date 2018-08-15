@@ -16,7 +16,11 @@ title = "Wishlist"
 - [Apple HomePod](https://www.apple.com/uk/homepod/), £319
 - [Elgato Eve Remote Control Plug](https://www.amazon.co.uk/dp/B01KHLWAHM/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=IB6F1IT9TU2QP), £34.95
 
-## Little Things
+## Beach
+- [O'Neill Rash Vest](https://www.amazon.co.uk/gp/product/B01EIES7Z8?pf_rd_p=bc486a6a-c166-4c68-a130-177a4d56ba70&pf_rd_r=S8RSPFP5FXGM5BA2ZC9Y&th=1&psc=1), £19,95
+- [Change Mat / Wet Bag](https://www.amazon.co.uk/gp/product/B0036OB2M2?pf_rd_p=bc486a6a-c166-4c68-a130-177a4d56ba70&pf_rd_r=4D2MZJA2W7H644YT5M17), £12.95
+
+## Travel Stuff
 - [Zojirushi Travel Mug](https://www.amazon.co.uk/Zojirushi-Stainless-Steel-Travel-Mug/dp/B00CHOUI86/ref=pd_sbs_201_4?_encoding=UTF8&psc=1&refRID=N6CF43Y4WHY1P9G910CP), £35
 - [Laundry Stuff Sack](http://www.tombihn.com/PROD/travellaundrystuffsack.html), Size Aeronaut 45, Any colour, $45
 - [Alan Card Case](https://www.freitag.ch/en/f57?productID=463281), £35
@@ -24,4 +28,3 @@ title = "Wishlist"
 
 ## Books
 - [Oh so many books.](http://amzn.eu/50vjWiq)
-

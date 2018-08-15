@@ -1,0 +1,7 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Ross McFarlane</title>
+	<link href="http://rossmcf.com/cy/index.xml" rel="self"/>
+	<link href="http://rossmcf.com/cy/"/>
+	<id>http://rossmcf.com/cy/</id>
+	<generator>Hugo -- gohugo.io</generator>
+</feed>
