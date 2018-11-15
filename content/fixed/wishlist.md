@@ -10,7 +10,8 @@ title = "Wishlist"
 - [Paiste Signature Reflector Heavy Hi-Hat 14"](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £445
 
 ## Tech
-- [Aiaiai TMA-2 — Wireless 2 Preset](https://aiaiai.dk/headphones/tma-2/wireless-2-preset), €295
+- [Apple Watch Series 4] (https://www.apple.com/uk/shop/buy-watch/apple-watch/44mm-gps-space-grey-aluminium-black-sport-band), 44mm Space Grey, £429
+- [Bose QuietComfort 35 Headphones](https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD), £329
 
 ## Home
 - [Apple HomePod](https://www.apple.com/uk/homepod/), £319
@@ -22,9 +23,8 @@ title = "Wishlist"
 
 ## Travel Stuff
 - [Zojirushi Travel Mug](https://www.amazon.co.uk/Zojirushi-Stainless-Steel-Travel-Mug/dp/B00CHOUI86/ref=pd_sbs_201_4?_encoding=UTF8&psc=1&refRID=N6CF43Y4WHY1P9G910CP), £35
-- [Laundry Stuff Sack](http://www.tombihn.com/PROD/travellaundrystuffsack.html), Size Aeronaut 45, Any colour, $45
 - [Alan Card Case](https://www.freitag.ch/en/f57?productID=463281), £35
-- [IL Equipment Load Cell Kit](http://ilequipment.com/collections/all/products/load-cell?variant=1101715720), Any Size/Colour, from $26
+- [Eagle Creek Packing Cubes](https://eaglecreek.eu/gb_en/packing-organizers/pack-it-specter-tech-cube-set-xs-s-m.html), £40
 
 ## Books
 - [Oh so many books.](http://amzn.eu/50vjWiq)
