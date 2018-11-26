@@ -35,7 +35,7 @@ Advanced proponents of the _Magic Mirror_ pattern can add variety and improve re
 
 The canonical example of the _Magic Mirror_ pattern in use can be seen when a heterosexual couple enter a womens' clothing store. The man's objective in this situation is to feel at ease in this alien environment. However, he must, at all times, be seen to be involved in the shopping process. His 'natural' in this case is his partner. He cannot afford to act independently of his partner, in case he is singled out and offered assistance by shop staff. This outcome must be avoided at all costs. Conversely, pure imitation of his partner's actions will lead to her irritation. The _Magic Mirror_ pattern is applied by targeting locations rather than actions — a particular pair of shoes or a dress at which his partner has stopped. He must then distort by moving towards the item _taking a different route_ (shown below).
 
-![Shopping](http://www.rossmcf.com/img/Shopping.png)
+![Shopping](https://www.rossmcf.com/img/Shopping.png)
 
 Recommendations
 ---------------
@@ -49,4 +49,4 @@ Identification of a true 'natural' is critical, and may be difficult dependent o
 It is important to assess the degree of distortion one can apply. This will differ between situations.
 When observing multiple 'naturals', one may get conflicting impressions of how to approach an action.
 
-[stillsuit]: http://en.wikipedia.org/wiki/Technology_of_the_Dune_universe#Stillsuit
+[stillsuit]: https://en.wikipedia.org/wiki/Technology_of_the_Dune_universe#Stillsuit
