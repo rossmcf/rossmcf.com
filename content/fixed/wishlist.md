@@ -11,7 +11,7 @@ title = "Wishlist"
 
 ## Tech
 - [Apple Watch Series 4] (https://www.apple.com/uk/shop/buy-watch/apple-watch/44mm-gps-space-grey-aluminium-black-sport-band), 44mm Space Grey, £429
-- [Bose QuietComfort 35 Headphones](https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD), £329
+- [Bose QuietComfort 35 Headphones, Series II](https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD), £329
 
 ## Home
 - [Apple HomePod](https://www.apple.com/uk/homepod/), £319
