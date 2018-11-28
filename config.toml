@@ -54,7 +54,7 @@ author = "Ross ap McFarlane"
 
 [mediaTypes]
 [mediaTypes."application/atom"]
-suffix = "xml"
+suffixes = ["xml"]
 
 [outputs]
 home = [ "HTML", "Atom", "jsonfeed" ]
