@@ -15,7 +15,7 @@ title = "Wishlist"
 
 ### Tech
 
-* \[Apple Watch Series 4\] (https://www.apple.com/uk/shop/buy-watch/apple-watch/44mm-gps-space-grey-aluminium-black-sport-band), 44mm Space Grey, £429
+* [Apple Watch Series 4](https://www.apple.com/uk/shop/buy-watch/apple-watch/44mm-gps-space-grey-aluminium-black-sport-band), 44mm Space Grey, £429
 * [Bose QuietComfort 35 Headphones, Series II](https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD), £329
 * [PlugBug Charger](https://www.amazon.co.uk/Twelve-South-PlugBug-MacBook-adapter/dp/B07GN6Z5KV/ref=sr_1_1?ie=UTF8&qid=1543335216&sr=8-1&keywords=plugbug), £49.99
 * [Material Dock, Qi + Watch + Lightning](https://www.studioneat.com/products/dock), $95
