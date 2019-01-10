@@ -15,10 +15,8 @@ title = "Wishlist"
 
 ### Tech
 
-* [Apple Watch Series 4](https://www.apple.com/uk/shop/buy-watch/apple-watch/44mm-gps-space-grey-aluminium-black-sport-band), 44mm Space Grey, £429
 * [Bose QuietComfort 35 Headphones, Series II](https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD), £329
 * [PlugBug Charger](https://www.amazon.co.uk/Twelve-South-PlugBug-MacBook-adapter/dp/B07GN6Z5KV/ref=sr_1_1?ie=UTF8&qid=1543335216&sr=8-1&keywords=plugbug), £49.99
-* [Material Dock, Qi + Watch + Lightning](https://www.studioneat.com/products/dock), $95
 
 ### Office
 
@@ -52,7 +50,6 @@ title = "Wishlist"
 
 * [Rick and Morty Total Rickall](https://www.amazon.co.uk/dp/B01BEZTEXS/?coliid=IC5YV925C07LE&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £14.82
 * [Secret Hitler](https://www.amazon.co.uk/J-funyear%C2%AE-Secret-Hitler-Board-Card/dp/B07CN8HWCB/ref=sr_1_1_sspa?ie=UTF8&qid=1543437332&sr=8-1-spons&keywords=secret+hitler&psc=1), £34.99
-* [Rick and Morty Mr. Meeseeks Game](https://www.amazon.co.uk/dp/B01BEZTAGE/?coliid=I1D8QFPBRYRVJK&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £28.38
 
 ## Vague Ideas
 
@@ -60,13 +57,12 @@ title = "Wishlist"
 * Board games
 * Travel doo-dahs
 * A nice rollerball pen
-* Socks. Seriously.
 * Whisky
 
 ## Favourite Shops
 
 * [Camper](https://www.camper.com) (EU48)
-* [Finisterre](https://finisterre.com/) (Discount Code: PRESENT)
+* [Finisterre](https://finisterre.com/)
 * [Freitag](https://freitag.ch)
 * [Hard Graft](https://www.hardgraft.com/)
 * [Howies](https://howies.co.uk)
