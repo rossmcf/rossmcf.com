@@ -8,7 +8,7 @@ title = "Wishlist"
 ### Drums
 
 * [Vater 1A Drum Sticks](https://www.grahamrusselldrums.com/vater-american-hickory-1a-drum-sticks.html), £8.95
-* [DW 9002 XF Bass Drum Pedal](https://drummersonly.co.uk/product/dw-9002xf-double-pedal-with-extended-footboard), £551
+* [DW 9000 XF Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £332
 * [Paiste Signature Reflector Heavy Hi-Hat 14"](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £445
 * [DW 9399 Tom Stand](https://www.soundattak.co.uk/hardware/stands/dw-stands/dw-9399-heavy-duty-tom-snare-stand-detail), £164
 * [Rimma Stick Holder](https://www.amazon.co.uk/dp/B0058IX5IS/?coliid=I2HCMYP93EQ6NM&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £13.99
