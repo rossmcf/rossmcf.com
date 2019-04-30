@@ -13,11 +13,6 @@ title = "Wishlist"
 * [DW 9399 Tom Stand](https://www.soundattak.co.uk/hardware/stands/dw-stands/dw-9399-heavy-duty-tom-snare-stand-detail), £164
 * [Rimma Stick Holder](https://www.amazon.co.uk/dp/B0058IX5IS/?coliid=I2HCMYP93EQ6NM&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £13.99
 
-### Tech
-
-* [Bose QuietComfort 35 Headphones, Series II](https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD), £329
-* [PlugBug Charger](https://www.amazon.co.uk/Twelve-South-PlugBug-MacBook-adapter/dp/B07GN6Z5KV/ref=sr_1_1?ie=UTF8&qid=1543335216&sr=8-1&keywords=plugbug), £49.99
-
 ### Office
 
 * [Studio Neat Mark One Pen](https://www.studioneat.com/products/markone), $60
