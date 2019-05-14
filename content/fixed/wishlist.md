@@ -46,6 +46,10 @@ title = "Wishlist"
 * [Rick and Morty Total Rickall](https://www.amazon.co.uk/dp/B01BEZTEXS/?coliid=IC5YV925C07LE&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £14.82
 * [Secret Hitler](https://www.amazon.co.uk/J-funyear%C2%AE-Secret-Hitler-Board-Card/dp/B07CN8HWCB/ref=sr_1_1_sspa?ie=UTF8&qid=1543437332&sr=8-1-spons&keywords=secret+hitler&psc=1), £34.99
 
+### Clothing
+
+* [Freitag E850 Jacket](https://www.freitag.ch/en/e850?selectionID=93555), £290
+
 ## Vague Ideas
 
 * A wetsuit
