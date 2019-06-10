@@ -35,6 +35,7 @@ title = "Wishlist"
 * [Zojirushi Travel Mug](https://www.amazon.co.uk/Zojirushi-Stainless-Steel-Travel-Mug/dp/B00CHOUI86/ref=pd_sbs_201_4?_encoding=UTF8&psc=1&refRID=N6CF43Y4WHY1P9G910CP), £35
 * [Alan Card Case](https://www.freitag.ch/en/f57?productID=463281), £35
 * [Finisterre Packing Cubes](https://finisterre.com/products/packing-cubes-racing?variant=13618687934538), £30
+* [Patagonia Black Hole Wheeled Duffel 120L](https://eu.patagonia.com/gb/en/product/black-hole-wheeled-duffel-bag-120-liters/49386.html?dwvar_49386_color=BLK&cgid=luggage-black-hole-bags#start=1), £260
 
 ### Reading
 
