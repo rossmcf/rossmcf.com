@@ -50,6 +50,11 @@ title = "Wishlist"
 
 * [Freitag E850 Jacket](https://www.freitag.ch/en/e850?selectionID=93555), £290
 
+### Cycling
+
+* [Speedvagen Disc OG](https://www.speedvagen.com/ready-made-discog), $5,995
+* [Cinelli Vigorelli Road](https://store.pedalrevolution.co.uk/1964526/products/cinelli-vigorelli-road-apex-2019-road-bike-purple.aspx), £1,350
+
 ## Vague Ideas
 
 * A wetsuit
