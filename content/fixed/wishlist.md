@@ -82,3 +82,4 @@ title = "Wishlist"
 * [Studio Neat](https://www.studioneat.com/products/markone)
 * [Tom Bihn](https://www.tombihn.com/)
 * [Trakke](https://trakke.co.uk/)
+* [Vulpine](https://www.vulpine.cc/)
