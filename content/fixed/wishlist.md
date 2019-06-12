@@ -66,6 +66,7 @@ title = "Wishlist"
 
 ## Favourite Shops
 
+* [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [Camper](https://www.camper.com) (EU48)
 * [Finisterre](https://finisterre.com/)
 * [Freitag](https://freitag.ch)
