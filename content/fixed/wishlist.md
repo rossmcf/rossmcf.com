@@ -19,10 +19,8 @@ title = "Wishlist"
 
 ### Home
 
-* [Apple HomePod](https://www.apple.com/uk/homepod/), £319
-* [Elgato Eve Remote Control Plug](https://www.amazon.co.uk/dp/B01KHLWAHM/ref=wl_it_dp_o_pd_nS_ttl?_encoding=UTF8&colid=J37ATPS6ULEQ&coliid=IB6F1IT9TU2QP), £34.95
+* [WifiPlug](https://wifiplug.co.uk/product/wifiplug-home/), £29.99
 * [Uuni 3 Pizza Oven](https://www.amazon.co.uk/dp/B06VW7YLDL/?coliid=IJZ36ONFTHW0R&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £199
-* [School Hall Rack](https://www.roseandgrey.co.uk/reclaimed-hall-bench-coat-rack), £495
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
 
 ### Beach
