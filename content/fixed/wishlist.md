@@ -1,5 +1,5 @@
 +++
-date = "2017-03-18T20:40:00-00:00"
+date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
@@ -19,9 +19,11 @@ title = "Wishlist"
 
 ### Home
 
-* [WifiPlug](https://wifiplug.co.uk/product/wifiplug-home/), £29.99
-* [Uuni 3 Pizza Oven](https://www.amazon.co.uk/dp/B06VW7YLDL/?coliid=IJZ36ONFTHW0R&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £199
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
+* [WifiPlug](https://wifiplug.co.uk/product/wifiplug-home/), £29.99
+* [Smart Lighting Starter Kit](https://www.amazon.co.uk/Lightwave-Gang-Smart-Dimmer-Control/dp/B07DCS8H8D/ref=pd_sbs_60_10?_encoding=UTF8&pd_rd_i=B07DCS8H8D&pd_rd_r=d6c2bbd1-4f62-4479-ac7b-7515c4da21a7&pd_rd_w=ODZQG&pd_rd_wg=Nf2bI&pf_rd_p=f4a31d1d-8f61-48f5-b6f4-a22ba06df575&pf_rd_r=27TNJ13MK7ZSJRM8DED6&psc=1&refRID=27TNJ13MK7ZSJRM8DED6), £178
+* [Kwikset Smart Lock](https://www.amazon.co.uk/dp/B07QXV3SG1/?coliid=IOR3AU9YVTA94&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £171
+* [Uuni 3 Pizza Oven](https://www.amazon.co.uk/dp/B06VW7YLDL/?coliid=IJZ36ONFTHW0R&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £199
 
 ### Beach
 
@@ -30,10 +32,9 @@ title = "Wishlist"
 
 ### Travel Stuff
 
-* [Zojirushi Travel Mug](https://www.amazon.co.uk/Zojirushi-Stainless-Steel-Travel-Mug/dp/B00CHOUI86/ref=pd_sbs_201_4?_encoding=UTF8&psc=1&refRID=N6CF43Y4WHY1P9G910CP), £35
 * [Alan Card Case](https://www.freitag.ch/en/f57?productID=463281), £35
 * [Finisterre Packing Cubes](https://finisterre.com/products/packing-cubes-racing?variant=13618687934538), £30
-* [Patagonia Black Hole Wheeled Duffel 120L](https://eu.patagonia.com/gb/en/product/black-hole-wheeled-duffel-bag-120-liters/49386.html?dwvar_49386_color=BLK&cgid=luggage-black-hole-bags#start=1), £260
+* [Tom Bihn Travel Tray](https://www.tombihn.com/products/travel-tray?variant=17228031495), $25
 
 ### Reading
 
@@ -43,23 +44,20 @@ title = "Wishlist"
 ### Games
 
 * [Rick and Morty Total Rickall](https://www.amazon.co.uk/dp/B01BEZTEXS/?coliid=IC5YV925C07LE&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £14.82
-* [Secret Hitler](https://www.amazon.co.uk/J-funyear%C2%AE-Secret-Hitler-Board-Card/dp/B07CN8HWCB/ref=sr_1_1_sspa?ie=UTF8&qid=1543437332&sr=8-1-spons&keywords=secret+hitler&psc=1), £34.99
-
-### Clothing
-
-* [Freitag E850 Jacket](https://www.freitag.ch/en/e850?selectionID=93555), £290
 
 ### Cycling
 
-* [Speedvagen Disc OG](https://www.speedvagen.com/ready-made-discog), $5,995
-* [Cinelli Vigorelli Road](https://store.pedalrevolution.co.uk/1964526/products/cinelli-vigorelli-road-apex-2019-road-bike-purple.aspx), £1,350
+* [Cinelli Nemo Tig Disc](https://www.cinellibicycles.co.uk/shop/bikes/nemodisc/), £2,299.99
+* [Park Tool Hex Wrench Set](https://www.amazon.co.uk/Park-Tool-PH-1-2-P-Handled-Wrench/dp/B003FPONCI/ref=sr_1_1?dchild=1&keywords=park+tool+hex+set&qid=1574963322&sr=8-1) £59.99
+* [Lezyne Caddy Sack](https://www.amazon.co.uk/dp/B008R5RT36/?coliid=I2VWV8A524M09T&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £12
 
 ## Vague Ideas
 
+* Gym clothes
+* Trainers
 * A wetsuit
 * Board games
 * Travel doo-dahs
-* A nice rollerball pen
 * Whisky
 
 ## Favourite Shops
