@@ -15,7 +15,7 @@ title = "Wishlist"
 
 ### Office
 
-* [Studio Neat Mark One Pen](https://www.studioneat.com/products/markone), $60
+* [Aeron Chair](https://www.aeronchairs.co.uk/purchase/p46sfde0fs648u44bspfr3j3e4kr8i), Size C, £700
 
 ### Home
 
