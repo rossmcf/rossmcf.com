@@ -55,6 +55,7 @@ title = "Wishlist"
 
 ## Vague Ideas
 
+* Cycling shoes
 * Gym clothes
 * Trainers
 * A wetsuit
