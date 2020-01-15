@@ -8,6 +8,8 @@ title = "Wishlist"
 ### Cycling
 
 * [Cinelli Nemo Tig Disc](https://www.cinellibicycles.co.uk/shop/bikes/nemodisc/), £2,299.99
+* [Trek Emonda ALR 5 Disc](https://www.evanscycles.com/trek-emonda-alr-5-disc-2020-road-bike-EV369957), 62, £1650
+* [Vesper Packable Jacket](https://pedaled.com/products/vesper-packable-jacket/black), XL, £67
 * [Park Tool Hex Wrench Set](https://www.amazon.co.uk/Park-Tool-PH-1-2-P-Handled-Wrench/dp/B003FPONCI/ref=sr_1_1?dchild=1&keywords=park+tool+hex+set&qid=1574963322&sr=8-1) £59.99
 * [Lezyne Caddy Sack](https://www.amazon.co.uk/dp/B008R5RT36/?coliid=I2VWV8A524M09T&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £12
 
@@ -41,7 +43,6 @@ title = "Wishlist"
 
 * [Aeron Chair](https://www.aeronchairs.co.uk/purchase/p46sfde0fs648u44bspfr3j3e4kr8i), Size C, £700
 
-
 ### Beach
 
 * [O'Neill Rash Vest](https://www.amazon.co.uk/gp/product/B01EIES7Z8?pf_rd_p=bc486a6a-c166-4c68-a130-177a4d56ba70&pf_rd_r=S8RSPFP5FXGM5BA2ZC9Y&th=1&psc=1), £19,95
@@ -51,7 +52,6 @@ title = "Wishlist"
 
 * [Subscription to Barn](https://barn.cymru/), £40
 * [Oh so many books.](http://amzn.eu/50vjWiq)
-
 
 ## Vague Ideas
 
@@ -72,13 +72,14 @@ title = "Wishlist"
 * [Hard Graft](https://www.hardgraft.com/)
 * [Howies](https://howies.co.uk)
 * [Inside Line](https://ilequipment.com/)
-* [Kikkerland](https://kikkerland.com)
 * [Magazin](https://magazin.com)
 * [Mash](https://www.mashsf.com/)
 * [Patagonia](https://eu.patagonia.com)
+* [PedalEd](https://pedaled.com/)
 * [Present & Correct](https://www.presentandcorrect.com)
 * [Rhodia Notebooks](https://www.bureaudirect.co.uk/rhodia)
 * [Studio Neat](https://www.studioneat.com/products/markone)
+* [Swrve](https://www.swrve.co.uk/)
 * [Tom Bihn](https://www.tombihn.com/)
 * [Trakke](https://trakke.co.uk/)
 * [Vulpine](https://www.vulpine.cc/)
