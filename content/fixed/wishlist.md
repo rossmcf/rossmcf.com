@@ -14,6 +14,7 @@ title = "Wishlist"
 ### Nice Cycling Shops
 * [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [PedalEd](https://pedaled.com/)
+* [Rapha](https://www.rapha.cc)
 * [Mash](https://www.mashsf.com/)
 
 ## The Great Outdoors
@@ -73,5 +74,3 @@ title = "Wishlist"
 * [Present & Correct](https://www.presentandcorrect.com)
 * [Rhodia Notebooks](https://www.bureaudirect.co.uk/rhodia)
 * [Studio Neat](https://www.studioneat.com/products/markone)
-
-
