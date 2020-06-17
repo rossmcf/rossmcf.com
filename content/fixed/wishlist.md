@@ -5,7 +5,8 @@ title = "Wishlist"
 +++
 ## Cycling
 
-* [Cinelli Nemo Tig Disc](https://www.cinellibicycles.co.uk/shop/bikes/nemodisc/), £2,299.99
+* [Santa Cruz Stigmata](https://www.santacruzbicycles.com/en-GB/bikes/stigmata)
+* [Cinelli Nemo Tig Disc](https://www.cinellibicycles.co.uk/shop/bikes/nemodisc/)
 * [Trek Emonda ALR 5 Disc](https://www.evanscycles.com/trek-emonda-alr-5-disc-2020-road-bike-EV369957), 62, £1650
 * [Vesper Packable Jacket](https://pedaled.com/products/vesper-packable-jacket/black), XL, £67
 * [Park Tool Hex Wrench Set](https://www.amazon.co.uk/Park-Tool-PH-1-2-P-Handled-Wrench/dp/B003FPONCI/ref=sr_1_1?dchild=1&keywords=park+tool+hex+set&qid=1574963322&sr=8-1) £59.99
