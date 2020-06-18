@@ -7,12 +7,13 @@ title = "Wishlist"
 
 * [Santa Cruz Stigmata](https://www.santacruzbicycles.com/en-GB/bikes/stigmata)
 * [Cinelli Nemo Tig Disc](https://www.cinellibicycles.co.uk/shop/bikes/nemodisc/)
-* [Trek Emonda ALR 5 Disc](https://www.evanscycles.com/trek-emonda-alr-5-disc-2020-road-bike-EV369957), 62, £1650
+* [Trek Emonda ALR 5 Disc](https://www.evanscycles.com/trek-emonda-alr-5-disc-2020-road-bike-EV369957), Purple, 62, £1650
 * [Vesper Packable Jacket](https://pedaled.com/products/vesper-packable-jacket/black), XL, £67
 * [Park Tool Hex Wrench Set](https://www.amazon.co.uk/Park-Tool-PH-1-2-P-Handled-Wrench/dp/B003FPONCI/ref=sr_1_1?dchild=1&keywords=park+tool+hex+set&qid=1574963322&sr=8-1) £59.99
 * [Lezyne Caddy Sack](https://www.amazon.co.uk/dp/B008R5RT36/?coliid=I2VWV8A524M09T&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £12
 
 ### Nice Cycling Shops
+
 * [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [PedalEd](https://pedaled.com/)
 * [Rapha](https://www.rapha.cc)
@@ -30,6 +31,7 @@ title = "Wishlist"
 * [Change Mat / Wet Bag](https://www.amazon.co.uk/gp/product/B0036OB2M2?pf_rd_p=bc486a6a-c166-4c68-a130-177a4d56ba70&pf_rd_r=4D2MZJA2W7H644YT5M17), £12.95
 
 ### Nice Outdoorsy Shops
+
 * [Snow Peak](https://snowpeak.co.uk)
 * [Swrve](https://www.swrve.co.uk/)
 * [Inside Line](https://ilequipment.com/)
@@ -69,6 +71,7 @@ title = "Wishlist"
 * [Oh so many books.](http://amzn.eu/50vjWiq)
 
 ## Nice Shops
+
 * [Camper](https://www.camper.com) (EU48)
 * [Freitag](https://freitag.ch)
 * [Magazin](https://magazin.com)
