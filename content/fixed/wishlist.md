@@ -5,21 +5,18 @@ title = "Wishlist"
 +++
 ## Cycling
 
-* [Santa Cruz Stigmata](https://www.santacruzbicycles.com/en-GB/bikes/stigmata)
-* [Cinelli Nemo Tig Disc](https://www.cinellibicycles.co.uk/shop/bikes/nemodisc/)
-* [Trek Emonda ALR 5 Disc](https://www.evanscycles.com/trek-emonda-alr-5-disc-2020-road-bike-EV369957), Purple, 62, £1650
+* [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
 * [Vesper Packable Jacket](https://pedaled.com/products/vesper-packable-jacket/black), XL, £67
 * [Park Tool Hex Wrench Set](https://www.amazon.co.uk/Park-Tool-PH-1-2-P-Handled-Wrench/dp/B003FPONCI/ref=sr_1_1?dchild=1&keywords=park+tool+hex+set&qid=1574963322&sr=8-1) £59.99
 * [Lezyne Caddy Sack](https://www.amazon.co.uk/dp/B008R5RT36/?coliid=I2VWV8A524M09T&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £12
-* [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
 
 ### Nice Cycling Shops
 
+* [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [PedalEd](https://pedaled.com/)
 * [Ornot](https://www.ornotbike.com)
-* [Rapha](https://www.rapha.cc)
 * [Mash](https://www.mashsf.com/)
-* [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
+* [Rapha](https://www.rapha.cc)
 
 ## The Great Outdoors
 
