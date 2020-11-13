@@ -14,9 +14,9 @@ title = "Wishlist"
 
 ### Nice Cycling Shops
 
-* [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
-* [PedalEd](https://pedaled.com/)
 * [Ornot](https://www.ornotbike.com)
+* [PedalEd](https://pedaled.com/)
+* [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [Mash](https://www.mashsf.com/)
 * [Rapha](https://www.rapha.cc)
 
