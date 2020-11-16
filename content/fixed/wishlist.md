@@ -6,6 +6,7 @@ title = "Wishlist"
 ## Cycling
 
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
+* [Beto Tubeless Inflator](https://www.merlincycles.com/beto-cja-001s-tubeless-air-tank-inflator-98943.html?utm_source=PHG&utm_medium=AffiliateMarketing&utm_campaign=phg-GB&ucpo=38248&source=PHG), £45
 * [Lezyne Caddy Sack](https://www.amazon.co.uk/dp/B008R5RT36/?coliid=I2VWV8A524M09T&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £12
 * [Byway Tyres](https://www.wiggle.co.uk/wtb-byway-tcs-road-tyre), 700x40, brown, £38
 * [Gaerne Hurricane Wide Shoes](https://www.rosebikes.co.uk/gaerne-ghurricane-wide-mtb-shoes-2684561?product_shape=matt+black "https://www.rosebikes.co.uk/gaerne-ghurricane-wide-mtb-shoes-2684561?product_shape=matt+black"), 48, £145
