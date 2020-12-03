@@ -6,6 +6,7 @@ title = "Wishlist"
 ## Cycling
 
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
+* [Ornot Magic Shell, Black](https://www.ornotbike.com/collections/jacket-and-vests/products/magic-shell-jacket), £123
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Beto Tubeless Inflator](https://www.merlincycles.com/beto-cja-001s-tubeless-air-tank-inflator-98943.html?utm_source=PHG&utm_medium=AffiliateMarketing&utm_campaign=phg-GB&ucpo=38248&source=PHG), £45
 * [Stan's Tubeless Kit](https://www.amazon.co.uk/dp/B07J3FR92W?linkCode=osi&tag=monetizer101-roadcc-21), £25
