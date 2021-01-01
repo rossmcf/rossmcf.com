@@ -61,7 +61,6 @@ title = "Wishlist"
 ## Reading
 
 * [Subscription to Barn](https://barn.cymru/), £40
-* [Oh so many books.](http://amzn.eu/50vjWiq)
 
 ## Nice Shops
 
