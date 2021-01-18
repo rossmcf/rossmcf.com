@@ -5,6 +5,11 @@ title = "Wishlist"
 +++
 ## Cycling
 
+### GRAVEL
+
+* [650B Wheels](https://www.huntbikewheels.com/collections/650b-gravel-wheels/products/hunt-650b-adventure-sport-disc-27-5-gravel-road-trail-wheelset-1579g-24deep-25wide), £339
+* [WTB Sendero Tyres](https://www.wiggle.co.uk/wtb-sendero-tcs-fast-tyre-dual-dnasg2), £55
+
 ### Clothing
 
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
