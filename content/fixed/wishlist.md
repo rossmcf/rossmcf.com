@@ -11,13 +11,9 @@ title = "Wishlist"
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Dynaplug Racer Repair Kit](https://www.amazon.co.uk/dp/B07MH9K4NR/ref=twister_B07N15B9B6?_encoding=UTF8&psc=1), £31
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
-
-### Misc
-
 * [Crank Bothers Multitool](https://www.amazon.co.uk/dp/B002VYB4QC/), £27
 * [Muc Off Cleaning Kit](https://www.amazon.co.uk/Muc-Off-Ultimate-Bicycle-Cleaning-Kit/dp/B007EIJFH0/ref=sr_1_5?dchild=1&keywords=muc+off+cleaning+kit&qid=1607701685&sr=8-5), £56
 * [Torque Wrench](https://www.amazon.co.uk/dp/B07D6QD9T6/ref=cm_sw_r_cp_api_fabc_NCwYFbMBTH5CK?_encoding=UTF8&psc=1), £39
-* 
 
 ### Nice Cycling Shops
 
