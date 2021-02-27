@@ -5,21 +5,12 @@ title = "Wishlist"
 +++
 ## Cycling
 
-### Clothing
-
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
 * [Ornot Magic Shell, Black](https://www.ornotbike.com/collections/jacket-and-vests/products/magic-shell-jacket), £123
 * [PedalEd Mirai All Weather Jacket, Black](https://pedaled.com/uk_en/men-all-weather-cycling-jacket-charcoal-grey-mirai), L, £153
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
-
-### Go Tubeless
-
 * [Dynaplug Racer Repair Kit](https://www.amazon.co.uk/dp/B07MH9K4NR/ref=twister_B07N15B9B6?_encoding=UTF8&psc=1), £31
-
-### Bags
-
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
-* [Lezyne Caddy Sack](https://www.amazon.co.uk/dp/B008R5RT36/?coliid=I2VWV8A524M09T&colid=J37ATPS6ULEQ&psc=1&ref_=lv_ov_lig_dp_it), £12
 
 ### Misc
 
