@@ -37,7 +37,6 @@ title = "Wishlist"
 * [Patagonia](https://eu.patagonia.com)
 * [Howies](https://howies.co.uk)
 * [Tom Bihn](https://www.tombihn.com/)
-* [Trakke](https://trakke.co.uk/)
 
 ## The Great Indoors
 
