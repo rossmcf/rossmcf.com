@@ -3,8 +3,6 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-## Cycling
-
 * [Possm Saddle Pack, Medium](https://www.outvi.com/products/mtb-possm), £40
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
 * [Ornot Micro Climate Jacket, Large](https://www.ornotbike.com/collections/jacket-and-vests/products/micro-climate-jacket-sage), £154
