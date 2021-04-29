@@ -3,7 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-* [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA01XXBTG), £90
+* [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA02XXBTG), £90
 * [Ornot Micro Climate Jacket, Large](https://www.ornotbike.com/collections/jacket-and-vests/products/micro-climate-jacket-sage), £154
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
