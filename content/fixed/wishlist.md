@@ -5,6 +5,7 @@ title = "Wishlist"
 +++
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA02XXBTG), £90
 * [Ornot Micro Climate Jacket, Large](https://www.ornotbike.com/collections/jacket-and-vests/products/micro-climate-jacket-sage), £154
+* [Gore Race Shakedry Jacket](https://www.gorewear.com/uk/en-uk/race-shakedry-jacket-mens-100738.html?dwvar_100738_color=9900&cgid=gw_sport_cycling_jackets), £300
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
 * [Multitool](https://www.amazon.co.uk/dp/B07Y38GJMB/ref=cm_sw_r_cp_api_glt_fabc_AC48TSG7KC31ZXK6QK3C?_encoding=UTF8&psc=1), £28
