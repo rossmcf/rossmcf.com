@@ -8,8 +8,7 @@ title = "Wishlist"
 * [Gore Race Shakedry Jacket](https://www.gorewear.com/uk/en-uk/race-shakedry-jacket-mens-100738.html?dwvar_100738_color=9900&cgid=gw_sport_cycling_jackets), £300
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
-* [Multitool](https://www.amazon.co.uk/dp/B07Y38GJMB/ref=cm_sw_r_cp_api_glt_fabc_AC48TSG7KC31ZXK6QK3C?_encoding=UTF8&psc=1), £28
-* [Uuni 3 Pizza Oven](https://www.amazon.co.uk/dp/B06VW7YLDL/?coliid=IJZ36ONFTHW0R&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £199
+<!-- * [Uuni 3 Pizza Oven](https://www.amazon.co.uk/dp/B06VW7YLDL/?coliid=IJZ36ONFTHW0R&colid=J37ATPS6ULEQ&psc=0&ref_=lv_ov_lig_dp_it), £199 -->
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
 * [Aeron Office Chair](https://www.aeronchairs.co.uk/purchase/p46sfde0fs648u44bspfr3j3e4kr8i), Size C, £700
 * [Subscription to Barn](https://barn.cymru/), £40
