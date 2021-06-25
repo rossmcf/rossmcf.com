@@ -6,7 +6,7 @@ title = "Wishlist"
 * [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA02XXBTG), £90
 - [POC Helmet](https://www.sigmasports.com/item/POC/Omne-Air-Resistance-SPIN-Helmet/OCKI), L, White, £120
 * Jacket:
-    * [Good: Rapha Core Rain](https://www.rapha.cc/gb/en/shop/mens-core-rain-jacket-ii/product/CRR03XXBLK), £100
+    * [Good: Pedaled Mirai All-Weather](https://pedaled.com/eu_en/men-all-weather-cycling-jacket-charcoal-grey-mirai), £153
     * [Better: Rapha Gore Tex](https://www.rapha.cc/gb/en/shop/mens-pro-team-lightweight-gore-tex-jacket/product/PPG01XXBLK), £220
     * [Best: Gore Race Shakedry](https://www.chainreactioncycles.com/mobile/gore-wear-race-shakedry-cycling-jacket-ss21/rp-prod204528), £270
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
