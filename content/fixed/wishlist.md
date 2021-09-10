@@ -3,8 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-* [Rapha Classic Glasses](https://www.rapha.cc/gb/en/shop/classic-glasses/product/CLA02XXBTG), £90
-- [POC Helmet](https://www.sigmasports.com/item/POC/Omne-Air-Resistance-SPIN-Helmet/OCKI), L, White, £120
+- [POC Helmet](https://www.sigmasports.com/item/POC/Octal-X-SPIN-Helmet/HWKB), L, White, £165
 * [Gore Race Shakedry Jacket](https://www.chainreactioncycles.com/mobile/gore-wear-race-shakedry-cycling-jacket-ss21/rp-prod204528), £270
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
