@@ -8,6 +8,7 @@ title = "Wishlist"
 * [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
 * [SKS Speedrocker Mudguards](SKS Speedrocker Mudguard Set https://www.amazon.co.uk/dp/B07P93NMHL), £40
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
+* [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
 * [Aeron Office Chair](https://www.aeronchairs.co.uk/purchase/p46sfde0fs648u44bspfr3j3e4kr8i), Size C, £700
 * [Subscription to Barn](https://barn.cymru/), £40
