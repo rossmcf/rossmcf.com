@@ -5,7 +5,6 @@ title = "Wishlist"
 +++
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Gore Race Shakedry Jacket](https://www.chainreactioncycles.com/mobile/gore-wear-race-shakedry-cycling-jacket-ss21/rp-prod204528), £270
-* [Apidura Racing Bolt-On Top Tube Pack](https://www.apidura.com/shop/racing-bolt-on-top-tube-pack/), £52
 * [SKS Speedrocker Mudguards](SKS Speedrocker Mudguard Set https://www.amazon.co.uk/dp/B07P93NMHL), £40
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
