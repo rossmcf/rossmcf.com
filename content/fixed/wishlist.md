@@ -17,7 +17,7 @@ title = "Wishlist"
 
 * [Ornot](https://www.ornotbike.com)
 * [Search and State](https://searchandstate.com)
-* [Cadence](https://www.cadencecollection.com)
+
 * [PedalEd](https://pedaled.com/)
 * [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [Mash](https://www.mashsf.com/)
