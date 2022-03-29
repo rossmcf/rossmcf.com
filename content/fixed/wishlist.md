@@ -20,6 +20,7 @@ title = "Wishlist"
 * [Search and State](https://searchandstate.com)
 
 * [PedalEd](https://pedaled.com/)
+* [Albion](https://albioncycling.com)
 * [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
 * [Mash](https://www.mashsf.com/)
 * [Rapha](https://www.rapha.cc)
