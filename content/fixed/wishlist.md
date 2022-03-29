@@ -28,7 +28,6 @@ title = "Wishlist"
 * [Inside Line](https://ilequipment.com/)
 * [Finisterre](https://finisterre.com/)
 * [Patagonia](https://eu.patagonia.com)
-* [Howies](https://howies.co.uk)
 * [Tom Bihn](https://www.tombihn.com/)
 * [Camper](https://www.camper.com) (EU48)
 * [Freitag](https://freitag.ch)
