@@ -8,7 +8,7 @@ title = "Wishlist"
 * [SKS Speedrocker Mudguards](SKS Speedrocker Mudguard Set https://www.amazon.co.uk/dp/B07P93NMHL), £40
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
-* [A bike fit](https://www.bicyclerichmond.co.uk), £300–400
+* [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
 * [Mountain Bike](https://sour.bike/en/candy-shop/bikes/crumble/)
 * [Power Meter](https://www.bikeradar.com/advice/buyers-guides/best-power-meters/)
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
