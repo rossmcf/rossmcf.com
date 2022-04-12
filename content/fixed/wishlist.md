@@ -10,7 +10,6 @@ title = "Wishlist"
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
 * [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
 * [Mountain Bike](https://sour.bike/en/candy-shop/bikes/crumble/)
-* [Power Meter](https://www.bikeradar.com/advice/buyers-guides/best-power-meters/)
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
 * [Aeron Office Chair](https://www.aeronchairs.co.uk/purchase/p46sfde0fs648u44bspfr3j3e4kr8i), Size C, £700
 * [Subscription to Barn](https://barn.cymru/), £40
