@@ -11,10 +11,9 @@ title = "Wishlist"
 * [Sour Crumble Mountain Bike](https://sour.bike/en/candy-shop/bikes/crumble/), XL, Super Root Beer, Matt, €949
 * [POC Define Cycling Sunglasses](https://www.pocsports.com/collections/sunglasses/products/define?variant=36049776345240), Black, £150
 * [Dropper Seat Post](https://www.tredz.co.uk/.Easton-EA70-AX-Dropper-Seatpost_232824.htm), 27.2|400x50, £200
-* Bike Bags:
-    * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
-    * [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
-    * [Race Bar Bag](https://restrap.com/collections/bar-bags/products/race-bar-bag-7-litres), £110
+* [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
+* [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
+* [Race Bar Bag](https://restrap.com/collections/bar-bags/products/race-bar-bag-7-litres), £110
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
 * [Subscription to Barn](https://barn.cymru/), £40
 
