@@ -10,6 +10,7 @@ title = "Wishlist"
 * [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
 * [Sour Crumble Mountain Bike](https://sour.bike/en/candy-shop/bikes/crumble/), XL, Super Root Beer, Matt, €949
 * [POC Define Cycling Sunglasses](https://www.pocsports.com/collections/sunglasses/products/define?variant=36049776345240), Black, £150
+* [Dropper Seat Post](https://www.tredz.co.uk/.Easton-EA70-AX-Dropper-Seatpost_232824.htm), 27.2|400x50, £200
 * Bike Bags:
     * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
     * [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
