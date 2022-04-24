@@ -5,24 +5,26 @@ title = "Wishlist"
 +++
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), Large, £50
 * [Gore Race Shakedry Jacket](https://www.sigmasports.com/item/Gore-Wear/Race-SHAKEDRY-Jacket/T2QF), £245
-* [SKS Speedrocker Mudguards](SKS Speedrocker Mudguard Set https://www.amazon.co.uk/dp/B07P93NMHL), £40
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
 * [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
-* [Mountain Bike](https://sour.bike/en/candy-shop/bikes/crumble/)
+* [Sour Crumble Mountain Bike](https://sour.bike/en/candy-shop/bikes/crumble/), XL, Super Root Beer, Matt, €949
+* [POC Define Cycling Sunglasses](https://www.pocsports.com/collections/sunglasses/products/define?variant=36049776345240), Black, £150
+* Bike Bags:
+    * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
+    * [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
+    * [Race Bar Bag](https://restrap.com/collections/bar-bags/products/race-bar-bag-7-litres), £110
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
-* [Aeron Office Chair](https://www.aeronchairs.co.uk/purchase/p46sfde0fs648u44bspfr3j3e4kr8i), Size C, £700
 * [Subscription to Barn](https://barn.cymru/), £40
 
 
 ### Nice Shops
 
 * [Ornot](https://www.ornotbike.com)
-* [Search and State](https://searchandstate.com)
-
-* [PedalEd](https://pedaled.com/)
 * [Albion](https://albioncycling.com)
-* [Cafe du cycliste](https://www.cafeducycliste.com/en_uk/)
+* [Velocio](https://eu.velocio.cc)
+* [Search and State](https://searchandstate.com)
+* [PedalEd](https://pedaled.com/)
 * [Mash](https://www.mashsf.com/)
 * [Rapha](https://www.rapha.cc)
 * [Snow Peak](https://snowpeak.co.uk)
