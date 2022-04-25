@@ -38,7 +38,6 @@ title = "Wishlist"
 * [Finisterre](https://finisterre.com/)
 * [Patagonia](https://eu.patagonia.com)
 * [Tom Bihn](https://www.tombihn.com/)
-* [Camper](https://www.camper.com) (EU48)
 * [Freitag](https://freitag.ch)
 * [Magazin](https://magazin.com)
 * [Studio Neat](https://www.studioneat.com/products/markone)
