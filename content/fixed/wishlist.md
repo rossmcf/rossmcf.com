@@ -3,7 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-* [Sour Crumble Mountain Bike Frame](https://sour.bike/en/candy-shop/bikes/crumble/), XL, Super Root Beer, Matt, ≈£800
+* [Sour Crumble Mountain Bike Frame](https://sour.bike/encandy-shop/bikes/crumble/), XL, Super Root Beer, Matt, ≈£800
 * [Gore Race Shakedry Jacket](https://www.sigmasports.com/item/Gore-Wear/Race-SHAKEDRY-Jacket/T2QF), XXL, £245
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), XXL, £50
 * [Ornot Cargo Bib Shorts](https://www.ornotbike.com/collections/mens-bibs-and-shorts/products/cargo-bib-short-black?variant=39278771732545), XL, £145
