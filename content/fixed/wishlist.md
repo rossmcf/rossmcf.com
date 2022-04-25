@@ -14,7 +14,10 @@ title = "Wishlist"
 * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
 * [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
 * [Race Bar Bag](https://restrap.com/collections/bar-bags/products/race-bar-bag-7-litres), £110
+* [Ornot Magic Shell Jacket](https://www.ornotbike.com/collections/jacket-and-vests/products/magic-shell-jacket-gravel?variant=39265773682753), XXL, £210
+* [Ornot Micro Climate Jacket](https://www.ornotbike.com/collections/jacket-and-vests/products/micro-climate-jacket-stone-blue),XXL, £165
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
+* [A Cycling Adventure](https://www.pannier.cc/bikepacking-tours-events-expeditions/)
 * [Subscription to Barn](https://barn.cymru/), £40
 
 
