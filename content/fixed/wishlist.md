@@ -3,6 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
+* [Sour Crumble Mountain Bike Frame](https://sour.bike/en/candy-shop/bikes/crumble/), XL, Super Root Beer, Matt, ≈£800
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), XXL, £50
 * [Ornot Cargo Bib Shorts](https://www.ornotbike.com/collections/mens-bibs-and-shorts/products/cargo-bib-short-black?variant=39278771732545), XL, £145
 * [Ornot DND Gloves](https://www.ornotbike.com/collections/caps-and-gloves/products/gray-ties-dnd-glove?variant=17836298764353), XXL, £22
@@ -12,7 +13,6 @@ title = "Wishlist"
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
 * [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
-* [Sour Crumble Mountain Bike Frame](https://sour.bike/en/candy-shop/bikes/crumble/), XL, Super Root Beer, Matt, ≈£800
 * [POC Define Cycling Sunglasses](https://www.pocsports.com/collections/sunglasses/products/define?variant=36049776345240), Black, £150
 * [Dropper Seat Post](https://www.tredz.co.uk/.Easton-EA70-AX-Dropper-Seatpost_232824.htm), 27.2|400x50, £200
 * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
