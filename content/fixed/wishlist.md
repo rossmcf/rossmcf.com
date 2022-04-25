@@ -4,6 +4,7 @@ title = "Wishlist"
 
 +++
 * [Ornot Wind Vest, Burgundy](https://www.ornotbike.com/collections/everything-ornot/products/burgundy-house-wind-vest?variant=31049448292417), XXL, £50
+* [Ornot Cargo Bib Shorts](https://www.ornotbike.com/collections/mens-bibs-and-shorts/products/cargo-bib-short-black?variant=39278771732545), XL, £145
 * [Gore Race Shakedry Jacket](https://www.sigmasports.com/item/Gore-Wear/Race-SHAKEDRY-Jacket/T2QF), £245
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
