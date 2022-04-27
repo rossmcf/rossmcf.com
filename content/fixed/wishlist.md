@@ -35,8 +35,6 @@ title = "Wishlist"
 * [Velocio](https://eu.velocio.cc)
 * [Search and State](https://searchandstate.com)
 * [PedalEd](https://pedaled.com/)
-* [Mash](https://www.mashsf.com/)
-* [Rapha](https://www.rapha.cc)
 * [Snow Peak](https://snowpeak.co.uk)
 * [Swrve](https://www.swrve.co.uk/)
 * [Inside Line](https://ilequipment.com/)
