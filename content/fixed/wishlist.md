@@ -14,7 +14,12 @@ title = "Wishlist"
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
 * [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
 * [POC Define Cycling Sunglasses](https://www.pocsports.com/collections/sunglasses/products/define?variant=36049776345240), Black, £150
-* [Dropper Seat Post](https://www.tredz.co.uk/.Easton-EA70-AX-Dropper-Seatpost_232824.htm), 27.2|400x50, £200
+* [Albion Bib Shorts](https://www.albioncycling.com/product/abr1-bib-shorts-black-men/), XL, £125
+* [Albion Zoa Jacket](https://www.albioncycling.com/product/zoa-insulated-jacket-black/), XL, £185
+* [Albion Insulated Jacket](https://www.albioncycling.com/product/ultralight-insulated-jacket-burnt-yellow-men/), XL, £145
+* [Albion Ultralight Windproof Gilet](https://www.albioncycling.com/product/ultralight-windproof-gilet-black-men/),XL, £100 
+* [Albuon Jerseys](https://www.albioncycling.com/collections/men/jerseys-men/), XL
+* [Albion Burner](https://www.albioncycling.com/product/burner-black/), £30
 * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
 * [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
 * [Restrap Race Bar Bag](https://restrap.com/collections/bar-bags/products/race-bar-bag-7-litres), £110
