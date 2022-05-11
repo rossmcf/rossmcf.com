@@ -14,7 +14,7 @@ title = "Wishlist"
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
 * [Bike Fit](https://www.bicyclerichmond.co.uk), £300–400
 * [POC Define Cycling Sunglasses](https://www.pocsports.com/collections/sunglasses/products/define?variant=36049776345240), Black, £150
-* [Albion Bib Shorts](https://www.albioncycling.com/product/abr1-bib-shorts-black-men/), XL, £125
+* [Albion Bib Shorts](https://www.albioncycling.com/product/abr1-pocket-bib-shorts-black-men), XL, £145
 * [Albion Zoa Jacket](https://www.albioncycling.com/product/zoa-insulated-jacket-black/), XL, £185
 * [Albion Insulated Jacket](https://www.albioncycling.com/product/ultralight-insulated-jacket-burnt-yellow-men/), XL, £145
 * [Albion Ultralight Windproof Gilet](https://www.albioncycling.com/product/ultralight-windproof-gilet-black-men/),XL, £100 
@@ -43,4 +43,3 @@ title = "Wishlist"
 * [Tom Bihn](https://www.tombihn.com/)
 * [Freitag](https://freitag.ch)
 * [Magazin](https://magazin.com)
-* [Studio Neat](https://www.studioneat.com/products/markone)
