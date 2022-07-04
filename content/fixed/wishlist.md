@@ -7,10 +7,9 @@ title = "Wishlist"
 * [Gore Race Shakedry Jacket](https://www.sigmasports.com/item/Gore-Wear/Race-SHAKEDRY-Jacket/T2QF), XXL, £245
 * [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Garmin Bike Radar](https://www.garmin.com/en-GB/p/698001), £170
-* [Albion Zoa Jacket](https://www.albioncycling.com/product/zoa-insulated-jacket-black/), XL, £185
 * [Albion Insulated Jacket](https://www.albioncycling.com/product/ultralight-insulated-jacket-burnt-yellow-men/), XL, £145
 * [Albion Ultralight Windproof Gilet](https://www.albioncycling.com/product/ultralight-windproof-gilet-black-men/),XL, £100 
-* [Albuon Jerseys](https://www.albioncycling.com/collections/men/jerseys-men/), XL
+* [Albion Jerseys](https://www.albioncycling.com/collections/men/jerseys-men/), XL
 * [Albion Burner](https://www.albioncycling.com/product/burner-black/), £30
 * [Apidura Racing Saddle Pack](https://www.apidura.com/shop/racing-saddle-pack/), 7l, £132
 * [Apidura Racing Frame Bag](https://www.apidura.com/shop/racing-frame-pack/), 4l, £98
