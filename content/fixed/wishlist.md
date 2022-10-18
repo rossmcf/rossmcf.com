@@ -4,7 +4,6 @@ title = "Wishlist"
 
 +++
 * [Sour Crumble Mountain Bike Frame](https://sour.bike/encandy-shop/bikes/crumble/), XL, Super Root Beer, Matt, ≈£800
-* [Wahoo Elmnt Bolt Cycle Computer](https://uk.wahoofitness.com/elemnt-bolt-buy), £250
 * [Albion Insulated Jacket](https://www.albioncycling.com/product/ultralight-insulated-jacket-burnt-yellow-men/), XL, £145
 * [Albion Ultralight Windproof Gilet](https://www.albioncycling.com/product/ultralight-windproof-gilet-black-men/),XL, £100 
 * [Albion Jerseys](https://www.albioncycling.com/collections/men/jerseys-men/), XL
