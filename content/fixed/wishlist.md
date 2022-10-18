@@ -18,11 +18,8 @@ title = "Wishlist"
 
 ### Nice Shops
 
-* [Ornot](https://www.ornotbike.com)
 * [Albion](https://albioncycling.com)
-* [Velocio](https://eu.velocio.cc)
-* [Search and State](https://searchandstate.com)
-* [PedalEd](https://pedaled.com/)
+* [PedalEd](https://www.condorcycles.com/collections/pedal-ed)
 * [Snow Peak](https://snowpeak.co.uk)
 * [Inside Line](https://ilequipment.com/)
 * [Finisterre](https://finisterre.com/)
