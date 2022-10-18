@@ -3,7 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-* [Sour Crumble Mountain Bike Frame](https://sour.bike/encandy-shop/bikes/crumble/), XL, Super Root Beer, Matt, ≈£800
+* Mountain Bike
 * [Albion Insulated Jacket](https://www.albioncycling.com/product/ultralight-insulated-jacket-burnt-yellow-men/), XL, £145
 * [Albion Ultralight Windproof Gilet](https://www.albioncycling.com/product/ultralight-windproof-gilet-black-men/),XL, £100 
 * [Albion Jerseys](https://www.albioncycling.com/collections/men/jerseys-men/), XL
