@@ -4,6 +4,7 @@ title = "Wishlist"
 
 +++
 * Mountain Bike
+* [Fforest Gran Ffondo](https://www.coldatnight.co.uk/gran-ffondo)
 * [Snakeboard](https://draganboards.com/en-gb/products/the-dragan-cruiser-streetboard-purple-edition), £196
 * [Albion Jerseys](https://www.albioncycling.com/collections/men/jerseys-men/), XL
 * [Robot Vacuum Cleaner](https://thewirecutter.com/reviews/best-robot-vacuum/)
