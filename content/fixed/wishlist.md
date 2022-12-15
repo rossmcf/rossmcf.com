@@ -21,5 +21,5 @@ title = "Wishlist"
 * [Inside Line](https://ilequipment.com/)
 * [Finisterre](https://finisterre.com/)
 * [Patagonia](https://eu.patagonia.com)
-* [Tom Bihn](https://www.tombihn.com/)
+* [Trakke](https://trakke.co.uk)
 * [Freitag](https://freitag.ch)
