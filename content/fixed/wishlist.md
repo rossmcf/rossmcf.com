@@ -6,6 +6,7 @@ title = "Wishlist"
 * [Mountain Bike](https://winstanleysbikes.co.uk/kona-honzo-esd-2022-bike)
 * [Fforest Gran Ffondo](https://www.coldatnight.co.uk/gran-ffondo)
 * [Drum hardware case](https://www.gak.co.uk/en/protection-racket-hardware-bag-w-wheels-28x14x10in/29674), £138
+* [Power Meter](https://www.sigmasports.com/item/Garmin/Rally-XC100-Single-Sided-Power-Meter-Pedals-Shimano-SPD-Cleats/THM1), £479
 * [A Cycling Adventure](https://www.pannier.cc/bikepacking-tours-events-expeditions/)
 * [Subscription to Barn](https://barn.cymru/), £40
 
