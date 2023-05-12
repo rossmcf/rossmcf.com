@@ -8,7 +8,7 @@ title = "Wishlist"
 * [Drum hardware case](https://www.gak.co.uk/en/protection-racket-hardware-bag-w-wheels-28x14x10in/29674), £138
 * [Power Meter](https://www.sigmasports.com/item/Garmin/Rally-XC100-Single-Sided-Power-Meter-Pedals-Shimano-SPD-Cleats/THM1), £479
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
-* [Torque Wrench](PRO BIKE TOOL 1/4 Inch Drive Click Bike Torque Wrench Set – 2 to 20 Nm – Bicycle Torque Wrench Maintenance Kit for Road & Mountain Bikes - Includes Allen & Torx Sockets, Extension Bar & Storage Box https://amzn.eu/d/aX9IwWI), £60
+* [Torque Wrench](https://amzn.eu/d/aX9IwWI), £60
 * [A Cycling Adventure](https://www.pannier.cc/bikepacking-tours-events-expeditions/)
 * [Subscription to Barn](https://barn.cymru/), £40
 
