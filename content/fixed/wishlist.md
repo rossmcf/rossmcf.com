@@ -6,6 +6,7 @@ title = "Wishlist"
 * [Mountain Bike](https://winstanleysbikes.co.uk/kona-honzo-esd-2022-bike)
 * [Hi Hats](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £395
 * [Drum hardware case](https://www.gak.co.uk/en/protection-racket-hardware-bag-w-wheels-28x14x10in/29674), £138
+* [Swimming Gloves](https://www.wiggle.com/p/zone3-neoprene-swim-gloves?color=black&sizeStandard=XL++), £20
 * [Power Meter](https://www.sigmasports.com/item/Garmin/Rally-XC100-Single-Sided-Power-Meter-Pedals-Shimano-SPD-Cleats/THM1), £479
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
 * [Torque Wrench](https://amzn.eu/d/aX9IwWI), £60
