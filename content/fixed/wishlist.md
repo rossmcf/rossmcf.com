@@ -11,6 +11,7 @@ title = "Wishlist"
 * [Power Meter](https://www.sigmasports.com/item/Garmin/Rally-XC100-Single-Sided-Power-Meter-Pedals-Shimano-SPD-Cleats/THM1), £479
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
 * [Torque Wrench](https://amzn.eu/d/aX9IwWI), £60
+* [Hydration Pack](https://uswe.com/en-gb/hydration-pack-outlander-pro-2-black), £95
 * [A Cycling Adventure](https://www.pannier.cc/bikepacking-tours-events-expeditions/)
 * [Subscription to Barn](https://barn.cymru/), £40
 
