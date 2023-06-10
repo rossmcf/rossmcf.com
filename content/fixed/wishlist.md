@@ -8,7 +8,7 @@ title = "Wishlist"
 * [Drum hardware case](https://www.gak.co.uk/en/protection-racket-hardware-bag-w-wheels-28x14x10in/29674), £138
 * [Bass Drum Beater](https://www.thomann.de/gb/low_boy_leather_daddy_natural_black.htm), £37
 * [Swimming Gloves](https://www.wiggle.com/p/zone3-neoprene-swim-gloves?color=black&sizeStandard=XL++), £20
-* [Power Meter](https://www.sigmasports.com/item/Garmin/Rally-XC100-Single-Sided-Power-Meter-Pedals-Shimano-SPD-Cleats/THM1), £479
+* [Power Meter](https://www.halfords.com/cycling-technology/power-meters/4iiii-precision-gen3-nds-grx-rx810-power-meter-690478.html), 175mm, £375
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
 * [Torque Wrench](https://amzn.eu/d/aX9IwWI), £60
 * [Hydration Pack](https://uswe.com/en-gb/hydration-pack-outlander-pro-2-black), £95
