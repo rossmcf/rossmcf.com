@@ -12,7 +12,6 @@ title = "Wishlist"
 * [Power Meter](https://www.halfords.com/cycling-technology/power-meters/4iiii-precision-gen3-nds-grx-rx810-power-meter-690478.html), 175mm, £375
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
 * [Torque Wrench](https://amzn.eu/d/aX9IwWI), £60
-* [Hydration Pack](https://uswe.com/en-gb/hydration-pack-outlander-pro-2-black), £95
 * [A Cycling Adventure](https://www.pannier.cc/bikepacking-tours-events-expeditions/)
 * [Subscription to Barn](https://barn.cymru/), £40
 
