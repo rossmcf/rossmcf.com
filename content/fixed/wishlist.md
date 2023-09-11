@@ -3,7 +3,6 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-* [Mountain Bike](https://winstanleysbikes.co.uk/kona-honzo-esd-2022-bike)
 * [Hi Hats](https://www.thomann.de/gb/paiste_14_line_reflector_hihat.htm), £395
 * [Portable Power Station](https://amzn.eu/d/3xv45MC), £300
 * [Bass Drum Beater](https://www.thomann.de/gb/low_boy_leather_daddy_natural_black.htm), £37
