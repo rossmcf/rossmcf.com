@@ -1,4 +1,9 @@
-+++ title="The Ten Year Task" description= "OmniFocus as an External Brain" date= "2023-11-02" highlight= "true" +++
++++
+title="The Ten Year Task"
+description= "OmniFocus as an External Brain"
+date= "2023-11-02"
+highlight= "true"
++++
 
 One Hogmanay, I snuck away from the celebrations, and sat in the spare room of my house talking to a tape recorder. I gave a report on the goings on in my life and in the family in the year that was 1993. I honestly can't remember what I said; I've never heard the recording. I decided that this recording should be a time capsule, something I could open years hence and hear my past self. My first thought was to leave it for 50 years, but ultimately felt that was too long to wait. 30 would be about right. Once I'd finished, I sealed the cassettes (plural!) in a box that once contained a bow tie, and wrote on it "DO NOT OPEN UNTIL 31.12.2023".
 
