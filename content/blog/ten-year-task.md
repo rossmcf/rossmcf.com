@@ -1,0 +1,11 @@
++++ title= "The Ten Year Task" description= "OmniFocus as an External Brain" date= "2023-11-02" highlight= "true" +++
+
+One Hogmanay, I snuck away from the celebrations, and sat in the spare room of my house talking to a tape recorder. I gave a report on the goings on in my life and in the family in the year that was 1993. I honestly can't remember what I said; I've never heard the recording. I decided that this recording should be a time capsule, something I could open years hence and hear my past self. My first thought was to leave it for 50 years, but ultimately felt that was too long to wait. 30 would be about right. Once I'd finished, I sealed the cassettes (plural!) in a box that once contained a bow tie, and wrote on it "DO NOT OPEN UNTIL 31.12.2023".
+
+For over half of the intervening years, I've been an enthusiastic user of [Omnifocus](https://www.omnigroup.com/omnifocus/) as a way of planning projects and tracking tasks. Deep in my OmniFocus database is a task that has sat there for over ten years:
+
+> Open cassette box.
+
+I think it says a lot about my relationship with this piece of software that I've entrusted it with an event like this. Once something is in there, it's not going anywhere. I can't consider it done, but I know that I'll see it any time and place it could be done, and prompted to review it regularly. When I share my enthusiasm for OmniFocus with 'normal people', I often get the feeling that they see it as a crutch, or an unromantic way of turning personal thoughts into mechanistic action. Personally, I feel that if a task is meaningful and worth doing, then it's worth making use of the best available resources to get it done.
+
+Over the last 15 years, I've changed so much of my daily software several times over: note-taking apps, email clients, and code editors. Having the same 'external brain' throughout has been a real stabilising force. One notification this Hogmanay will be the completion of a ten-year-old promise. It might just be a database with some due dates, but to me it's pretty magical.
