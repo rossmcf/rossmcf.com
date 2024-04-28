@@ -5,6 +5,7 @@ title = "Wishlist"
 +++
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_fussmaschine.htm), £444
+* [Cymbal Stand](https://www.thomann.de/gb/dw_9700_beckenstaender_standard.htm), £285
 * [Swimming Gloves](https://www.wiggle.com/p/zone3-neoprene-swim-gloves?color=black&sizeStandard=XL++), £20
 * [Power Meter](https://www.halfords.com/cycling-technology/power-meters/4iiii-precision-gen3-nds-grx-rx810-power-meter-690478.html), 175mm, £375
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
