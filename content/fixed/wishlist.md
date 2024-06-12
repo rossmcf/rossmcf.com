@@ -8,6 +8,7 @@ title = "Wishlist"
 * [Cymbal Stand](https://www.thomann.de/gb/dw_9700_beckenstaender_standard.htm), £285
 * [Cycling Jersey](https://www.albioncycling.com/collections/mens-jerseys), XXL, £125
 * [Swimming Gloves](https://www.wiggle.com/p/zone3-neoprene-swim-gloves?color=black&sizeStandard=XL++), £20
+* [Tyre Repair Kit](https://forestleisurecycling.co.uk/shop/accessories/tubeless/dynaplug-megapill-tubeless-bicycle-repair-kit/), £60
 * [Power Meter](https://winstanleysbikes.co.uk/4iiii-precision-3-grx-rx810-left-hand-power-meter-crank), 175mm, £319
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
 * [A Cycling Adventure](https://www.pannier.cc/bikepacking-tours-events-expeditions/)
