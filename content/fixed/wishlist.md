@@ -19,6 +19,7 @@ title = "Wishlist"
 ### Nice Shops
 
 * [Albion](https://albioncycling.com)
+* [Cascada](https://cascada.cc)
 * [Snow Peak](https://snowpeak.co.uk)
 * [Inside Line](https://ilequipment.com/)
 * [Finisterre](https://finisterre.com/)
