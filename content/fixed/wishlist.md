@@ -15,6 +15,7 @@ title = "Wishlist"
 ### Nice Shops
 
 * [Albion](https://albioncycling.com)
+* [Ostroy](https://www.ostroy.com/collections/mens-short-sleeve-jerseys)
 * [Cascada](https://cascada.cc)
 * [Snow Peak](https://snowpeak.co.uk)
 * [Inside Line](https://ilequipment.com/)
