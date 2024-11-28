@@ -3,6 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
+* [Hydration Pack](https://amzn.eu/d/abYrJQo), £77
 * [Coffee Grinder](https://amzn.eu/d/71h1KpB), £44
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £329
