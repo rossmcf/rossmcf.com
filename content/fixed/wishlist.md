@@ -3,6 +3,7 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
+* [Cargo Bike](https://www.paradisecycles.co.uk/omnium-cargo-v3-bike.html), £2895
 * [Hydration Pack](https://amzn.eu/d/abYrJQo), £77
 * [Coffee Grinder](https://amzn.eu/d/71h1KpB), £44
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
