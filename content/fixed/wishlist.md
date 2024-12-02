@@ -10,6 +10,7 @@ title = "Wishlist"
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £329
 * [Cymbal Stand](https://www.thomann.de/gb/dw_9700_beckenstaender_standard.htm), £285
 * [Cycling Jersey](https://www.albioncycling.com/collections/mens-jerseys), XXL, £125
+* [Sign Writing Starter Kit](https://www.handover.co.uk/starter-kits/), £various
 * [Cozy Jacket](https://www.albioncycling.com/products/mens-zoa-mountain-jacket-charcoal), £240
 * [Handlebar Tape](https://www.sigmasports.com/item/ENVE/Bar-Tape/NUN9), Black, £32
 * [Subscription to Barn](https://barn.cymru/), £40
