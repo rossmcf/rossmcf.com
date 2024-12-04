@@ -6,6 +6,7 @@ title = "Wishlist"
 * [Cargo Bike](https://www.paradisecycles.co.uk/omnium-cargo-v3-bike.html), £2895
 * [Hydration Pack](https://amzn.eu/d/abYrJQo), £77
 * [Coffee Grinder](https://amzn.eu/d/71h1KpB), £44
+* [Mudguards](https://winstanleysbikes.co.uk/sks-speedrocker-mudguard-set), £42
 * [Chain Waxing Kit](https://www.merlincycles.com/silca-chain-waxing-bundle-318325.html), £119
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £329
