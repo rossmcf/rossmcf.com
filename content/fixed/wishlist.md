@@ -8,6 +8,7 @@ title = "Wishlist"
 * [Coffee Grinder](https://amzn.eu/d/71h1KpB), £44
 * [Mudguards](https://winstanleysbikes.co.uk/sks-speedrocker-mudguard-set), £42
 * [Chain Waxing Kit](https://www.merlincycles.com/silca-chain-waxing-bundle-318325.html), £119
+* [Waterproof Trousers](https://www.gorewear.com/en-uk/passion-pants-mens-100993), £109
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £329
 * [Cymbal Stand](https://www.thomann.de/gb/dw_9700_beckenstaender_standard.htm), £285
