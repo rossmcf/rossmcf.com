@@ -13,6 +13,7 @@ title = "Wishlist"
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £329
 * [Cymbal Stand](https://www.thomann.de/gb/dw_9700_beckenstaender_standard.htm), £285
 * [Cycling Jersey](https://www.albioncycling.com/collections/mens-jerseys), XXL, £125
+* [Power Meter Pedals](https://www.sigmasports.com/item/Favero/Assioma-PRO-MX-1-Single-Sided-Power-Meter-Pedals/12RPK), £453
 * [Cargo Bike](https://www.paradisecycles.co.uk/omnium-cargo-v3-bike.html), £2895
 * [Cycling Insulation](https://www.albioncycling.com/products/unisex-ultralight-insulated-jacket-graphite?Size=XXL), XXL, £175
 * [Sign Writing Starter Kit](https://www.handover.co.uk/starter-kits/), £various
