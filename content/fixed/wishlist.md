@@ -12,6 +12,7 @@ title = "Wishlist"
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9000_xf_pedal.htm), £329
 * [Cymbal Stand](https://www.thomann.de/gb/dw_9700_beckenstaender_standard.htm), £285
+* [Power for Camping](https://amzn.eu/d/7efLhhq), £169
 * [Cycling Jersey](https://www.albioncycling.com/collections/mens-jerseys), XXL, £125
 * [Power Meter Pedals](https://www.sigmasports.com/item/Favero/Assioma-PRO-MX-1-Single-Sided-Power-Meter-Pedals/12RPK), £453
 * [Cargo Bike](https://www.paradisecycles.co.uk/omnium-cargo-v3-bike.html), £2895
