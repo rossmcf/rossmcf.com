@@ -5,6 +5,7 @@ title = "Wishlist"
 +++
 * [Chain Waxing Kit](https://www.merlincycles.com/silca-chain-waxing-bundle-318325.html), £119
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
+* [Trousers](https://communityclothing.co.uk/products/mens-cameraman-pant-black), Black, 34W Long, £104
 * [Bass Drum Pedal](https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm), £822
 * [Sign Writing Starter Kit](https://www.handover.co.uk/starter-kits/), £various
 * [Subscription to Barn Magazine](https://barn.cymru/), £40
