@@ -3,7 +3,6 @@ date = 2017-03-18T20:40:00Z
 title = "Wishlist"
 
 +++
-* [Chain Waxing Kit](https://www.merlincycles.com/silca-chain-waxing-bundle-318325.html), £119
 * [Handlebar](https://thewoodscyclery.co.uk/products/surly-corner-bars-three-sizes), 54cm, £120
 * [Programmable e-ink Display](https://shop.usetrmnl.com/collections/devices/products/trmnl), £106
 * [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
