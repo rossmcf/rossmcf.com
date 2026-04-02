@@ -6,19 +6,13 @@
 <body lang="{{ .Site.Params.lang }}">
 
 <section class="header">
-    <div class="container">
-        <div class="content">
-            <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
-            {{ if .Site.Params.selfintro }}
-              <h3 class="self-intro">{{ .Site.Params.selfintro }}</h3>
-            {{ end }}
-            <nav>
-                <ul>
-					<li class="nav-about"><a href="/about/">About</a></li>
-                    <li class="nav-blog"><a href="/blog/">Blog</a></li>
-                    <li class="nav-cv"><a href="/cv/">CV</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/cv/">CV</a></li>
+        </ul>
+    </nav>
+    <a href="/"><img src="/img/masthead.png" alt="{{ .Site.Params.author }}" class="masthead"></a>
+    {{ if .IsHome }}<p id="standfirst">The Internet Home of Ross M<span class="sup">c</span>Farlane</p>{{ end }}
 </section>

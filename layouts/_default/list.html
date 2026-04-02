@@ -4,7 +4,7 @@
         <div class="content">
             <div class="page-heading">Blog</div>
             <ul>
-                {{ range .Data.Pages.ByPublishDate }}
+                {{ range .Data.Pages.ByPublishDate.Reverse }}
                 {{ partial "li.html" . }}
                 {{ end }}
             </ul>
