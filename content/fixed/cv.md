@@ -5,17 +5,17 @@ title = "CV"
 +++
 I'm an experienced engineer and leader. I like to solve problems elegantly, but know when to just get things done. I'm a voracious learner, and fluent communicator in words and pictures. I'm looking for fresh challenges and a bright team to tackle them with.
 
-## Skills
-Languages: Go, PHP
-Tools: Git, Kubernetes, AWS
-Techniques: TDD, OOP, REST, Domain Driven Design
-
 ## Experience
 ### Form3
-#### Staff Engineer, USA (FedNow) — 2022–Present
+#### Technical Architect, USA — 2024–Present
+I set technical direction for three payment products being built for the US market. Addressing the needs of the US market requires a different approach to our architecture. I’m building consensus toward a clear vision and coordinating a cross-team effort to deliver incrementally. I’m ruthlessly removing complexity and cost, while maintaining customer experience.
+
+Our approach to the US has been quite different to other markets. I've discussed the geographical and cultural differences and how we've approached them in a talk at QCon: '[How to Run on Three Clouds at Once, and When Not To](/talks/#three-clouds)'.
+
+#### Staff Engineer, USA (FedNow) — 2022–2024
 I support a team of engineers building real-time payment products. I keep the team effective by coaching engineers, reviewing code, and reinforcing good engineering practices.
 
-I proactively identify and resolve blockers for the team. The scope of these interventions can vary from documenting a technical decision to coordinating across the org chart to make architectural changes. I recently led an effort to improve our core orchestration services, to allow teams greater freedom when implementing their market-specific workflows. Getting this moving involved a mixture of product knowledge and technical diplomacy.
+I proactively identify and resolve blockers for the team. The scope of these interventions can vary from documenting a technical decision to coordinating across the org chart to make architectural changes. I recently led an effort to improve our core orchestration services, to allow teams greater freedom when implementing their market-specific workflows. Getting this moving involved a mixture of product knowledge and [technical diplomacy](/talks/#technical-diplomacy).
 
 #### Technical Lead, Information Security — 2021–2022
 I onboarded and led a team of 8 senior security engineers. As we were somewhat outnumbered by the broader engineering team, I drove the introduction of a SecDevOps strategy to improve our relationships with colleagues, and ultimately our impact.
@@ -54,6 +54,3 @@ I worked on a range of projects for an early-stage startup.
 - PhD Computer Science University of Liverpool — 2007–2010
 - MSc Computer Science (Distinction), University of Liverpool — 2006–2007
 - BA(Hons) Sound Technology (1st Class), LIPA — 2001–2004
-
-## Background
-Originally from Glasgow, Scotland, I now live in West Wales with my wife, three children, and a dachshund. I enjoy riding bikes and playing drums, and learning Welsh.
