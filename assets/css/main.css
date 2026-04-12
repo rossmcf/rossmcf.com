@@ -29,26 +29,27 @@ a:hover { color: #de5251; }
 
 /* Header */
 section.header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 20px;
-}
-
-section.header .masthead {
-  width: 200px;
-  background-color: black;
-  margin: 0 auto 10px;
-}
-
-section.header a:hover .masthead { background-color: #de5251; }
-
-section.header nav {
   padding: 12px 0;
 }
+
+.site-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
+  white-space: nowrap;
+}
+
+.site-title:hover { color: #de5251; }
 
 section.header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 8px 28px;
   list-style: none;
 }
