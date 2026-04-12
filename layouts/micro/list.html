@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+<section class="main">
+    <div class="content">
+        <div class="page-heading">Notes</div>
+        <div class="h-feed micro-feed">
+            {{ range .Pages.ByPublishDate.Reverse }}
+            <article class="h-entry micro-post">
+                <a class="u-url" href="{{ .Permalink }}" hidden></a>
+                <div class="markdown e-content">
+                    {{ .Content }}
+                </div>
+                <div class="micro-meta">
+                    <a class="micro-permalink" href="{{ .Permalink }}">
+                        <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>{{ .Date.Format $.Site.Params.dateform }}</time>
+                    </a>
+                    {{ with .Params.syndication }}
+                    <span class="micro-syndication">
+                        {{ range . }}
+                        <a class="u-syndication" href="{{ . }}">↗</a>
+                        {{ end }}
+                    </span>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

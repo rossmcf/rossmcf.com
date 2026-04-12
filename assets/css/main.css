@@ -222,5 +222,52 @@ section.main {
 .markdown tbody tr:nth-child(odd) td,
 .markdown tbody tr:nth-child(odd) th { background-color: #f7f7f7; }
 
+/* Micro posts (notes) */
+.micro-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.micro-post {
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.micro-post:last-child {
+  border-bottom: none;
+}
+
+.micro-post .markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.micro-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.micro-permalink {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-permalink:hover {
+  color: #de5251;
+}
+
+.micro-syndication a {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-syndication a:hover {
+  color: #de5251;
+}
+
 /* Footer */
 footer { font-size: 75%; border-top: 3px solid #bfbfbf; padding-top: 10px; padding-bottom: 20px; }
