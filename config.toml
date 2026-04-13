@@ -1,0 +1,75 @@
+baseurl             = "https://www.rossmcf.com"
+builddrafts         = false
+canonifyurls        = true
+assetdir            = "assets"
+contentdir          = "content"
+defaultContentLanguage = "en"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Ross McFarlane"
+title               = "Ross McFarlane"
+pygmentsuseclasses  = true
+pygmentsUseClassic  = true
+#pygmentsCodeFences  = true
+# disqusshortname     = "" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-93936167-1"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+micro = "micro/:year/:month/:day/:slug/"
+
+[params]
+author                 = "Ross McFarlane"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "2 Jan, 2006"
+dateformfull           = "Mon 2 Jan 2006 15:04:05 MST"
+description            = "The personal home page of Ross McFarlane"
+email                  = ""
+extracssfiles          = []       # In your `static` directory, add/remove files as necessary.
+faviconfile            = "img/favicon.ico"
+github                 = "//github.com/rossmcf"
+highlightjs            = true
+lang                   = "en"
+#linkedin               = "//linkedin.com/in/you"
+mastodon               = "https://toot.wales/@rossmcf"
+bluesky                = "https://bsky.app/profile/rossmcf.com"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/rossmcf"
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+
+avatar                 = "img/profile2.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # do not use in the same time as avatar
+
+[Languages]
+[Languages.en]
+title = "Ross McFarlane"
+weight = 1
+[Languages.en.params]
+linkedin = "english-link"
+
+[Languages.cy]
+title = "Ross McFarlane"
+weight = 2
+[Languages.cy.params]
+author = "Ross ap McFarlane"
+
+[mediaTypes]
+[mediaTypes."application/atom"]
+suffixes = ["xml"]
+
+[outputs]
+home    = [ "HTML", "Atom", "jsonfeed" ]
+section = [ "HTML", "Atom" ]
+
+[outputFormats.Atom]
+mediaType = "application/atom"
+baseName = "index"
+isPlainText = false
+
+[outputFormats.jsonfeed]
+mediaType = "application/json"
+baseName = "feed"
+isPlainText = true

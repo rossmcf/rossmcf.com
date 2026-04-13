@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="The personal home page of Ross McFarlane">
+
+<title>
+
+
+     Constructor Options in Go 
+
+</title>
+<link rel="canonical" href="http://localhost:1313/blog/constructor-options-in-go/">
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="http://localhost:1313/.netlify/functions/micropub">
+<link rel="me" href="https://github.com/rossmcf">
+<link rel="me" href="https://toot.wales/@rossmcf">
+<link rel="me" href="https://bsky.app/profile/rossmcf.com">
+
+
+
+
+
+    
+	
+	
+	
+    
+
+
+
+<link rel="shortcut icon"
+
+    href="http://localhost:1313/img/favicon.ico"
+
+>
+
+
+
+
+
+
+
+<style>/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Pygments */
+.hll{background-color:#ffffcc}.c{color:#999988;font-style:italic}.err{color:#a61717;background-color:#e3d2d2}.k{color:#000000;font-weight:bold}.o{color:#000000;font-weight:bold}.cm{color:#999988;font-style:italic}.cp{color:#999999;font-weight:bold;font-style:italic}.c1{color:#999988;font-style:italic}.cs{color:#999999;font-weight:bold;font-style:italic}.gd{color:#000000;background-color:#ffdddd}.ge{color:#000000;font-style:italic}.gr{color:#aa0000}.gh{color:#999999}.gi{color:#000000;background-color:#ddffdd}.go{color:#888888}.gp{color:#555555}.gs{font-weight:bold}.gu{color:#aaaaaa}.gt{color:#aa0000}.kc{color:#000000;font-weight:bold}.kd{color:#000000;font-weight:bold}.kn{color:#000000;font-weight:bold}.kp{color:#000000;font-weight:bold}.kr{color:#000000;font-weight:bold}.kt{color:#445588;font-weight:bold}.m{color:#009999}.s{color:#d01040}.na{color:#008080}.nb{color:#0086B3}.nc{color:#445588;font-weight:bold}.no{color:#008080}.nd{color:#3c5d5d;font-weight:bold}.ni{color:#800080}.ne{color:#990000;font-weight:bold}.nf{color:#990000;font-weight:bold}.nl{color:#990000;font-weight:bold}.nn{color:#555555}.nt{color:#000080}.nv{color:#008080}.ow{color:#000000;font-weight:bold}.w{color:#bbbbbb}.mf{color:#009999}.mh{color:#009999}.mi{color:#009999}.mo{color:#009999}.sb{color:#d01040}.sc{color:#d01040}.sd{color:#d01040}.s2{color:#d01040}.se{color:#d01040}.sh{color:#d01040}.si{color:#d01040}.sx{color:#d01040}.sr{color:#009926}.s1{color:#d01040}.ss{color:#990073}.bp{color:#999999}.vc{color:#008080}.vg{color:#008080}.vi{color:#008080}.il{color:#009999}
+
+/* Base */
+*, *:before, *:after { box-sizing: border-box; }
+
+html { background: white; }
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  max-width: 740px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+img { max-width: 100%; display: block; }
+
+a, a:visited, a:focus, a:active { color: inherit; text-decoration: none; }
+a:hover { color: #de5251; }
+
+.accent, .illuminate { color: #de5251; }
+
+/* Header */
+section.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 12px 0;
+}
+
+.site-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
+  white-space: nowrap;
+}
+
+.site-title:hover { color: #de5251; }
+
+section.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 28px;
+  list-style: none;
+}
+
+section.header nav ul a {
+  color: #111;
+  font-size: 1.1em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+section.header nav ul a:hover {
+  color: #de5251;
+  text-decoration: none;
+}
+
+#standfirst {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.sup { position: relative; top: -0.2em; font-size: 0.75em; }
+
+/* Icons: hidden — not in original design */
+section.icons { display: none; }
+
+/* Main content */
+section.main {
+  border-top: 3px solid #bfbfbf;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/* Page/post heading */
+.page-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.page-heading a { color: #111; }
+.page-heading a:hover { color: #de5251; }
+
+/* Front matter (date, reading time) */
+.front-matter .meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.front-matter .middot { margin: 0 6px; }
+.front-matter .middot:before { content: "•"; }
+
+/* Post list */
+.post-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.post-item .meta {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+/* Markdown content */
+.markdown p {
+  margin-bottom: 1em;
+}
+
+.markdown p a { background-color: #f0bdbd; }
+.markdown p a:hover { background-color: white; color: #de5251; }
+
+.markdown h1, .markdown h2, .markdown h3,
+.markdown h4, .markdown h5, .markdown h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #111;
+  margin-top: 1.75rem;
+}
+
+.markdown h1 { font-size: 1.75rem; margin-bottom: 1rem; }
+.markdown h2 { font-size: 1.5rem;  margin-bottom: 0.75rem; }
+.markdown h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+.markdown h4, .markdown h5, .markdown h6 { font-size: 1rem; margin-bottom: 0.5rem; }
+
+.markdown em { font-style: italic; }
+.markdown strong { font-weight: bold; }
+
+.markdown ul, .markdown ol, .markdown dl {
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-left: 20px;
+}
+
+.markdown li { list-style-type: disc; margin-bottom: 4px; }
+.markdown ol li { list-style-type: decimal; }
+
+.markdown dt { font-weight: bold; }
+.markdown dd { margin-bottom: 0.5rem; }
+
+.markdown blockquote {
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
+  color: #555;
+  border-left: 0.25rem solid #bfbfbf;
+  font-style: italic;
+  max-width: 75%;
+}
+
+.markdown blockquote p:last-child { margin-bottom: 0; }
+
+.markdown hr {
+  margin: 1.75rem 0;
+  border: 0;
+  border-top: 1px solid #bfbfbf;
+}
+
+.markdown abbr {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.markdown abbr[title] { cursor: help; border-bottom: 1px dotted #808080; }
+
+.markdown code, .markdown pre {
+  font-family: 'Ubuntu Mono', 'Menlo', monospace;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+}
+
+.markdown code { padding: .15em .5em; border-radius: 2px; }
+
+.markdown pre {
+  display: block;
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  line-height: 1.5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.markdown pre code { padding: 0; }
+
+.markdown a code { color: #de5251 !important; }
+.markdown a code:hover { text-decoration: underline; }
+
+.markdown img { margin: 1rem 0; max-width: 100%; }
+
+.markdown figure > *, .markdown img { display: block; margin-left: auto; margin-right: auto; }
+.markdown figcaption { margin-top: 10px; text-align: center; font-style: italic; }
+
+.markdown table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+.markdown td, .markdown th { padding: .25rem .5rem; border: 1px solid #e5e5e5; }
+.markdown tbody tr:nth-child(odd) td,
+.markdown tbody tr:nth-child(odd) th { background-color: #f7f7f7; }
+
+/* Micro posts (notes) */
+.micro-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.micro-post {
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.micro-post:last-child {
+  border-bottom: none;
+}
+
+.micro-post .markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.micro-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.micro-permalink {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-permalink:hover {
+  color: #de5251;
+}
+
+.micro-syndication a {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-syndication a:hover {
+  color: #de5251;
+}
+
+/* Footer */
+footer { font-size: 75%; border-top: 3px solid #bfbfbf; padding-top: 10px; padding-bottom: 20px; }
+</style>
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <a href="http://localhost:1313/" class="site-title">Ross M<span class="sup">c</span>Farlane</a>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:1313/about/">About</a></li>
+            <li><a href="http://localhost:1313/blog/">Blog</a></li>
+            <li><a href="http://localhost:1313/micro/">Notes</a></li>
+            <li><a href="http://localhost:1313/cv/">CV</a></li>
+            <li><a href="http://localhost:1313/talks/">Talks</a></li>
+        </ul>
+    </nav>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <article class="h-entry">
+                <div class="front-matter">
+                    <div class="title-container">
+                        <div class="page-heading">
+
+    Constructor Options in Go
+
+</div>
+
+                        <div class="initials"><a href="http://localhost:1313/"></a></div>
+                    </div>
+                    <div class="meta">
+                        
+                        <time class="dt-published" datetime='2017-10-27T00:00:00Z' title='Fri 27 Oct 2017 00:00:00 UTC'>27 Oct, 2017</time>
+                        
+                        
+                        <div class="reading-time"><div class="middot"></div>5 minutes read</div>
+                        
+                    </div>
+                </div>
+                <a class="u-url" href="http://localhost:1313/blog/constructor-options-in-go/" hidden></a>
+                <span class="p-name" hidden>Constructor Options in Go</span>
+                <div class="markdown e-content">
+                    <p>I started coding full-time in <a href="https://golang.org">Go</a> about six months ago. In that time, I&rsquo;ve picked up various ideas and idioms by looking at the code of my peers, and of the various open source projects we use. I&rsquo;ve been wanting to write up some of those ideas, mostly to solidify them in my own mind, but also in case these descriptions could be useful to anyone else.</p>
+<p>The first pattern I want to cover is the <em>Options pattern</em>, a handy way of adding optional setup for a type, while still being able to provide defaults. Let&rsquo;s start with an example. I&rsquo;m quite bad for making jokes about troubling events too soon after they&rsquo;ve happened, so I&rsquo;m going to have an object that checks if it&rsquo;s appropriate for me to make a joke yet.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nx">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="s">&#34;fmt&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="s">&#34;time&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Moratorium tells me if it&#39;s too soon to tell a joke after an event.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">type</span><span class="w"> </span><span class="nx">Moratorium</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">event</span><span class="w">    </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">duration</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1">// TooSoon indicates if it&#39;s too soon to crack a joke.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="p">(</span><span class="nx">m</span><span class="w"> </span><span class="o">*</span><span class="nx">Moratorium</span><span class="p">)</span><span class="w"> </span><span class="nf">TooSoon</span><span class="p">()</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">event</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="nx">m</span><span class="p">.</span><span class="nx">duration</span><span class="p">).</span><span class="nf">After</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">())</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1">// NewMoratorium returns a new Moratorium.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">NewMoratorium</span><span class="p">(</span><span class="nx">event</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">,</span><span class="w"> </span><span class="nx">duration</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="nx">Moratorium</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="o">&amp;</span><span class="nx">Moratorium</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">event</span><span class="p">:</span><span class="w">    </span><span class="nx">event</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">duration</span><span class="p">:</span><span class="w"> </span><span class="nx">duration</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">when</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nf">Parse</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">RFC3339</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;2017-10-02T18:04:05Z07:00&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">howLong</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Hour</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">24</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">30</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">catDied</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nf">NewMoratorium</span><span class="p">(</span><span class="nx">when</span><span class="p">,</span><span class="w"> </span><span class="nx">howLong</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">if</span><span class="w"> </span><span class="nx">catDied</span><span class="p">.</span><span class="nf">TooSoon</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Too soon.&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Go for it.&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">	
+</span></span></span></code></pre></div><p>Now, this works well enough, but unit testing it is a PITA. If I want to check a range of different events and durations, I need to do a load of date arithmetic to make the dates relative to the current time. e.g.:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">TestIsTooSoon</span><span class="p">(</span><span class="nx">t</span><span class="w"> </span><span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">now</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">past</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">now</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Hour</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">diff</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="mi">59</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Minute</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">sut</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nf">NewMoratorium</span><span class="p">(</span><span class="nx">past</span><span class="p">,</span><span class="w"> </span><span class="nx">diff</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">if</span><span class="w"> </span><span class="nx">sut</span><span class="p">.</span><span class="nf">TooSoon</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">t</span><span class="p">.</span><span class="nf">Fatal</span><span class="p">(</span><span class="s">&#34;Too soon&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>It would be far better if we could hold time constant, and take the date logic out of our tests. To do that, let&rsquo;s inject a clock into our <code>Moratorium</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span><span class="w"> </span><span class="nx">Moratorium</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">now</span><span class="w">      </span><span class="kd">func</span><span class="p">()</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">event</span><span class="w">    </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">duration</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>Now, instead of calling <code>time.Now()</code> in our <code>TooSoon()</code> method, we&rsquo;ll call <code>m.now()</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="p">(</span><span class="nx">m</span><span class="w"> </span><span class="o">*</span><span class="nx">Moratorium</span><span class="p">)</span><span class="w"> </span><span class="nf">TooSoon</span><span class="p">()</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">event</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="nx">m</span><span class="p">.</span><span class="nx">duration</span><span class="p">).</span><span class="nf">After</span><span class="p">(</span><span class="nx">m</span><span class="p">.</span><span class="nf">now</span><span class="p">())</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>OK, all neat and tidy so far. To inject the <code>now</code> func into the struct, we could make the struct field public, but that feels a bit icky for reasons of encapsulation. Let&rsquo;s pass it into the constructor:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">NewMoratorium</span><span class="p">(</span><span class="nx">event</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">,</span><span class="w"> </span><span class="nx">duration</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">,</span><span class="w"> </span><span class="nx">now</span><span class="w"> </span><span class="kd">func</span><span class="p">()</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="nx">Moratorium</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="o">&amp;</span><span class="nx">Moratorium</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">now</span><span class="p">:</span><span class="w">      </span><span class="nx">now</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">event</span><span class="p">:</span><span class="w">    </span><span class="nx">event</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">duration</span><span class="p">:</span><span class="w"> </span><span class="nx">duration</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>My problem with this is that it&rsquo;s going to be given <code>time.Time</code> pretty much everywhere other than in tests. I&rsquo;d rather the <code>now</code> field defaulted to <code>time.Time</code>, but we could <em>optionally</em> set a <code>now</code> func (see where I&rsquo;m going with this?). Let&rsquo;s define a type for an optional constructor argument:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span><span class="w"> </span><span class="nx">Option</span><span class="w"> </span><span class="kd">func</span><span class="p">(</span><span class="o">*</span><span class="nx">Moratorium</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></div><p>Now we&rsquo;ll define a function that sets a given <code>now</code> func on the <code>Moratorium</code>, and handle that in the constructor:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">NowFunc</span><span class="p">(</span><span class="nx">now</span><span class="w"> </span><span class="kd">func</span><span class="p">()</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">)</span><span class="w"> </span><span class="nx">Option</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="kd">func</span><span class="p">(</span><span class="nx">m</span><span class="w"> </span><span class="o">*</span><span class="nx">Moratorium</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">m</span><span class="p">.</span><span class="nx">now</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">now</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">NewMoratorium</span><span class="p">(</span><span class="nx">event</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">,</span><span class="w"> </span><span class="nx">duration</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">,</span><span class="w"> </span><span class="nx">options</span><span class="w"> </span><span class="o">...</span><span class="nx">Option</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="nx">Moratorium</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">m</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="o">&amp;</span><span class="nx">Moratorium</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">now</span><span class="p">:</span><span class="w">      </span><span class="nx">time</span><span class="p">.</span><span class="nx">Now</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">event</span><span class="p">:</span><span class="w">    </span><span class="nx">event</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">duration</span><span class="p">:</span><span class="w"> </span><span class="nx">duration</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">for</span><span class="w"> </span><span class="nx">_</span><span class="p">,</span><span class="w"> </span><span class="nx">o</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">options</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nf">o</span><span class="p">(</span><span class="nx">m</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">m</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>Now we can pass zero or more options to the constructor, as needed. These also have the nice property that, by defining <code>NowFunc()</code> in the same package as the <code>Moratorium</code> type, it can access the private fields of the struct, so we can keep the struct fields hidden.</p>
+<p>Now that we have a way to inject the current time, we can re-write our test:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">TestIsTooSoon</span><span class="p">(</span><span class="nx">t</span><span class="w"> </span><span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">start</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nf">Parse</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">Kitchen</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;4:00PM&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">now</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">clock</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="kd">func</span><span class="p">()</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nx">now</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">sut</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nf">NewMoratorium</span><span class="p">(</span><span class="nx">start</span><span class="p">,</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Hour</span><span class="p">,</span><span class="w"> </span><span class="nf">NowFunc</span><span class="p">(</span><span class="nx">clock</span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">cases</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="p">[]</span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">now</span><span class="w">  </span><span class="kt">string</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">want</span><span class="w"> </span><span class="kt">bool</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">{</span><span class="s">&#34;4:00PM&#34;</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">},</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">{</span><span class="s">&#34;4:59PM&#34;</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">},</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">{</span><span class="s">&#34;5:00PM&#34;</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">},</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">for</span><span class="w"> </span><span class="nx">k</span><span class="p">,</span><span class="w"> </span><span class="nx">c</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">cases</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">now</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nf">Parse</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">Kitchen</span><span class="p">,</span><span class="w"> </span><span class="nx">c</span><span class="p">.</span><span class="nx">now</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">got</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">sut</span><span class="p">.</span><span class="nf">TooSoon</span><span class="p">()</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="k">if</span><span class="w"> </span><span class="nx">got</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="nx">c</span><span class="p">.</span><span class="nx">want</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="nx">t</span><span class="p">.</span><span class="nf">Fatalf</span><span class="p">(</span><span class="s">&#34;case %d: want=%t, got=%t&#34;</span><span class="p">,</span><span class="w"> </span><span class="nx">k</span><span class="p">,</span><span class="w"> </span><span class="nx">c</span><span class="p">.</span><span class="nx">want</span><span class="p">,</span><span class="w"> </span><span class="nx">got</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>Both the option functions and the nowFunc are examples of functions as values, which looked odd to me at first, but it&rsquo;s a pretty clean way of doing things. I&rsquo;ve seen alternatives to the nowFunc where an interface is declared with a <code>Now()</code> method, which then has to be implemeted by an object that just passes the call on to <code>time.Now()</code>. While that seemed perfectly natural to me at first, once I&rsquo;d seen the way functions could be passed as values, I much preferred the latter.</p>
+<p>I&rsquo;ve found this really handy for injecting any kind of small strategy object. Things like error handlers in an HTTP server, logger settings, and other non-essential items that have sensible defaults, and would otherwise clutter up the constructor.</p>
+<p>It would also be perfectly valid to use a setter here. The reason I prefer the option pattern for this sort of thing is that it allows us to ensure that the object is completely ready to go when its constructor returns, and that these fields are only set when the object is built. If you&rsquo;ve got a setter that shouldn&rsquo;t be called more than once, it might be worth turning it into a constructor option.</p>
+
+                    <br>
+                    <p><a href="http://localhost:1313/blog/">Back to posts</a></p>
+                </div>
+                
+                <a class="u-syndicate-to" href="https://brid.gy/publish/mastodon" hidden></a>
+                <a class="u-syndicate-to" href="https://brid.gy/publish/bluesky" hidden></a>
+            </article>
+            <br>
+            <div class="disqus">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

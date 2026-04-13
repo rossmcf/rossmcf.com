@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+<!-- Google Analytics -->
+{{ template "_internal/google_analytics.html" . }}
+
+{{ if .Site.Params.highlightjs }}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  {{ range .Site.Params.highlightjslanguages }}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/{{.}}.min.js"></script>
+  {{ end }}
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+{{ end }}

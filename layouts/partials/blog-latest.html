@@ -1,0 +1,7 @@
+<div class="page-heading">Latest Blog Post</div>
+	{{ range first 1 .Data.Pages.ByPublishDate }}
+		{{ if eq .Section "blog" }}
+			<a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
+		{{ end }}
+	{{ end }}
+</div>

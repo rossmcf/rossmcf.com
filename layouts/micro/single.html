@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<section class="main">
+    <div class="content">
+        <article class="h-entry micro-post">
+            <a class="u-url" href="{{ .Permalink }}" hidden></a>
+            <div class="markdown e-content">
+                {{ .Content }}
+            </div>
+            <div class="micro-meta">
+                <a class="micro-permalink" href="{{ .Permalink }}">
+                    <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>{{ .Date.Format .Site.Params.dateform }}</time>
+                </a>
+                {{ with .Params.syndication }}
+                <span class="micro-syndication">
+                    {{ range . }}
+                    <a class="u-syndication" href="{{ . }}">↗</a>
+                    {{ end }}
+                </span>
+                {{ end }}
+            </div>
+            {{ with $.Site.Params.mastodon }}<a class="u-syndicate-to" href="https://brid.gy/publish/mastodon" hidden></a>{{ end }}
+            {{ with $.Site.Params.bluesky }}<a class="u-syndicate-to" href="https://brid.gy/publish/bluesky" hidden></a>{{ end }}
+        </article>
+        <p><a href="/micro/">Back to notes</a></p>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

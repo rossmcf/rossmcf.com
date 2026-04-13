@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="The personal home page of Ross McFarlane">
+
+<title>
+
+
+     Technical Diplomacy 
+
+</title>
+<link rel="canonical" href="http://localhost:1313/blog/technical-diplomacy/">
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="http://localhost:1313/.netlify/functions/micropub">
+<link rel="me" href="https://github.com/rossmcf">
+<link rel="me" href="https://toot.wales/@rossmcf">
+<link rel="me" href="https://bsky.app/profile/rossmcf.com">
+
+
+
+
+
+    
+	
+	
+	
+    
+
+
+
+<link rel="shortcut icon"
+
+    href="http://localhost:1313/img/favicon.ico"
+
+>
+
+
+
+
+
+
+
+<style>/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Pygments */
+.hll{background-color:#ffffcc}.c{color:#999988;font-style:italic}.err{color:#a61717;background-color:#e3d2d2}.k{color:#000000;font-weight:bold}.o{color:#000000;font-weight:bold}.cm{color:#999988;font-style:italic}.cp{color:#999999;font-weight:bold;font-style:italic}.c1{color:#999988;font-style:italic}.cs{color:#999999;font-weight:bold;font-style:italic}.gd{color:#000000;background-color:#ffdddd}.ge{color:#000000;font-style:italic}.gr{color:#aa0000}.gh{color:#999999}.gi{color:#000000;background-color:#ddffdd}.go{color:#888888}.gp{color:#555555}.gs{font-weight:bold}.gu{color:#aaaaaa}.gt{color:#aa0000}.kc{color:#000000;font-weight:bold}.kd{color:#000000;font-weight:bold}.kn{color:#000000;font-weight:bold}.kp{color:#000000;font-weight:bold}.kr{color:#000000;font-weight:bold}.kt{color:#445588;font-weight:bold}.m{color:#009999}.s{color:#d01040}.na{color:#008080}.nb{color:#0086B3}.nc{color:#445588;font-weight:bold}.no{color:#008080}.nd{color:#3c5d5d;font-weight:bold}.ni{color:#800080}.ne{color:#990000;font-weight:bold}.nf{color:#990000;font-weight:bold}.nl{color:#990000;font-weight:bold}.nn{color:#555555}.nt{color:#000080}.nv{color:#008080}.ow{color:#000000;font-weight:bold}.w{color:#bbbbbb}.mf{color:#009999}.mh{color:#009999}.mi{color:#009999}.mo{color:#009999}.sb{color:#d01040}.sc{color:#d01040}.sd{color:#d01040}.s2{color:#d01040}.se{color:#d01040}.sh{color:#d01040}.si{color:#d01040}.sx{color:#d01040}.sr{color:#009926}.s1{color:#d01040}.ss{color:#990073}.bp{color:#999999}.vc{color:#008080}.vg{color:#008080}.vi{color:#008080}.il{color:#009999}
+
+/* Base */
+*, *:before, *:after { box-sizing: border-box; }
+
+html { background: white; }
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  max-width: 740px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+img { max-width: 100%; display: block; }
+
+a, a:visited, a:focus, a:active { color: inherit; text-decoration: none; }
+a:hover { color: #de5251; }
+
+.accent, .illuminate { color: #de5251; }
+
+/* Header */
+section.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 12px 0;
+}
+
+.site-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
+  white-space: nowrap;
+}
+
+.site-title:hover { color: #de5251; }
+
+section.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 28px;
+  list-style: none;
+}
+
+section.header nav ul a {
+  color: #111;
+  font-size: 1.1em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+section.header nav ul a:hover {
+  color: #de5251;
+  text-decoration: none;
+}
+
+#standfirst {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.sup { position: relative; top: -0.2em; font-size: 0.75em; }
+
+/* Icons: hidden — not in original design */
+section.icons { display: none; }
+
+/* Main content */
+section.main {
+  border-top: 3px solid #bfbfbf;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/* Page/post heading */
+.page-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.page-heading a { color: #111; }
+.page-heading a:hover { color: #de5251; }
+
+/* Front matter (date, reading time) */
+.front-matter .meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.front-matter .middot { margin: 0 6px; }
+.front-matter .middot:before { content: "•"; }
+
+/* Post list */
+.post-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.post-item .meta {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+/* Markdown content */
+.markdown p {
+  margin-bottom: 1em;
+}
+
+.markdown p a { background-color: #f0bdbd; }
+.markdown p a:hover { background-color: white; color: #de5251; }
+
+.markdown h1, .markdown h2, .markdown h3,
+.markdown h4, .markdown h5, .markdown h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #111;
+  margin-top: 1.75rem;
+}
+
+.markdown h1 { font-size: 1.75rem; margin-bottom: 1rem; }
+.markdown h2 { font-size: 1.5rem;  margin-bottom: 0.75rem; }
+.markdown h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+.markdown h4, .markdown h5, .markdown h6 { font-size: 1rem; margin-bottom: 0.5rem; }
+
+.markdown em { font-style: italic; }
+.markdown strong { font-weight: bold; }
+
+.markdown ul, .markdown ol, .markdown dl {
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-left: 20px;
+}
+
+.markdown li { list-style-type: disc; margin-bottom: 4px; }
+.markdown ol li { list-style-type: decimal; }
+
+.markdown dt { font-weight: bold; }
+.markdown dd { margin-bottom: 0.5rem; }
+
+.markdown blockquote {
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
+  color: #555;
+  border-left: 0.25rem solid #bfbfbf;
+  font-style: italic;
+  max-width: 75%;
+}
+
+.markdown blockquote p:last-child { margin-bottom: 0; }
+
+.markdown hr {
+  margin: 1.75rem 0;
+  border: 0;
+  border-top: 1px solid #bfbfbf;
+}
+
+.markdown abbr {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.markdown abbr[title] { cursor: help; border-bottom: 1px dotted #808080; }
+
+.markdown code, .markdown pre {
+  font-family: 'Ubuntu Mono', 'Menlo', monospace;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+}
+
+.markdown code { padding: .15em .5em; border-radius: 2px; }
+
+.markdown pre {
+  display: block;
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  line-height: 1.5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.markdown pre code { padding: 0; }
+
+.markdown a code { color: #de5251 !important; }
+.markdown a code:hover { text-decoration: underline; }
+
+.markdown img { margin: 1rem 0; max-width: 100%; }
+
+.markdown figure > *, .markdown img { display: block; margin-left: auto; margin-right: auto; }
+.markdown figcaption { margin-top: 10px; text-align: center; font-style: italic; }
+
+.markdown table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+.markdown td, .markdown th { padding: .25rem .5rem; border: 1px solid #e5e5e5; }
+.markdown tbody tr:nth-child(odd) td,
+.markdown tbody tr:nth-child(odd) th { background-color: #f7f7f7; }
+
+/* Micro posts (notes) */
+.micro-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.micro-post {
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.micro-post:last-child {
+  border-bottom: none;
+}
+
+.micro-post .markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.micro-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.micro-permalink {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-permalink:hover {
+  color: #de5251;
+}
+
+.micro-syndication a {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-syndication a:hover {
+  color: #de5251;
+}
+
+/* Footer */
+footer { font-size: 75%; border-top: 3px solid #bfbfbf; padding-top: 10px; padding-bottom: 20px; }
+</style>
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <a href="http://localhost:1313/" class="site-title">Ross M<span class="sup">c</span>Farlane</a>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:1313/about/">About</a></li>
+            <li><a href="http://localhost:1313/blog/">Blog</a></li>
+            <li><a href="http://localhost:1313/micro/">Notes</a></li>
+            <li><a href="http://localhost:1313/cv/">CV</a></li>
+            <li><a href="http://localhost:1313/talks/">Talks</a></li>
+        </ul>
+    </nav>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <article class="h-entry">
+                <div class="front-matter">
+                    <div class="title-container">
+                        <div class="page-heading">
+
+    Technical Diplomacy
+
+</div>
+
+                        <div class="initials"><a href="http://localhost:1313/"></a></div>
+                    </div>
+                    <div class="meta">
+                        
+                        <time class="dt-published" datetime='2024-11-04T00:00:00Z' title='Mon 4 Nov 2024 00:00:00 UTC'>4 Nov, 2024</time>
+                        
+                        
+                        <div class="reading-time"><div class="middot"></div>16 minutes read</div>
+                        
+                    </div>
+                </div>
+                <a class="u-url" href="http://localhost:1313/blog/technical-diplomacy/" hidden></a>
+                <span class="p-name" hidden>Technical Diplomacy</span>
+                <div class="markdown e-content">
+                    <p>This is the transcript of a talk that I gave at LeadDev Berlin 2024. This was my first big conference talk, in a <em>big</em> room, but I&rsquo;m happy with how it went. Revisiting the text of this, I realise that most of my humour relied on visual gags in the slides, so this will probably read a bit dryer than the video, which is over <a href="https://www.youtube.com/watch?v=-bNt3t-It5g">here</a>.</p>
+<p>The conference organisers are <em>excellent</em>; I felt really well looked after and supported. If you get the chance to attend or speak at a LeadDev event, go for it.</p>
+<hr>
+<p>We are surrounded by borders.</p>
+<p>Everywhere you look, we&rsquo;ve drawn these lines: imaginary and real, big and small, and we&rsquo;ve carved up the world into these neat little compartments. And on these lines we&rsquo;ve built barriers: to keep us in, to keep them out. In the technology world, we&rsquo;ve taken this to extremes. We&rsquo;ve got teams working in sprints, writing objects, in packages, for microservices, to be deployed inside containers, in pods and namespaces… it&rsquo;s borders all the way down.</p>
+<p>The promise of all these borders is that the things inside the lines don&rsquo;t need to care about what&rsquo;s outside the lines. If that true, our teams could just smash out features unimpeded by what their colleagues are up to around them, but we all know that sooner or later there&rsquo;s going to be some critical dependency that&rsquo;s misbehaving, or a company-wide initiative that&rsquo;s going in the wrong direction, or a problem that could be halved if only we could share it. So we need to look outside of our borders. But reaching out to unfamiliar teams can be quite intimidating. We&rsquo;ve all got our own roadmaps and deadlines. We&rsquo;re all trying to do more with less. It&rsquo;s no surprise when our unsolicited bright ideas are met with indifference. So how can we make these people do things in our collective interest?</p>
+<p>As luck would have it, this is not a new problem. There&rsquo;s a whole industry out there dedicated to working across borders, creating influence, and applying soft power. While it not be going fantastically just now, there&rsquo;s a lot we can learn from the work of diplomats and those who are trying to create peace around the world. I&rsquo;m going to tell you a story about how my teammates and I fostered some new relationships to get some stuff done, and we&rsquo;ll look at some of the parallels between international diplomacy and the dynamics in organizations like ours.</p>
+<h2 id="context">Context</h2>
+<p>For some context, here&rsquo;s a bit about my organization: Form3 handles payments for some of the largest financial institutions in the world. If you&rsquo;ve recently made or received a bank transfer, there&rsquo;s a good chance that we handle it. You&rsquo;re welcome. As for me, if you were to look at GitHub you would conclude that I&rsquo;m someone who used to write code for a living. I spend most of my time drawing diagrams and talking to people, in particular relating to payments for the United States. The US is one of many business lines that make up Form3, each of which addresses a particular market. These business lines are not separate businesses, we&rsquo;re not in competition. We all present a consistent interface to our customers, and we all consume a common set of APIs and platform services. One of these shared services is orchestration. We have orchestrators that coordinate the flow of a payment through our internal services and handle interactions with customers. This was initially built for our customers in the UK. It&rsquo;s a really sophisticated system designed to meet the complex needs of our biggest banks with the performance required to handle a big chunk of the UK&rsquo;s instant payment traffic. We in the US were the first team to build new products on top of this solution. Every market comes with its quirks and eccentricities, so our job was to figure out how to fit this orchestration system onto the unique requirements of the US. Over time we started to get some bad vibes about this arrangement. As a staff engineer, I was reviewing more PRs with gaps in understanding, I was attending a lot of calls where teammates had questions or complaints about the orchestration solution, and our team leads were stressing because every time one of their Engineers worked on something that touched orchestration it took much longer than expected. Our head of engineering assembled a group of his best eggheads to work out our options.</p>
+<p>Our remit was quite broad, we could offer solutions anywhere on the spectrum from just telling our team to integrate better, to fully declaring independence from this company-wide core service. The power got to our heads, and the first mistake we made was when I named the Slack channel for our project: <strong>Orchestration Rebel Alliance</strong>. This naming biased our approach to the project. In fact, it summed up our whole attitude: we were not in the mood to engage with our colleagues. So in an undisclosed location, hidden from the orchestration team, we got to work building a proof-of-concept. We built, discussed, and iterated far beyond an initial toy implementation, and by the end of this process we were pretty convinced that we had our dream orchestrator. It was a big departure from the existing service, but we were confident that it solved all of our problems and probably those of the orchestration team. It&rsquo;s just a shame they would never understand…</p>
+<h2 id="cynicism">Cynicism</h2>
+<p>It&rsquo;s really easy when we think about other groups of people to get lost in cynicism, and it&rsquo;s quite natural to be reluctant to get into a conversation with them. Governments do this too. Governments often refuse to talk to groups of people that they see as agitators, and they usually will give three excuses for this:</p>
+<ul>
+<li>They don&rsquo;t want to legitimize the group, because <em>we can&rsquo;t have these people telling us what to do</em></li>
+<li>They don&rsquo;t think that the group can be reasoned with because <em>they&rsquo;re a bunch of delusional zealots</em>, and</li>
+<li>They don&rsquo;t believe that the group genuinely want a solution to the problem: <em>they&rsquo;re just a bunch of troublemakers</em>.</li>
+</ul>
+<p>When we are thinking about other people one of the many cognitive biases that leads us astray is the Fundamental Attribution Error. This skews how we explain other people&rsquo;s behavior relative to our own. So when we think of ourselves, we usually see the circumstances that led us to behave in a particular way, but we&rsquo;re much less charitable with other people. We tend to see their behavior as the result of some flaw in their character.</p>
+<p><strong>There&rsquo;s a very real chance that we won&rsquo;t understand our colleagues or their abilities or their motives unless we actually engage with with them. So the next time you feel like calling your coworker something unspeakable, maybe you should just <em>talk to them</em>.</strong></p>
+<p>Now you&rsquo;ve got two jobs to do: First you need to find the right people. This should be straightforward enough, they&rsquo;re not going to be in hiding from the authorities. Then, you have to accept that you need to talk to them, even <em>that guy</em>. Approaching and another team for our first time can feel a bit like a school disco. The fear of rejection is real. In large organizations, the people you&rsquo;re talking to might have never heard of you, or even your team, so the social capital that you&rsquo;ve built in your corner of the company might be worth nothing on the other side of the org chart. Some humility is going to help here. When negotiators first make contact with an armed group they often have to go through some quite intimidating introduction, like having to meet dangerous strangers in secret locations under cover of darkness. Now hopefully that won&rsquo;t be necessary wherever you work, but it can be helpful to build trust in the same way by showing some vulnerability. Let them choose the date and time of the meeting, and set the agenda. If you work in an office, go to where they are. If you&rsquo;re working remotely, allow yourself to be outnumbered on the call. Remember this is just the starting point. The goal of this first meeting is just to get to know people and to start normalizing the process of talking.</p>
+<h2 id="reaching-agreement">Reaching Agreement</h2>
+<p>Once <em>we</em> got talking, we didn&rsquo;t think there was much left to do. We&rsquo;d done our homework, we knew the problem space inside out, we had a solid proof-of-concept, we&rsquo;d sunk a lot of energy into it at this point, so all we needed was for the orchestration team to acknowledge our genius and we&rsquo;d be done. But there are no shortcuts here. You need to take the time to get there together, and I learned this the hard way. Initially, I was really impatient to reach agreement. I knew that our proposal was radical and I was skeptical that the orchestration team would accept it. So I watered down our suggestions. I only raised things where I thought we could reach agreement. This sort of self-censorship did two things: it delayed the orchestration team from understanding what we were trying to achieve, and it demoralized the folks who&rsquo;d worked on the proof-of-concept. In the end, laying out the full spectrum of possibilities helped us to reach an agreement. If there&rsquo;s some extreme outcome that neither of you want, putting it on the table gives you something to agree on. But if the extreme is appealing to you, then including it in your negotiations pulls the middle a little bit closer to where you want to be.</p>
+<h2 id="code-wins-arguments--code-challenges-assumptions"><del>Code Wins Arguments</del> — Code Challenges Assumptions</h2>
+<p>When we finally got round to unveiling our proof of concept, the orchestration team were underwhelmed. What we realized is that they&rsquo;re busy people with ideas of their own and they were a bit frustrated they hadn&rsquo;t had the chance to implement them themselves. We weren&rsquo;t going to win just because we&rsquo;d written some code. But working code was useful to challenge assumptions. When someone told us that something couldn&rsquo;t be done, we had a running example to point to.</p>
+<h2 id="tell-stories--draw-maps"><del>Tell Stories</del> — Draw Maps</h2>
+<p>Ultimately, we needed to take our colleagues with us to help them understand the problems that we were facing. When we look to persuade others it&rsquo;s really tempting to tell stories, because given a beginning and a middle, we expect everybody else to reach the same ending that we did. But people can feel when they&rsquo;re being railroaded like this. I&rsquo;ve seen people argue about a perfectly sensible premise just to derail an argument. Instead, we tried to draw maps to describe the landscape, look at its features, its pitfalls, and then agree on viable routes across it. Wardley Maps can be a really useful tool to visualize strategy. The key feature for me is that at the core of a worldly map is a value chain, with customer needs at the top. As I said before, different business lines within Form3 are not competitors; we succeed in fail together. In some cases we even share customers. A map like this can be a useful reminder of our common goals: we all succeed when we make our customers happy. We also got some value from mapping out our problems by visualizing our pain points and their relationships. Our colleagues could see for themselves where the most important most important bits were. They were also free to challenge any of our premises or the rationale that we&rsquo; used. Once we had a shared understanding of the issues, we could look to the properties that a solution would need to have in order to address them. By doing this we weren&rsquo;t presenting our colleagues with a fait accompli, we could leave the door open to other solutions, or we could adapt the solution that we were offering. Crucially, we didn&rsquo;t restrict our colleagues to picking one option from a list of possibilities. Instead, we showed them examples. We could evaluate each, mix and match their parts, or come up with something new. Or, since we&rsquo;re in Germany, <em>Keine Speisekartenangst, nur ein Ideenbuffet</em>.</p>
+<h2 id="use-the-lingo">Use the Lingo</h2>
+<p>I apologize, I promise I won&rsquo;t do that again. The thing is, communicating across cultures is pretty tricky. While it might not feel like the people in the office next door have a distinct culture, every group has its habits, its funny words, its ways of doing things, and we should be sensitive to those. Let me tell you about a beautiful mountain range in my adoptive homeland of Wales. If you&rsquo;re unfamiliar with Wales it&rsquo;s a country of about 3 million people just to the left of England. About a fifth of people there speak the Welsh language, many of whom will tell you that they&rsquo;re unhappy with the influx of people buying up holiday homes in this beautiful location, and the effect that it&rsquo;s having on Welsh speaking communities. There are two names for this place, and which one you use says a lot about your attitude towards it, and the people who live there.</p>
+<p>We faced a similar problem. To those of us on the outside side, the orchestrator was a single entity, but to the orchestration team it was made up of an orchestrator — that they built and ran — and workflow definitions — written by market teams like mine. When I showed up complaining of problems in the &lsquo;orchestrator&rsquo; I was confusing my colleagues, displaying my ignorance of the architecture, and was ultimately blaming the wrong people for the problem. Please don&rsquo;t be like a British person abroad: learn some of the local terminology. It will help a great deal, both to convey your meaning and to show some respect for your peers. In much the same way, names carry a lot of baggage, so we need to tread carefully when we name things. But if you&rsquo;re having a hard time picking a name that isn&rsquo;t triggering for your colleagues then just pick something stupid. If you&rsquo;ve got a service that does things, that&rsquo;s a <code>ThingDoer</code>, or even call it <code>Bob</code>. You can pick a more sensible name later.</p>
+<h2 id="third-parties">Third Parties</h2>
+<p>You might be tempted to involve a third party to help in your discussions but be careful about the role that you want them to play. We invited a more senior colleague to preside over our negotiations. This was a mistake because we&rsquo;d actually been talking to each other quite happily until this point, but when he showed up we went from talking to competing, trying to win the approval of this third party. It also put him in an awkward position, trying to arbitrate over our negotiations with limited context. Where we had more success was having our senior colleagues reach out to their opposite numbers to make sure that people were made available, and that meetings happened. In international diplomacy, the best examples of third party involvement follow this pattern of facilitation rather than intervention. Katherine Ashton was the high representative of the European Union, a bit like a foreign secretary. She brokered a peace agreement between Serbia and Kosovo. She invited the leaders to meet in her office and they agreed that she would type the agreement, just because she was the fastest typist in the room, but she refused their suggestion that it be called the &lsquo;Ashton Agreement&rsquo; in her name, and instead insisted said that every word of the agreement came from them. Ultimately they would have to defend it back to their constituencies at home. That story also reminds us that you can&rsquo;t take the view of an individual even a leader to be representative of a group.</p>
+<h2 id="meet-jeff">Meet Jeff</h2>
+<p>We quickly identified Jeff as an ally in the orchestration team. He&rsquo;d been thinking along the same lines as us for a while. He thanked us for our involvement and shared some complementary ideas with us. We took this as a really encouraging sign that our suggestions would land well with the rest of the orchestration team, but when we got Jeff together with his teammates he was much less enthusiastic about our suggestions. Despite his seniority he didn&rsquo;t feel that he could contradict his peers. If you want to get a real consensus in your organization, you&rsquo;re going to have to speak to lots of people, together and individually, including that one one you&rsquo;ve been avoiding. In the course of all these discussions sometimes things are going to get a bit heated. Some of the best advice I&rsquo;ve heard is to concentrate on and respond to the words, and not their tone, but being the most chilled person in the room takes some energy and is no fun. So don&rsquo;t forget to take care of yourself. Sometimes people will try to make themselves look like a big animal, they&rsquo;re going to get loud, they&rsquo;ll start swinging their arms about, showing their teeth, banging the furniture, which works because it appeals to the part of our brain that keeps us from being eaten by big animals. But they&rsquo;re not going to eat you and this threat of physical violence is totally inappropriate at work. So now is a good time to remind yourself that you&rsquo;re not actually trying to solve world peace. We&rsquo;re just trying to get a job done. Luckily Zoom has an excellent feature for this. Right when when your colleague starts kicking off you just press the big red button in the corner and your situation will improve immeasurably. Leaving a situation like this is not a defeat. The way we win these battles is by coming back the next day. Sooner or later people realize that you&rsquo;re not going to go away and they&rsquo;re going to have to deal with you. This is actually an advantage that dictatorships have in negotiations. People realize there&rsquo;s no point waiting around hoping for a change of leadership at the next election, so to make the greatest impact you just need to be there for the long haul.</p>
+<h2 id="the-end">The End?</h2>
+<p>So what happened? Did the Rebel Alliance take down the orchestration Death Star? Well, we agreed some changes to the orchestrator. This wasn&rsquo;t our radical redesign, but rather a set of new features that could be added to the current orchestrator to give it the properties we needed. We could add these incrementally over time without changing the behavior for our existing customers, and allowing the orchestration team to evaluate them as we went. We also agreed that we would implement those changes so as not to disrupt their roadmap. Among those features were some suggestions from Jeff which we had dismissed to begin with but actually have turned out to be essential. In the end, after all the back and forth, writing of documents, and seeking approvals I&rsquo;d started to really obsess over those little check boxes in GitHub that signified my colleague&rsquo;s approval. It was a massive relief to me to finally see them all ticked off. But that&rsquo;s not really the end, is it? We actually want the orchestrator to behave differently, so we need to implement the changes we&rsquo;ve agreed. We&rsquo;re partway through those now, but but I&rsquo;m conscious that we need to land them soon otherwise we might have to negotiate them all over again.</p>
+<p>I&rsquo;m also happy to report that as an organization we&rsquo;re working much better together now. We&rsquo;re in much closer contact with our peers around the company, so the next time we feel like changing the world we won&rsquo;t have to do it from scratch. My colleagues at Form3 have been great both for persevering through all of this while we figured it out the first time, and then for reliving the experience as I was preparing this talk. At the company offsite last month Jeff and I went on some roller coasters together reminisced about the project.</p>
+<p>I want to wrap up by giving you three key takeaways. That&rsquo;s what people do isn&rsquo;t it? Three&rsquo;s a nice round number. But really there&rsquo;s just one: <strong>Do the work.</strong> You can&rsquo;t expect to blind your colleagues with science, or charm, or irrefutable logic. You&rsquo;re going to have to take the time to build relationships, trust, and a shared vision together. I hope this leaves you just a little better equipped to look beyond your own borders and to get talking.</p>
+<p>Be kind.</p>
+
+                    <br>
+                    <p><a href="http://localhost:1313/blog/">Back to posts</a></p>
+                </div>
+                
+                <a class="u-syndicate-to" href="https://brid.gy/publish/mastodon" hidden></a>
+                <a class="u-syndicate-to" href="https://brid.gy/publish/bluesky" hidden></a>
+            </article>
+            <br>
+            <div class="disqus">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

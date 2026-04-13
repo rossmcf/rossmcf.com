@@ -1,0 +1,20 @@
++++
+date = 2017-03-18T20:40:00Z
+title = "Wishlist"
+
++++
+* [Handlebar](https://thewoodscyclery.co.uk/products/surly-corner-bars-three-sizes), 54cm, £120
+* [Programmable e-ink Display](https://shop.usetrmnl.com/collections/devices/products/trmnl), £106
+* [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
+* [Snare Weight](https://www.drumcentral.co.uk/snareweight-m80-drum-dampener-black/), £32
+* [Trousers](https://communityclothing.co.uk/products/mens-cameraman-pant-black), Black, 34W Long, £104
+* [Bass Drum Pedal](https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm), £822
+* [Sign Writing Starter Kit](https://www.handover.co.uk/starter-kits/), £various
+* [Subscription to Barn Magazine](https://barn.cymru/), £40
+
+### Nice Shops
+
+* [Community Clothing](https://communityclothing.co.uk)
+* [Albion](https://albioncycling.com)
+* [Ostroy](https://www.ostroy.com/collections/mens-short-sleeve-jerseys)
+* [Freitag](https://freitag.ch)

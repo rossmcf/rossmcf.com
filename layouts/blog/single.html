@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <article class="h-entry">
+                <div class="front-matter">
+                    <div class="title-container">
+                        {{ partial "page-heading" . }}
+                        <div class="initials"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Initials }}</a></div>
+                    </div>
+                    <div class="meta">
+                        {{ if and .Site.Params.dateformfull .Site.Params.dateform }}
+                        <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}' title='{{ .Date.Format .Site.Params.dateformfull }}'>{{ .Date.Format .Site.Params.dateform }}</time>
+                        {{ else }}
+                        <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}' title='{{ .Date.Format "Mon Jan 2 2006 15:04:05 MST" }}'>{{ .Date.Format "Jan 2, 2006" }}</time>
+                        {{ end }}
+                        {{ if not .Site.Params.noshowreadtime }}
+                        <div class="reading-time"><div class="middot"></div>{{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</div>
+                        {{ end }}
+                    </div>
+                </div>
+                <a class="u-url" href="{{ .Permalink }}" hidden></a>
+                <span class="p-name" hidden>{{ .Title }}</span>
+                <div class="markdown e-content">
+                    {{ .Content }}
+                    <br>
+                    <p><a href="/blog/">Back to posts</a></p>
+                </div>
+                {{ with .Params.syndication }}
+                <div class="syndication">
+                    Also on:
+                    {{ range . }}
+                    <a class="u-syndication" href="{{ . }}">{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ with $.Site.Params.mastodon }}<a class="u-syndicate-to" href="https://brid.gy/publish/mastodon" hidden></a>{{ end }}
+                {{ with $.Site.Params.bluesky }}<a class="u-syndicate-to" href="https://brid.gy/publish/bluesky" hidden></a>{{ end }}
+            </article>
+            <br>
+            <div class="disqus">
+                {{ template "_internal/disqus.html" . }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

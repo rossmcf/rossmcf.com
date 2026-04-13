@@ -1,0 +1,10 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Ross McFarlane</title>
+	<link href="http://localhost:1313/cy/index.xml" rel="self"/>
+	<link href="http://localhost:1313/cy/"/>
+	<id>http://localhost:1313/cy/</id>
+	<author>
+		<name>Ross ap McFarlane</name>
+	</author>
+	<generator>Hugo -- gohugo.io</generator>
+</feed>

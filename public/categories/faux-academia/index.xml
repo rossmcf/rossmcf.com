@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faux-Academia on Ross McFarlane</title>
+    <link>http://localhost:1313/categories/faux-academia/</link>
+    <description>Recent content in Faux-Academia on Ross McFarlane</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/faux-academia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magic Mirror Pattern</title>
+      <link>http://localhost:1313/blog/magic-mirror-pattern/</link>
+      <pubDate>Wed, 30 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/magic-mirror-pattern/</guid>
+      <description>&lt;h2 id=&#34;problem-summary&#34;&gt;Problem Summary&lt;/h2&gt;&#xA;&lt;p&gt;We humans are tribal creatures. We seek safety in numbers, and reassurance in commonality. New situations often force us to reconsider norms, and look for guidance from others. Society does not, however, accept those who imitate or repeat the actions of others parrot-fashion. You should &lt;a href=&#34;https://www.getyarn.io/yarn-clip/6f45d4a0-3a21-42f3-8c5f-98e235a834c6&#34;&gt;know your ways as if born to them&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This pattern aids the user in adapting to a new situation quickly, without needing to be all &lt;em&gt;Monkey See, Monkey Do&lt;/em&gt; about it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

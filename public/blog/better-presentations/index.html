@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="The personal home page of Ross McFarlane">
+
+<title>
+
+
+     Better Presentations 
+
+</title>
+<link rel="canonical" href="http://localhost:1313/blog/better-presentations/">
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="http://localhost:1313/.netlify/functions/micropub">
+<link rel="me" href="https://github.com/rossmcf">
+<link rel="me" href="https://toot.wales/@rossmcf">
+<link rel="me" href="https://bsky.app/profile/rossmcf.com">
+
+
+
+
+
+    
+	
+	
+	
+    
+
+
+
+<link rel="shortcut icon"
+
+    href="http://localhost:1313/img/favicon.ico"
+
+>
+
+
+
+
+
+
+
+<style>/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Pygments */
+.hll{background-color:#ffffcc}.c{color:#999988;font-style:italic}.err{color:#a61717;background-color:#e3d2d2}.k{color:#000000;font-weight:bold}.o{color:#000000;font-weight:bold}.cm{color:#999988;font-style:italic}.cp{color:#999999;font-weight:bold;font-style:italic}.c1{color:#999988;font-style:italic}.cs{color:#999999;font-weight:bold;font-style:italic}.gd{color:#000000;background-color:#ffdddd}.ge{color:#000000;font-style:italic}.gr{color:#aa0000}.gh{color:#999999}.gi{color:#000000;background-color:#ddffdd}.go{color:#888888}.gp{color:#555555}.gs{font-weight:bold}.gu{color:#aaaaaa}.gt{color:#aa0000}.kc{color:#000000;font-weight:bold}.kd{color:#000000;font-weight:bold}.kn{color:#000000;font-weight:bold}.kp{color:#000000;font-weight:bold}.kr{color:#000000;font-weight:bold}.kt{color:#445588;font-weight:bold}.m{color:#009999}.s{color:#d01040}.na{color:#008080}.nb{color:#0086B3}.nc{color:#445588;font-weight:bold}.no{color:#008080}.nd{color:#3c5d5d;font-weight:bold}.ni{color:#800080}.ne{color:#990000;font-weight:bold}.nf{color:#990000;font-weight:bold}.nl{color:#990000;font-weight:bold}.nn{color:#555555}.nt{color:#000080}.nv{color:#008080}.ow{color:#000000;font-weight:bold}.w{color:#bbbbbb}.mf{color:#009999}.mh{color:#009999}.mi{color:#009999}.mo{color:#009999}.sb{color:#d01040}.sc{color:#d01040}.sd{color:#d01040}.s2{color:#d01040}.se{color:#d01040}.sh{color:#d01040}.si{color:#d01040}.sx{color:#d01040}.sr{color:#009926}.s1{color:#d01040}.ss{color:#990073}.bp{color:#999999}.vc{color:#008080}.vg{color:#008080}.vi{color:#008080}.il{color:#009999}
+
+/* Base */
+*, *:before, *:after { box-sizing: border-box; }
+
+html { background: white; }
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  max-width: 740px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+img { max-width: 100%; display: block; }
+
+a, a:visited, a:focus, a:active { color: inherit; text-decoration: none; }
+a:hover { color: #de5251; }
+
+.accent, .illuminate { color: #de5251; }
+
+/* Header */
+section.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 12px 0;
+}
+
+.site-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
+  white-space: nowrap;
+}
+
+.site-title:hover { color: #de5251; }
+
+section.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 28px;
+  list-style: none;
+}
+
+section.header nav ul a {
+  color: #111;
+  font-size: 1.1em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+section.header nav ul a:hover {
+  color: #de5251;
+  text-decoration: none;
+}
+
+#standfirst {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.sup { position: relative; top: -0.2em; font-size: 0.75em; }
+
+/* Icons: hidden — not in original design */
+section.icons { display: none; }
+
+/* Main content */
+section.main {
+  border-top: 3px solid #bfbfbf;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/* Page/post heading */
+.page-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.page-heading a { color: #111; }
+.page-heading a:hover { color: #de5251; }
+
+/* Front matter (date, reading time) */
+.front-matter .meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.front-matter .middot { margin: 0 6px; }
+.front-matter .middot:before { content: "•"; }
+
+/* Post list */
+.post-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.post-item .meta {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+/* Markdown content */
+.markdown p {
+  margin-bottom: 1em;
+}
+
+.markdown p a { background-color: #f0bdbd; }
+.markdown p a:hover { background-color: white; color: #de5251; }
+
+.markdown h1, .markdown h2, .markdown h3,
+.markdown h4, .markdown h5, .markdown h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #111;
+  margin-top: 1.75rem;
+}
+
+.markdown h1 { font-size: 1.75rem; margin-bottom: 1rem; }
+.markdown h2 { font-size: 1.5rem;  margin-bottom: 0.75rem; }
+.markdown h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+.markdown h4, .markdown h5, .markdown h6 { font-size: 1rem; margin-bottom: 0.5rem; }
+
+.markdown em { font-style: italic; }
+.markdown strong { font-weight: bold; }
+
+.markdown ul, .markdown ol, .markdown dl {
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-left: 20px;
+}
+
+.markdown li { list-style-type: disc; margin-bottom: 4px; }
+.markdown ol li { list-style-type: decimal; }
+
+.markdown dt { font-weight: bold; }
+.markdown dd { margin-bottom: 0.5rem; }
+
+.markdown blockquote {
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
+  color: #555;
+  border-left: 0.25rem solid #bfbfbf;
+  font-style: italic;
+  max-width: 75%;
+}
+
+.markdown blockquote p:last-child { margin-bottom: 0; }
+
+.markdown hr {
+  margin: 1.75rem 0;
+  border: 0;
+  border-top: 1px solid #bfbfbf;
+}
+
+.markdown abbr {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.markdown abbr[title] { cursor: help; border-bottom: 1px dotted #808080; }
+
+.markdown code, .markdown pre {
+  font-family: 'Ubuntu Mono', 'Menlo', monospace;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+}
+
+.markdown code { padding: .15em .5em; border-radius: 2px; }
+
+.markdown pre {
+  display: block;
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  line-height: 1.5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.markdown pre code { padding: 0; }
+
+.markdown a code { color: #de5251 !important; }
+.markdown a code:hover { text-decoration: underline; }
+
+.markdown img { margin: 1rem 0; max-width: 100%; }
+
+.markdown figure > *, .markdown img { display: block; margin-left: auto; margin-right: auto; }
+.markdown figcaption { margin-top: 10px; text-align: center; font-style: italic; }
+
+.markdown table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+.markdown td, .markdown th { padding: .25rem .5rem; border: 1px solid #e5e5e5; }
+.markdown tbody tr:nth-child(odd) td,
+.markdown tbody tr:nth-child(odd) th { background-color: #f7f7f7; }
+
+/* Micro posts (notes) */
+.micro-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.micro-post {
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.micro-post:last-child {
+  border-bottom: none;
+}
+
+.micro-post .markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.micro-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.micro-permalink {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-permalink:hover {
+  color: #de5251;
+}
+
+.micro-syndication a {
+  color: #999;
+  text-decoration: none;
+}
+
+.micro-syndication a:hover {
+  color: #de5251;
+}
+
+/* Footer */
+footer { font-size: 75%; border-top: 3px solid #bfbfbf; padding-top: 10px; padding-bottom: 20px; }
+</style>
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <a href="http://localhost:1313/" class="site-title">Ross M<span class="sup">c</span>Farlane</a>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:1313/about/">About</a></li>
+            <li><a href="http://localhost:1313/blog/">Blog</a></li>
+            <li><a href="http://localhost:1313/micro/">Notes</a></li>
+            <li><a href="http://localhost:1313/cv/">CV</a></li>
+            <li><a href="http://localhost:1313/talks/">Talks</a></li>
+        </ul>
+    </nav>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <article class="h-entry">
+                <div class="front-matter">
+                    <div class="title-container">
+                        <div class="page-heading">
+
+    Better Presentations
+
+</div>
+
+                        <div class="initials"><a href="http://localhost:1313/"></a></div>
+                    </div>
+                    <div class="meta">
+                        
+                        <time class="dt-published" datetime='2009-10-20T00:00:00Z' title='Tue 20 Oct 2009 00:00:00 UTC'>20 Oct, 2009</time>
+                        
+                        
+                        <div class="reading-time"><div class="middot"></div>7 minutes read</div>
+                        
+                    </div>
+                </div>
+                <a class="u-url" href="http://localhost:1313/blog/better-presentations/" hidden></a>
+                <span class="p-name" hidden>Better Presentations</span>
+                <div class="markdown e-content">
+                    <h2 id="introduction">Introduction</h2>
+<p>Delivery of academic presentations is increasingly reliant upon the effective use of visual aids. The predominant form of visual aid used is the electronic slideset, delivered from a personal computer using data projection. The necessity to prepare such slidesets in advance imposes a restriction on the sequence and duration of academic presentations, hampering the fluidity and spontaineity of the speaker. This article introduces <strong>CrUMPETS</strong> &ndash; Crumple Zones for Use in Multi-Path Extra-Temporal Slidesets &ndash; a software tool allowing speakers to construct a framework for dynamic presentations that transcend the confines of the fourth dimension.</p>
+<h3 id="crumple-zones">Crumple Zones</h3>
+<p>The first problem for many speakers occurs when the pressures of time require <em>in-parlo</em> adjustment of slideset content. Commonly, small subsets of the slideset are omitted in order to accelarate the talk towards its conclusion. These <em>Crumple Zones</em> afford the speaker an opportunity to dynamically adapt the content of a slideset to the time available for its completion.</p>
+<h3 id="formalisms">Formalisms</h3>
+<p>We define a slideset as the set of all available slides, including the terminal slides. The terminal slides do not contain displayed content, but rather represent the entry and exit points to the slideset. Slidesets may be subdivided into <em>clusters</em>, which group related slides that can be considered a single entity in terms of their inclusion to or exclusion from the talk. Clusters can be used to navigate the slideset and to parameterise the talk&rsquo;s content. Clusters are defined as discrete subsets such that no slide may be an element in more than one cluster.</p>
+<p>The slideset&rsquo;s transition function is defined such that, given a non-terminal source slide, it returns the <em>outcome set</em> set of possible slides to which the source slide may transition directly. For any outcome set with a cardinality &gt;1, a new slide transition path is created, affording the speaker additional flexibility at uttertime.</p>
+<p>We define a <em>Crumple Zone</em> (CZ) as any slide cluster in a furcated region such that the previous slide&rsquo;s transition state returns only paths to the cluster and to the cluster&rsquo;s destination slide. Intuitively, a CZ is a cluster that may be &lsquo;skipped&rsquo; at playback.</p>
+<p><img src="http://localhost:1313/img/crumpets/crumple_zone.png" alt="A Crumple Zone"></p>
+<h2 id="crumpets">CrUMPETS</h2>
+<p>CrUMPETS presents a significant improvement over the rigid sequentiality of current &rsquo;traditional&rsquo; presentation tools. Rather than producing an immutable stepswise showset, CrUMPETS responds to speaker input at showtime, maintaining decision-free fluidity.</p>
+<p>CrUMPETS is a desktop software application for Macintosh and Windows computers. Crumpets loads in slidesets as pages from a PDF or PostScript file, and then allows users to define the flexible structure by which the slideset may be traversed. CrUMPETS&rsquo; main window allows users to identify slide clusters by highlighting multiple slides and clicking the &lsquo;Cluster&rsquo; toolbar button. The &lsquo;Crumple&rsquo; toolbar button then allows the user to create a CZ with the selected cluster.</p>
+<p><img src="http://localhost:1313/img/crumpets/crumpets_screenshot_structure.png" alt="CrUMPETS’ Structure Window"></p>
+<h3 id="alternate-paths">Alternate Paths</h3>
+<p>On some occasions, simple omission of slides may be lead to disjointedness of the presented material. For this reason, CrUMPETS affords the creation of alternate paths through the slideset, such that an abbreviated slide or small cluster may be presented in place of the &lsquo;crumpled&rsquo; cluster.</p>
+<p><img src="http://localhost:1313/img/crumpets/abbreviated_slide.png" alt="Abbreviation using Alternate Paths"></p>
+<p>In the above diagram, abbreviation slides are denoted by ripe-gooseberry-coloured quadrangles.</p>
+<p>Beyond simple abbreviation, users may define up to 10 paths per slide allowing them to adapt their slideset based on the speaker&rsquo;s intuition, instinct and &lsquo;feel&rsquo; for their audience. For example, a speaker may prepare several slides dealing with the same topic. During the presentation, should the speaker detect audential fatigue, he may opt for a humorous slide, perhaps containing a picture of a domesticated animal. When met with higher degrees of listener interaction, the speaker may wish to select a slide containing more advanced content, so as to quell the enthusiasm of a particularly exuberant student. CrUMPETs makes such flexibility easily manageable with an intuitive graphical user interface, through which the user may interact using a &lsquo;mouse&rsquo; or other pointing device.</p>
+<h3 id="maintaining-narritive">Maintaining Narritive</h3>
+<p>Despite their inherent usefulness, Crumple Zones (CZs) and alternate paths (APs) present new difficulties to the speaker in the maintenance of narrative throughout the slideset. For example, following a slide containing a humorous photograph of a domesticated animal, one may wish to segue into the next slide in a different fashion than if transitioning from a mathematical proof. In the first instance, the speaker&rsquo;s notes may read:</p>
+<ul>
+<li>Pause as laughter dies down.</li>
+<li>Ensure the audience understand that I&rsquo;m just kidding about the cat.</li>
+<li>Link using Liono and Snarf analogy.</li>
+</ul>
+<p>In the second instance, they might read:</p>
+<ul>
+<li>Recap definition of Sigma.</li>
+<li>Accept questions.</li>
+<li>Open the kimono.</li>
+</ul>
+<p>This invaluable flexibility is provided by CrUMPETs by allowing users to &lsquo;attach&rsquo; &rsquo;notes&rsquo; to &lsquo;slides&rsquo; <em>and</em> &lsquo;paths&rsquo;. Notes attached to slides will be available irrespective of how the slide was reached, while notes attached to a path will only be available having made a transition along that path. This allows users to react spontaneously to each of the innumerable possibilities that may face them during mid-speech certainty flux.</p>
+<h3 id="paths-with-history">Paths with History</h3>
+<p>Notes attached to paths enrich traditional presentation &lsquo;crib&rsquo; notes by providing contextual information on the slide from which the current slide was transitioned from to the current slide, giving the speaker a form of short-term &lsquo;memory&rsquo; over their slide traversal from the previous slide to the current one. CrUMPETS further expands this notion to include discrete note fields for every possible slideo-temporal outcome possible.</p>
+<p><em>Path Histories</em> (PHs) allow users to design their notes based on what slides the audience have already been presented with. This can be particularly useful if an earlier CZ or AP has omitted content on which the speaker later relies. If required to mention, when questioned, data pertaining to the earlier omitted material, it may harm the speakers thesis defence, reputation or credit rating. PHs ensure that no such oversight is overlooked.</p>
+<p><img src="http://localhost:1313/img/crumpets/path_history.png" alt="Slide History Paths"></p>
+<p>In the above diagram, the conditional polyfurcating paths created by the possibility of variances in slide destiny are represented by cadmium-coloured, dashed pentagons; their resulting paths leading to concrete slide display states. Concurrent parallel slide destinies are shown in uniform vertical alignment.</p>
+<p>At slideauthortime, slide authors may manipulate the content of a slideset as normal, allowing CrUMPETS&rsquo; <code>docbrown</code> module to assess the destinal impact of the alterations, and alert the user to any input that may be required.</p>
+<p><img src="http://localhost:1313/img/crumpets/docbrown.png" alt="CrUMPETS’ DocBrown Module in Action"></p>
+<h3 id="cascading-content-tags">Cascading Content Tags</h3>
+<p>Managing the content of any decisio-commitment free speaking engagement requires the fluid understanding of content importance, sequence, reference and difference. For any given utterance, the speaker must ascertain what supporting material, if any, should have preceded such a statement. Since supporting statements are the legs on which any conjecture may stand, it is of the utmost importance that no such conjecture be left hopping.</p>
+<p>Cascading content tags allow the slideauthor to identify, labelise and escalate themes, concepts and mental pictures based on their place in a concept hierarchy. The concept hierarchy is established using the hierarchy outliner on the left hand side of the main CrUMPETS window.</p>
+<p><img src="http://localhost:1313/img/crumpets/contenthierarchy.png" alt="Content Hierarchy"></p>
+<p>Having resolved the temporal balance of his/her/its notes, and consistently eradicated contential inconsistencies, the slidemaster may produce a presenttoaudiencetime reference notepack, to be referred to when presenting to an audience of any kind. Such a reference notepack is exported from CrUMPETS as a PDF or postscript document.</p>
+<h3 id="extra-temporal-notepacks-in-practice">Extra-Temporal Notepacks in Practice</h3>
+<p>Prior to presenttime, CrUMPETS labels each of the prepared crib notes numerically. These are then arranged for use in a paper document. Notes are automatically annotated with the label of their successor. In the case of bifurcated paths, choices are listed, along with target note numbers. Each choice is also labelled, so that CrUMPETS&rsquo; presenttime engine may be informed of the choice, and transition the projected slide appropriately. Physical transitiontime navigation of the notepack is assisted by an indexed page margin.</p>
+<p><img src="http://localhost:1313/img/crumpets/notepack.png" alt="Content Hierarchy"></p>
+<h3 id="discussion">Discussion</h3>
+<p>CrUMPETS presents an intuitive and flexible tool for the creation of slidesets capable of accommodating spontaneity, commitment-free and flittingly decoupled presentation. Arguably, some of the problems solved by CrUMPETS could be managed with a modicum of authortime preparation and meatspace rehearsal. This, of course, overlooks the opportunity presented by CrUMPETS to create disjointed, misdirected and perplexing presentations with narratives akin to a <a href="http://en.wikipedia.org/wiki/Choose_your_own_adventure">Choose Your Own Adventure novel</a>, a liberty never to be denied to any presentation artist.</p>
+
+                    <br>
+                    <p><a href="http://localhost:1313/blog/">Back to posts</a></p>
+                </div>
+                
+                <a class="u-syndicate-to" href="https://brid.gy/publish/mastodon" hidden></a>
+                <a class="u-syndicate-to" href="https://brid.gy/publish/bluesky" hidden></a>
+            </article>
+            <br>
+            <div class="disqus">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+
