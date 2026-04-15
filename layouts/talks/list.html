@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+<section class="main">
+    <div class="page-heading">Talks</div>
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="talk" id="{{ .File.ContentBaseName }}">
+        <h2 class="talk-title">
+            <a href="{{ .Params.external_url }}">{{ .Title }}</a>
+        </h2>
+        <p class="talk-meta">
+            {{ .Params.venue }} — {{ .Params.event_date }}
+            {{ with .Params.with }}(with {{ . }}){{ end }}
+        </p>
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }} — title slide">
+        {{ end }}
+        <div class="markdown talk-body">
+            {{ .Content }}
+        </div>
+        {{ with .Params.youtube }}
+        {{ partial "youtube.html" . }}
+        {{ end }}
+    </article>
+    {{ end }}
+</section>
+
+{{ partial "footer.html" . }}

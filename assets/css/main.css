@@ -269,6 +269,156 @@ section.main {
   color: #de5251;
 }
 
+/* Homepage */
+.home-masthead {
+  padding: 28px 0 32px;
+}
+
+.home-intro {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.home-photo {
+  flex-shrink: 0;
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.home-bio p {
+  margin-bottom: 0.75em;
+}
+
+.home-bio p:last-child { margin-bottom: 0; }
+
+.home-bio a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.home-section {
+  border-top: 3px solid #111;
+  padding-top: 16px;
+  margin-top: 40px;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.home-post-list,
+.home-talk-list,
+.elsewhere-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talk-item {
+  margin-bottom: 14px;
+}
+
+.talk-item a {
+  display: block;
+  color: #111;
+}
+
+.talk-item a:hover { color: #de5251; }
+
+.talk-venue {
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+.section-more {
+  margin-top: 16px;
+  font-size: 0.875rem;
+}
+
+.section-more a {
+  color: #666;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.section-more a:hover { color: #de5251; text-decoration: none; }
+
+.elsewhere-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.elsewhere-list a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 520px) {
+  .home-intro {
+    flex-direction: column-reverse;
+  }
+  .home-photo {
+    width: 100%;
+    height: 280px;
+    object-position: center 20%;
+  }
+}
+
+/* Talks list */
+.talk {
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.talk:last-child {
+  border-bottom: none;
+}
+
+.talk-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.talk-title a { color: #111; }
+.talk-title a:hover { color: #de5251; }
+
+.talk-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.talk-body p { margin-bottom: 1em; }
+
+.youtube-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 1.5rem 0;
+}
+
+.youtube-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+}
+
 /* Cross-language italics: text in a different language from the page */
 :lang(en) [lang="cy"] { font-style: italic; }
 :lang(cy) [lang="en"] { font-style: italic; }

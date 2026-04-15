@@ -1,7 +1,54 @@
-{{ partial "header.html" . }}
-<section class="main">
-    <div class="markdown">
-        {{ .Content }}
+{{ partial "header-home.html" . }}
+
+<main class="home">
+
+  <section class="home-intro">
+    <div class="home-bio">
+      {{ with .Site.GetPage "/fixed/about" }}{{ .Content }}{{ end }}
     </div>
-</section>
+    <img src="/img/ross.jpeg" alt="Ross McFarlane" class="home-photo">
+  </section>
+
+  <section class="home-section" id="writing">
+    <h2 class="section-label">Writing</h2>
+    <ul class="home-post-list">
+      {{ range first 3 (where .Site.RegularPages "Section" "blog").ByPublishDate.Reverse }}
+      <li class="post-item">
+        <span class="meta"><time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2 Jan, 2006" }}</time></span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    <p class="section-more"><a href="/blog/">All posts →</a></p>
+  </section>
+
+  <section class="home-section" id="talks">
+    <h2 class="section-label">Talks</h2>
+    <ul class="home-talk-list">
+      {{ range (where .Site.RegularPages "Section" "talks").ByDate.Reverse }}
+      <li class="talk-item">
+        <a href="/talks/#{{ .File.ContentBaseName }}">{{ .Title }}</a>
+        <span class="talk-venue">{{ .Params.venue }} — {{ .Params.event_date }}</span>
+      </li>
+      {{ end }}
+    </ul>
+    <p class="section-more"><a href="/talks/">All talks →</a></p>
+  </section>
+
+  <section class="home-section" id="cv">
+    <h2 class="section-label">CV</h2>
+    <p>{{ .Params.cv_intro }} <a href="/cv/">Full CV →</a></p>
+  </section>
+
+  <section class="home-section" id="elsewhere">
+    <h2 class="section-label">Elsewhere</h2>
+    <ul class="elsewhere-list">
+      {{ with .Site.Params.mastodon }}<li><a href="{{ . }}">Mastodon</a></li>{{ end }}
+      {{ with .Site.Params.github }}<li><a href="https:{{ . }}">GitHub</a></li>{{ end }}
+      {{ with .Site.Params.bluesky }}<li><a href="{{ . }}">Bluesky</a></li>{{ end }}
+    </ul>
+  </section>
+
+</main>
+
 {{ partial "footer.html" . }}
