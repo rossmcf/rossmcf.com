@@ -271,7 +271,15 @@ section.main {
 
 /* Homepage */
 .home-masthead {
-  padding: 28px 0 32px;
+  padding: 28px 0 0;
+  float: left;
+  margin-right: 36px;
+}
+
+.home-masthead-img {
+  display: block;
+  width: 80px;
+  height: 80px;
 }
 
 .home-intro {
@@ -305,6 +313,7 @@ section.main {
   border-top: 3px solid #111;
   padding-top: 16px;
   margin-top: 40px;
+  clear: both;
 }
 
 .section-label {

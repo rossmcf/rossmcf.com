@@ -2,6 +2,10 @@
 
 <main class="home">
 
+  <header class="home-masthead">
+    <a href="/"><img src="/img/masthead.svg" alt="Ross McFarlane" class="home-masthead-img"></a>
+  </header>
+
   <section class="home-intro">
     <div class="home-bio">
       {{ with .Site.GetPage "/fixed/about" }}{{ .Content }}{{ end }}
