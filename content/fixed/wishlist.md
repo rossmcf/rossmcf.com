@@ -1,20 +1,66 @@
 +++
 date = 2017-03-18T20:40:00Z
 title = "Wishlist"
+layout = "wishlist"
+
+[[params.items]]
+title = "Bass Drum Pedal"
+price = 822
+url = "https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm"
+
+[[params.items]]
+title = "Handlebar"
+size = "54cm"
+price = 120
+url = "https://thewoodscyclery.co.uk/products/surly-corner-bars-three-sizes"
+
+[[params.items]]
+title = "Programmable e-ink Display"
+price = 106
+url = "https://shop.usetrmnl.com/collections/devices/products/trmnl"
+
+[[params.items]]
+title = "Trousers"
+size = "Black, 34W Long"
+price = 104
+url = "https://communityclothing.co.uk/products/mens-cameraman-pant-black"
+
+[[params.items]]
+title = "Knee Pads"
+size = "XL"
+price = 100
+url = "https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG"
+
+[[params.items]]
+title = "Subscription to Barn Magazine"
+price = 40
+url = "https://barn.cymru/"
+
+[[params.items]]
+title = "Snare Weight"
+price = 32
+url = "https://www.drumcentral.co.uk/snareweight-m80-drum-dampener-black/"
+
+[[params.items]]
+title = "Sign Writing Starter Kit"
+price = 0
+note = "Price varies"
+url = "https://www.handover.co.uk/starter-kits/"
+
+[[params.shops]]
+title = "Community Clothing"
+url = "https://communityclothing.co.uk"
+
+[[params.shops]]
+title = "Albion"
+url = "https://albioncycling.com"
+
+[[params.shops]]
+title = "Ostroy"
+url = "https://www.ostroy.com/collections/mens-short-sleeve-jerseys"
+
+[[params.shops]]
+title = "Freitag"
+url = "https://freitag.ch"
 
 +++
-* [Handlebar](https://thewoodscyclery.co.uk/products/surly-corner-bars-three-sizes), 54cm, £120
-* [Programmable e-ink Display](https://shop.usetrmnl.com/collections/devices/products/trmnl), £106
-* [Knee Pads](https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG), XL, £100
-* [Snare Weight](https://www.drumcentral.co.uk/snareweight-m80-drum-dampener-black/), £32
-* [Trousers](https://communityclothing.co.uk/products/mens-cameraman-pant-black), Black, 34W Long, £104
-* [Bass Drum Pedal](https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm), £822
-* [Sign Writing Starter Kit](https://www.handover.co.uk/starter-kits/), £various
-* [Subscription to Barn Magazine](https://barn.cymru/), £40
-
-### Nice Shops
-
-* [Community Clothing](https://communityclothing.co.uk)
-* [Albion](https://albioncycling.com)
-* [Ostroy](https://www.ostroy.com/collections/mens-short-sleeve-jerseys)
-* [Freitag](https://freitag.ch)
