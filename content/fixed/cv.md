@@ -1,9 +1,8 @@
 +++
-date = 2017-03-18T20:40:00Z
 title = "CV"
 
 +++
-I'm an experienced engineer and leader. I like to solve problems elegantly, but know when to just get things done. I'm a voracious learner, and fluent communicator in words and pictures. I'm looking for fresh challenges and a bright team to tackle them with.
+I'm an experienced engineer and leader. I like to solve problems elegantly, but know when to just get things done. I'm a voracious learner, and fluent communicator in words and pictures. I enjoy new challenges and tackling them with great people.
 
 ## Experience
 ### Form3

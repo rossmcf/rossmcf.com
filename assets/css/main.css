@@ -269,5 +269,22 @@ section.main {
   color: #de5251;
 }
 
+/* Cross-language italics: text in a different language from the page */
+:lang(en) [lang="cy"] { font-style: italic; }
+:lang(cy) [lang="en"] { font-style: italic; }
+
+/* Mobile nav */
+@media (max-width: 520px) {
+  section.header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  section.header nav ul {
+    justify-content: flex-start;
+    gap: 4px 20px;
+  }
+}
+
 /* Footer */
 footer { font-size: 75%; border-top: 3px solid #bfbfbf; padding-top: 10px; padding-bottom: 20px; }

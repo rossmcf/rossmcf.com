@@ -3,7 +3,7 @@
 
 {{ partial "head.html" . }}
 
-<body lang="{{ .Site.Params.lang }}">
+<body lang="{{ if .Params.lang }}{{ .Params.lang }}{{ else }}{{ .Site.Params.lang }}{{ end }}">
 
 <section class="header">
     <a href="/" class="site-title">Ross M<span class="sup">c</span>Farlane</a>
