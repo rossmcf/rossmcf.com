@@ -10,7 +10,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 html { background: white; }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #111;
   line-height: 1.6;
@@ -132,7 +132,7 @@ section.main {
 
 .markdown h1, .markdown h2, .markdown h3,
 .markdown h4, .markdown h5, .markdown h6 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #111;
   margin-top: 1.75rem;
@@ -278,8 +278,8 @@ section.main {
 
 .home-masthead-img {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 
 .home-intro {
@@ -299,7 +299,14 @@ section.main {
 }
 
 .home-bio p {
+  font-size: 1.15em;
   margin-bottom: 0.75em;
+}
+
+.home-bio p:first-child {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
 .home-bio p:last-child { margin-bottom: 0; }
@@ -310,7 +317,7 @@ section.main {
 }
 
 .home-section {
-  border-top: 3px solid #111;
+  border-top: 2px solid #ccc;
   padding-top: 16px;
   margin-top: 40px;
   clear: both;
@@ -321,7 +328,7 @@ section.main {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #aaa;
+  color: #111;
   margin-bottom: 16px;
 }
 
