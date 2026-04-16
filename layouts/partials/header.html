@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ with .Params.page_lang }}{{ . }}{{ else }}{{ $.Site.LanguageCode }}{{ end }}">
 
 {{ partial "head.html" . }}
 
-<body lang="{{ if .Params.lang }}{{ .Params.lang }}{{ else }}{{ .Site.Params.lang }}{{ end }}">
+<body>
 
 <section class="header">
     <a href="/" class="site-title"><img src="/img/masthead.svg" alt="Ross McFarlane" class="site-title-img"></a>

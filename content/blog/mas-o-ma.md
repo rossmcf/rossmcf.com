@@ -1,6 +1,7 @@
 +++
 date = "2017-06-07T23:00:00Z"
 title = "Ma's o 'ma"
+page_lang = "cy"
 +++
 
 Dw i wedi bod yn ysgrifennu cerdd ar gyfer cystadleuaeth Gŵyl y Dysgwyr Sir Benfro. Ar ôl arllwys sawl awr yn ysgrifennu, ail-ysgrifennu, ac yn edrych lan pob gair yn yr iaith, (cystadleuol? fi?) mae wedi gorffen. Dw i'n meddwl. 

@@ -1,6 +1,7 @@
 +++
 date = "2018-05-02T23:00:00Z"
 title = "Ni'n Treiglo Nawr"
+page_lang = "cy"
 +++
 
 Ysgrifennais i eiriau amgen i gân Welsh Whisperer [_Ni'n Beilo Nawr_](https://www.youtube.com/watch?v=EfJyiO-J0CU) ar gyfer Noson Lawen Dysgwyr Sir Benfro.
