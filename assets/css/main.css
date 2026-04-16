@@ -389,6 +389,11 @@ section.main {
 }
 
 @media (max-width: 520px) {
+  .home-masthead {
+    float: none;
+    margin-right: 0;
+    padding-bottom: 16px;
+  }
   .home-intro {
     flex-direction: column-reverse;
   }
