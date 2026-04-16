@@ -46,6 +46,12 @@ section.header {
 
 .site-title:hover { color: #de5251; }
 
+.site-title-img {
+  display: block;
+  height: 72px;
+  width: auto;
+}
+
 section.header nav ul {
   display: flex;
   flex-wrap: wrap;
