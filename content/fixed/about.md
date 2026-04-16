@@ -8,5 +8,5 @@ title = "About"
 
 Hi, I'm Ross.
 
-I tell computers what to do, help teams to tell computers what to do, [talk about my experiences](#talks), and occasionally [write things on the Web](#writing).
+I tell computers what to do, help teams to build great things, [talk about my experiences](#talks), and occasionally [write things on the Web](#writing).
 
