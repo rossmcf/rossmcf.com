@@ -327,8 +327,7 @@ section.main {
 .home-bio p:last-child { margin-bottom: 0; }
 
 .home-bio a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
 }
 
 .home-section {
