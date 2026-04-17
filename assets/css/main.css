@@ -329,6 +329,9 @@ section.main {
   clear: both;
 }
 
+#about p { margin-bottom: 1em; }
+#about p:last-child { margin-bottom: 0; }
+
 .section-label {
   font-size: 0.7rem;
   font-weight: bold;

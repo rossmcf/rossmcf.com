@@ -10,8 +10,6 @@ author              = "Ross McFarlane"
 title               = "Ross McFarlane"
 pygmentsuseclasses  = true
 pygmentsUseClassic  = true
-#pygmentsCodeFences  = true
-# disqusshortname     = "" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-93936167-1"
 
@@ -35,12 +33,10 @@ lang                   = "en"
 #linkedin               = "//linkedin.com/in/you"
 mastodon               = "https://toot.wales/@rossmcf"
 bluesky                = "https://bsky.app/profile/rossmcf.com"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = ""                            # appears in the site header when set to a non-empty string
-twitter                = "//twitter.com/rossmcf"
-# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
-
-avatar                 = "img/profile2.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                           # appears in the site header when set to a non-empty string
+twitter                = ""
+avatar                 = "" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # do not use in the same time as avatar
 
 [Languages]
@@ -54,7 +50,7 @@ linkedin = "english-link"
 title = "Ross McFarlane"
 weight = 2
 [Languages.cy.params]
-author = "Ross ap McFarlane"
+author = "Ross McFarlane"
 
 [markup]
   [markup.goldmark]

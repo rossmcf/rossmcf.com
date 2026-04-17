@@ -8,7 +8,7 @@
 
   <section class="home-intro">
     <div class="home-bio">
-      {{ with .Site.GetPage "/fixed/about" }}{{ .Content }}{{ end }}
+      {{ .Content }}
     </div>
   </section>
 
@@ -41,6 +41,11 @@
   <section class="home-section" id="cv">
     <h2 class="section-label">CV</h2>
     <p>{{ .Params.cv_intro }} <a href="/cv/">Full CV →</a></p>
+  </section>
+
+  <section class="home-section" id="about">
+    <h2 class="section-label">About</h2>
+    {{ with .Site.GetPage "/fixed/about" }}{{ .Content }}{{ end }}
   </section>
 
   <section class="home-section" id="elsewhere">
