@@ -1,11 +1,16 @@
-{{ partial "header-home.html" . }}
+<!DOCTYPE html>
+<html lang="cy">
+
+{{ partial "head.html" . }}
+
+<body>
 
 <main class="home">
 
-  <p class="lang-switcher"><a href="/cy/">Cymraeg</a></p>
+  <p class="lang-switcher"><a href="/">English</a></p>
 
   <header class="home-masthead">
-    <a href="/"><img src="/img/masthead.svg" alt="Ross McFarlane" class="home-masthead-img"></a>
+    <a href="/cy/"><img src="/img/masthead.svg" alt="Ross McFarlane" class="home-masthead-img"></a>
   </header>
 
   <section class="home-intro">
@@ -15,7 +20,7 @@
   </section>
 
   <section class="home-section" id="writing">
-    <h2 class="section-label">Writing</h2>
+    <h2 class="section-label">Sgwennu</h2>
     <ul class="home-post-list">
       {{ range first 3 (where .Site.RegularPages "Section" "blog").ByPublishDate.Reverse }}
       <li class="post-item">
@@ -24,11 +29,11 @@
       </li>
       {{ end }}
     </ul>
-    <p class="section-more"><a href="/blog/">All posts →</a></p>
+    <p class="section-more"><a href="/blog/">Popeth →</a></p>
   </section>
 
   <section class="home-section" id="talks">
-    <h2 class="section-label">Talks</h2>
+    <h2 class="section-label">Cyflwyniadau</h2>
     <ul class="home-talk-list">
       {{ range (where .Site.RegularPages "Section" "talks").ByDate.Reverse }}
       <li class="talk-item">
@@ -37,21 +42,21 @@
       </li>
       {{ end }}
     </ul>
-    <p class="section-more"><a href="/talks/">All talks →</a></p>
+    <p class="section-more"><a href="/talks/">Pob cyflwyniad →</a></p>
   </section>
 
   <section class="home-section" id="cv">
     <h2 class="section-label">CV</h2>
-    <p>{{ .Params.cv_intro }} <a href="/cv/">Full CV →</a></p>
+    <p>{{ .Params.cv_intro }} <a href="/cv/">CV llawn →</a></p>
   </section>
 
   <section class="home-section" id="about">
-    <h2 class="section-label">About</h2>
-    {{ with .Site.GetPage "/fixed/about" }}{{ .Content }}{{ end }}
+    <h2 class="section-label">Amdanaf</h2>
+    {{ with .Site.GetPage "/cy/about" }}{{ .Content }}{{ end }}
   </section>
 
   <section class="home-section" id="elsewhere">
-    <h2 class="section-label">Elsewhere</h2>
+    <h2 class="section-label">"Cymdeithasol"</h2>
     <ul class="elsewhere-list">
       {{ with .Site.Params.mastodon }}<li><a href="{{ . }}">Mastodon</a></li>{{ end }}
       {{ with .Site.Params.github }}<li><a href="https:{{ . }}">GitHub</a></li>{{ end }}

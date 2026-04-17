@@ -39,19 +39,6 @@ twitter                = ""
 avatar                 = "" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # do not use in the same time as avatar
 
-[Languages]
-[Languages.en]
-title = "Ross McFarlane"
-weight = 1
-[Languages.en.params]
-linkedin = "english-link"
-
-[Languages.cy]
-title = "Ross McFarlane"
-weight = 2
-[Languages.cy.params]
-author = "Ross McFarlane"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

@@ -276,6 +276,15 @@ section.main {
 }
 
 /* Homepage */
+.home { position: relative; }
+
+.lang-switcher {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  font-size: 0.9em;
+}
+
 .home-masthead {
   padding: 28px 0 0;
   float: left;
