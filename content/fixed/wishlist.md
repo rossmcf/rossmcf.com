@@ -9,21 +9,9 @@ price = 822
 url = "https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm"
 
 [[params.items]]
-title = "Handlebar"
-size = "54cm"
-price = 120
-url = "https://thewoodscyclery.co.uk/products/surly-corner-bars-three-sizes"
-
-[[params.items]]
 title = "Programmable e-ink Display"
 price = 106
 url = "https://shop.usetrmnl.com/collections/devices/products/trmnl"
-
-[[params.items]]
-title = "Trousers"
-size = "Black, 34W Long"
-price = 104
-url = "https://communityclothing.co.uk/products/mens-cameraman-pant-black"
 
 [[params.items]]
 title = "Knee Pads"
