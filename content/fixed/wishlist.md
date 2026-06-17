@@ -19,6 +19,11 @@ price = 239
 url = "https://www.currys.co.uk/products/aiaiai-tma2-studio-wireless-headphones-black-10293542.html"
 
 [[params.items]]
+title = "Apple TV"
+price = 169
+url = "https://www.apple.com/uk/shop/buy-tv/apple-tv-4k/128gb"
+
+[[params.items]]
 title = "Knee Pads"
 size = "XL"
 price = 100
