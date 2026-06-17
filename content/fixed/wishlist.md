@@ -14,6 +14,11 @@ price = 106
 url = "https://shop.usetrmnl.com/collections/devices/products/trmnl"
 
 [[params.items]]
+title = "Headphones"
+price = 239
+url = "https://www.currys.co.uk/products/aiaiai-tma2-studio-wireless-headphones-black-10293542.html"
+
+[[params.items]]
 title = "Knee Pads"
 size = "XL"
 price = 100
@@ -35,6 +40,11 @@ price = 0
 note = "Price varies"
 url = "https://www.handover.co.uk/starter-kits/"
 
+[[params.items]]
+title = "Bags for the bike"
+price = 99
+url = "https://www.reallyusefulbikes.com/bullittbits/p/fahrer-panel-bags"
+
 [[params.shops]]
 title = "Community Clothing"
 url = "https://communityclothing.co.uk"
@@ -45,7 +55,7 @@ url = "https://albioncycling.com"
 
 [[params.shops]]
 title = "Ostroy"
-url = "https://www.ostroy.com/collections/mens-short-sleeve-jerseys"
+url = "https://www.ostroy.com/collections/resort-shirts-1"
 
 [[params.shops]]
 title = "Freitag"
