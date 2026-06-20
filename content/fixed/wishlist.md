@@ -27,7 +27,7 @@ url = "https://www.apple.com/uk/shop/buy-tv/apple-tv-4k/128gb"
 title = "Knee Pads"
 size = "XL"
 price = 100
-url = "https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG"
+url = "https://www.rapha.cc/gb/en/product/trail-knee-pads/KPA02XXBLK"
 
 [[params.items]]
 title = "ebook reader"
