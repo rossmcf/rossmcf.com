@@ -30,11 +30,6 @@ price = 100
 url = "https://www.rapha.cc/gb/en/product/trail-knee-pads/KPA02XXBLK"
 
 [[params.items]]
-title = "ebook reader"
-price = 69
-url = "https://www.xteink.com/products/xteink-x4"
-
-[[params.items]]
 title = "Subscription to Barn Magazine"
 price = 40
 url = "https://barn.cymru/"
