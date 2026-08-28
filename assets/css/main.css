@@ -133,8 +133,29 @@ section.main {
   margin-bottom: 1em;
 }
 
-.markdown p a { background-color: #f0bdbd; }
-.markdown p a:hover { background-color: white; color: #de5251; }
+.markdown p a:not(.footnote-ref) { background-color: #f0bdbd; }
+.markdown p a:not(.footnote-ref):hover { background-color: white; color: #de5251; }
+
+.footnote-ref {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+sup[id^="fnref"] + sup[id^="fnref"] { margin-left: 0.1em; }
+
+.footnotes {
+  margin-top: 0;
+  padding-top: 1rem;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.footnotes ol { padding-left: 1.25em; }
+.footnotes li { list-style-type: decimal; margin-bottom: 0; line-height: 1.4; }
+.footnotes a { color: #666; background-color: transparent !important; }
+.footnotes a:hover { color: #de5251; }
+.footnote-backref { font-size: 0.9em; margin-left: 0.25em; }
 
 .markdown h1, .markdown h2, .markdown h3,
 .markdown h4, .markdown h5, .markdown h6 {
