@@ -19,15 +19,15 @@ price = 239
 url = "https://www.currys.co.uk/products/aiaiai-tma2-studio-wireless-headphones-black-10293542.html"
 
 [[params.items]]
+title = "Apple TV"
+price = 169
+url = "https://www.apple.com/uk/shop/buy-tv/apple-tv-4k/128gb"
+
+[[params.items]]
 title = "Knee Pads"
 size = "XL"
 price = 100
-url = "https://www.rapha.cc/gb/en/shop/trail-knee-pads/product/KPA01XXBLKXLG"
-
-[[params.items]]
-title = "ebook reader"
-price = 69
-url = "https://www.xteink.com/products/xteink-x4"
+url = "https://www.rapha.cc/gb/en/product/trail-knee-pads/KPA02XXBLK"
 
 [[params.items]]
 title = "Subscription to Barn Magazine"
