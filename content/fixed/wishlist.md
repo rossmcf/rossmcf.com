@@ -9,6 +9,11 @@ price = 822
 url = "https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm"
 
 [[params.items]]
+title = "A smart dumb phone."
+price = £295
+url = "https://commodore.net/store/callback-8020/"
+
+[[params.items]]
 title = "Programmable e-ink Display"
 price = 106
 url = "https://shop.usetrmnl.com/collections/devices/products/trmnl"
