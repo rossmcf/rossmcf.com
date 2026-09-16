@@ -10,7 +10,7 @@ url = "https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm"
 
 [[params.items]]
 title = "A smart dumb phone."
-price = £295
+price = 295
 url = "https://commodore.net/store/callback-8020/"
 
 [[params.items]]
