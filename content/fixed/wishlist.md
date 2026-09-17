@@ -9,7 +9,7 @@ price = 822
 url = "https://www.thomann.de/gb/dw_9002_doppelfussmaschine.htm"
 
 [[params.items]]
-title = "A smart dumb phone."
+title = "A smart dumb phone"
 price = 295
 url = "https://commodore.net/store/callback-8020/"
 
@@ -58,6 +58,10 @@ url = "https://www.reallyusefulbikes.com/bullittbits/p/fahrer-panel-bags"
 [[params.shops]]
 title = "Community Clothing"
 url = "https://communityclothing.co.uk"
+
+[[params.shops]]
+title = "Mura Cycling"
+url = "https://muracycling.com"
 
 [[params.shops]]
 title = "Albion"
