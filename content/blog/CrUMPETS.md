@@ -6,15 +6,15 @@ highlight= "true"
 +++
 
 ## Introduction
-Delivery of academic presentations is increasingly reliant upon the effective use of visual aids. The predominant form of visual aid used is the electronic slideset, delivered from a personal computer using data projection. The necessity to prepare such slidesets in advance imposes a restriction on the sequence and duration of academic presentations, hampering the fluidity and spontaineity of the speaker. This article introduces __CrUMPETS__ -- Crumple Zones for Use in Multi-Path Extra-Temporal Slidesets -- a software tool allowing speakers to construct a framework for dynamic presentations that transcend the confines of the fourth dimension.
+Delivery of academic presentations is increasingly reliant upon the effective use of visual aids. The predominant form of visual aid used is the electronic slideset, delivered from a personal computer using data projection. The necessity to prepare such slidesets in advance imposes a restriction on the sequence and duration of academic presentations, hampering the fluidity and spontaneity of the speaker. This article introduces __CrUMPETS__ -- Crumple Zones for Use in Multi-Path Extra-Temporal Slidesets -- a software tool allowing speakers to construct a framework for dynamic presentations that transcend the confines of the fourth dimension.
 
 ### Crumple Zones
-The first problem for many speakers occurs when the pressures of time require _in-parlo_ adjustment of slideset content. Commonly, small subsets of the slideset are omitted in order to accelarate the talk towards its conclusion. These _Crumple Zones_ afford the speaker an opportunity to dynamically adapt the content of a slideset to the time available for its completion.
+The first problem for many speakers occurs when the pressures of time require _in-parlo_ adjustment of slideset content. Commonly, small subsets of the slideset are omitted in order to accelerate the talk towards its conclusion. These _Crumple Zones_ afford the speaker an opportunity to dynamically adapt the content of a slideset to the time available for its completion.
 
 ### Formalisms
 We define a slideset as the set of all available slides, including the terminal slides. The terminal slides do not contain displayed content, but rather represent the entry and exit points to the slideset. Slidesets may be subdivided into _clusters_, which group related slides that can be considered a single entity in terms of their inclusion to or exclusion from the talk. Clusters can be used to navigate the slideset and to parameterise the talk's content. Clusters are defined as discrete subsets such that no slide may be an element in more than one cluster.
 
-The slideset's transition function is defined such that, given a non-terminal source slide, it returns the _outcome set_ set of possible slides to which the source slide may transition directly. For any outcome set with a cardinality >1, a new slide transition path is created, affording the speaker additional flexibility at uttertime.
+The slideset's transition function is defined such that, given a non-terminal source slide, it returns the _outcome set_ of possible slides to which the source slide may transition directly. For any outcome set with a cardinality >1, a new slide transition path is created, affording the speaker additional flexibility at uttertime.
 
 We define a _Crumple Zone_ (CZ) as any slide cluster in a furcated region such that the previous slide's transition state returns only paths to the cluster and to the cluster's destination slide. Intuitively, a CZ is a cluster that may be 'skipped' at playback.
 
@@ -28,15 +28,15 @@ CrUMPETS is a desktop software application for Macintosh and Windows computers. 
 ![CrUMPETS' Structure Window](/img/crumpets/crumpets_screenshot_structure.png)
 
 ### Alternate Paths
-On some occasions, simple omission of slides may be lead to disjointedness of the presented material. For this reason, CrUMPETS affords the creation of alternate paths through the slideset, such that an abbreviated slide or small cluster may be presented in place of the 'crumpled' cluster.
+On some occasions, simple omission of slides may lead to disjointedness of the presented material. For this reason, CrUMPETS affords the creation of alternate paths through the slideset, such that an abbreviated slide or small cluster may be presented in place of the 'crumpled' cluster.
 
 ![Abbreviation using Alternate Paths](/img/crumpets/abbreviated_slide.png)
 
 In the above diagram, abbreviation slides are denoted by ripe-gooseberry-coloured quadrangles.
 
-Beyond simple abbreviation, users may define up to 10 paths per slide allowing them to adapt their slideset based on the speaker's intuition, instinct and 'feel' for their audience. For example, a speaker may prepare several slides dealing with the same topic. During the presentation, should the speaker detect audential fatigue, he may opt for a humorous slide, perhaps containing a picture of a domesticated animal. When met with higher degrees of listener interaction, the speaker may wish to select a slide containing more advanced content, so as to quell the enthusiasm of a particularly exuberant student. CrUMPETs makes such flexibility easily manageable with an intuitive graphical user interface, through which the user may interact using a 'mouse' or other pointing device.
+Beyond simple abbreviation, users may define up to 10 paths per slide allowing them to adapt their slideset based on the speaker's intuition, instinct and 'feel' for their audience. For example, a speaker may prepare several slides dealing with the same topic. During the presentation, should the speaker detect audential fatigue, he may opt for a humorous slide, perhaps containing a picture of a domesticated animal. When met with higher degrees of listener interaction, the speaker may wish to select a slide containing more advanced content, so as to quell the enthusiasm of a particularly exuberant student. CrUMPETS makes such flexibility easily manageable with an intuitive graphical user interface, through which the user may interact using a 'mouse' or other pointing device.
 
-### Maintaining Narritive
+### Maintaining Narrative
 Despite their inherent usefulness, Crumple Zones (CZs) and alternate paths (APs) present new difficulties to the speaker in the maintenance of narrative throughout the slideset. For example, following a slide containing a humorous photograph of a domesticated animal, one may wish to segue into the next slide in a different fashion than if transitioning from a mathematical proof. In the first instance, the speaker's notes may read:
 
 + Pause as laughter dies down.
@@ -47,14 +47,14 @@ In the second instance, they might read:
 
 + Recap definition of Sigma.
 + Accept questions.
-+ Open the kimono.
++ Show my working.
 
-This invaluable flexibility is provided by CrUMPETs by allowing users to 'attach' 'notes' to 'slides' _and_ 'paths'. Notes attached to slides will be available irrespective of how the slide was reached, while notes attached to a path will only be available having made a transition along that path. This allows users to react spontaneously to each of the innumerable possibilities that may face them during mid-speech certainty flux.
+This invaluable flexibility is provided by CrUMPETS by allowing users to 'attach' 'notes' to 'slides' _and_ 'paths'. Notes attached to slides will be available irrespective of how the slide was reached, while notes attached to a path will only be available having made a transition along that path. This allows users to react spontaneously to each of the innumerable possibilities that may face them during mid-speech certainty flux.
 
 ### Paths with History
 Notes attached to paths enrich traditional presentation 'crib' notes by providing contextual information on the slide from which the current slide was transitioned from to the current slide, giving the speaker a form of short-term 'memory' over their slide traversal from the previous slide to the current one. CrUMPETS further expands this notion to include discrete note fields for every possible slideo-temporal outcome possible.
 
-_Path Histories_ (PHs) allow users to design their notes based on what slides the audience have already been presented with. This can be particularly useful if an earlier CZ or AP has omitted content on which the speaker later relies. If required to mention, when questioned, data pertaining to the earlier omitted material, it may harm the speakers thesis defence, reputation or credit rating. PHs ensure that no such oversight is overlooked.
+_Path Histories_ (PHs) allow users to design their notes based on what slides the audience have already been presented with. This can be particularly useful if an earlier CZ or AP has omitted content on which the speaker later relies. If required to mention, when questioned, data pertaining to the earlier omitted material, it may harm the speaker's thesis defence, reputation or credit rating. PHs ensure that no such oversight is overlooked.
 
 ![Slide History Paths](/img/crumpets/path_history.png)
 
@@ -76,9 +76,9 @@ Having resolved the temporal balance of his/her/its notes, and consistently erad
 ### Extra-Temporal Notepacks in Practice
 Prior to presenttime, CrUMPETS labels each of the prepared crib notes numerically. These are then arranged for use in a paper document. Notes are automatically annotated with the label of their successor. In the case of bifurcated paths, choices are listed, along with target note numbers. Each choice is also labelled, so that CrUMPETS' presenttime engine may be informed of the choice, and transition the projected slide appropriately. Physical transitiontime navigation of the notepack is assisted by an indexed page margin.
 
-![Content Hierarchy](/img/crumpets/notepack.png)
+![Extra-Temporal Notepack](/img/crumpets/notepack.png)
 
 ### Discussion
 CrUMPETS presents an intuitive and flexible tool for the creation of slidesets capable of accommodating spontaneity, commitment-free and flittingly decoupled presentation. Arguably, some of the problems solved by CrUMPETS could be managed with a modicum of authortime preparation and meatspace rehearsal. This, of course, overlooks the opportunity presented by CrUMPETS to create disjointed, misdirected and perplexing presentations with narratives akin to a [Choose Your Own Adventure novel][cyoa], a liberty never to be denied to any presentation artist.
 
-[cyoa]: http://en.wikipedia.org/wiki/Choose_your_own_adventure
+[cyoa]: https://en.wikipedia.org/wiki/Choose_your_own_adventure

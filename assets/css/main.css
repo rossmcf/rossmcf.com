@@ -196,6 +196,16 @@ sup[id^="fnref"] + sup[id^="fnref"] { margin-left: 0.1em; }
 
 .markdown blockquote p:last-child { margin-bottom: 0; }
 
+.age-notice {
+  margin: 0 0 1.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #555;
+  background: #f6f6f6;
+  border-left: 0.25rem solid #de5251;
+}
+
 .markdown hr {
   margin: 1.75rem 0;
   border: 0;

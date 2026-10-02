@@ -15,7 +15,7 @@ I started off with a requirement:
 
 Does my design do that? Well, it's empty, so no. Red. I then drew the dumbest possible class diagram needed to implement X. All I need is an `Xer`. That'll do. Green. Is that the best design given what I'm implementing? With just one requirement, probably. Now, what's next…
 
-> Thing must to X, if Y
+> Thing must do X, if Y
 
 Does it do that? Nope. Red. The dumbest implementation is to have another class that does just that, an `XifYer`. Will it work? Yup. Green. Now then, that looks a bit ugly, let's parameterise my `Xer` and tidy this up.
 

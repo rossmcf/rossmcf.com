@@ -37,7 +37,7 @@ func NewMoratorium(event time.Time, duration time.Duration) *Moratorium {
 }
 
 func main() {
-	when, _ := time.Parse(time.RFC3339, "2017-10-02T18:04:05Z07:00")
+	when, _ := time.Parse(time.RFC3339, "2017-10-02T18:04:05Z")
 	howLong := time.Hour * 24 * 30
 	catDied := NewMoratorium(when, howLong)
 
@@ -46,7 +46,7 @@ func main() {
 	} else {
 		fmt.Println("Go for it.")
 	}
-}	
+}
 ```
 
 Now, this works well enough, but unit testing it is a PITA. If I want to check a range of different events and durations, I need to do a load of date arithmetic to make the dates relative to the current time. e.g.:
@@ -95,7 +95,7 @@ func NewMoratorium(event time.Time, duration time.Duration, now func() time.Time
 }
 ```
 
-My problem with this is that it's going to be given `time.Time` pretty much everywhere other than in tests. I'd rather the `now` field defaulted to `time.Time`, but we could _optionally_ set a `now` func (see where I'm going with this?). Let's define a type for an optional constructor argument:
+My problem with this is that it's going to be given `time.Now` pretty much everywhere other than in tests. I'd rather the `now` field defaulted to `time.Now`, but we could _optionally_ set a `now` func (see where I'm going with this?). Let's define a type for an optional constructor argument:
 
 ```go
 type Option func(*Moratorium)
@@ -154,7 +154,7 @@ func TestIsTooSoon(t *testing.T) {
 	}
 }
 ```
-Both the option functions and the nowFunc are examples of functions as values, which looked odd to me at first, but it's a pretty clean way of doing things. I've seen alternatives to the nowFunc where an interface is declared with a `Now()` method, which then has to be implemeted by an object that just passes the call on to `time.Now()`. While that seemed perfectly natural to me at first, once I'd seen the way functions could be passed as values, I much preferred the latter.
+Both the option functions and the nowFunc are examples of functions as values, which looked odd to me at first, but it's a pretty clean way of doing things. I've seen alternatives to the nowFunc where an interface is declared with a `Now()` method, which then has to be implemented by an object that just passes the call on to `time.Now()`. While that seemed perfectly natural to me at first, once I'd seen the way functions could be passed as values, I much preferred the latter.
 
 I've found this really handy for injecting any kind of small strategy object. Things like error handlers in an HTTP server, logger settings, and other non-essential items that have sensible defaults, and would otherwise clutter up the constructor. 
 

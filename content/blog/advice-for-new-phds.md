@@ -30,14 +30,14 @@ Amidst all of the descriptions and details will be loads of little sparks; thing
 Keep a To-Do List
 -----------------
 
-Your life as a PhD student may lack the structure you've enjoyed in undergraduate study or work. I've found a to-do list to be really useful in regaining some of that structure. Make your tasks as granular as you bear and make them real, physical actions. If a task doesn't start with a verb like "write", "code" or "read", then it's not real. Half the battle with PhD work is turning vague notions into busy work you can do. A to-do list will help with that.
+Your life as a PhD student may lack the structure you've enjoyed in undergraduate study or work. I've found a to-do list to be really useful in regaining some of that structure. Make your tasks as granular as you can bear and make them real, physical actions. If a task doesn't start with a verb like "write", "code" or "read", then it's not real. Half the battle with PhD work is turning vague notions into busy work you can do. A to-do list will help with that.
 
 Don't Worry About Your Workflow
 -------------------------------
 
 If you're anything like me, you'll already have some ideas about how you can implement what I've described above. You'll have a shortlist of To-Do apps to trial; you'll have figured out how you'll store and organise your notes, how you'll name them. What about a web interface to search them...
 
-After hours lost doing crap like that, I've come to the conclusion that we live in the 21st Century, and search is our friend. The majority of my stuff lives in a big folder called `Archive`. Email, too. `Archive`. Lost something? `find`. To aid search and to prevent further time loss, it's also worth keeping your files in the most basic format you can. That's plain text for most things. [Markdown][] if necessary. LaTeX for maths and presentational work. [Microsoft Word][word] for when you lose the will to live.
+After hours lost doing crap like that, I've come to the conclusion that we live in the 21st Century, and search is our friend. The majority of my stuff lives in a big folder called `Archive`. Email, too. `Archive`. Lost something? `find`. To aid search and to prevent further time loss, it's also worth keeping your files in the most basic format you can. That's plain text for most things. [Markdown][] if necessary. LaTeX for maths and presentational work. Microsoft Word for when you lose the will to live.
 
 Really, 90% of the fiddling I've done to "prepare" for work is just stalling. It's the computerised equivalent of arranging all your coloured pencils in order of wavelength. It's extremely easy to fritter time away doing this kind of thing and convincing yourself that it's work. Try to be aware of what you're doing and learn to...
 
@@ -46,7 +46,7 @@ Know When You're Procrastinating
 
 I had no idea that "procrastinate" was a transitive verb until I looked it up one day when I should have been working. Seriously, I see a lot of computer screens around the office showing BBC News and YouTube. A lot of people, myself included, could be mistaken for someone researching social networking.
 
-There's nothing wrong with taking a mental break from what you're doing from time to time. Very often, though, I find that when I fire up [Twitter][t], it's because I'm avoiding doing something. Sometimes, letting your mind wander will help an answer to form. Other times, it's better to...
+There's nothing wrong with taking a mental break from what you're doing from time to time. Very often, though, I find that when I fire up Twitter, it's because I'm avoiding doing something. Sometimes, letting your mind wander will help an answer to form. Other times, it's better to...
 
 Talk to Your Supervisor
 -----------------------
@@ -76,7 +76,7 @@ Whenever you hit the wall of academia, remind yourself of why you're here in the
 Get a Life
 ----------
 
-So far I've focused on getting your research done, but you will have *some* free time and should make the most of it. Take the time to pursue a hobby and hang out with some people outside academia. By hobby, I don't mean playing dungeons and dragons or learning the oboe. Join a gym, throw shapes in the [KrazyHouse][kh] on a Friday night, drive down to [Tuebrook][tb] and get in fights...whatever. Just do something that doesn't require thinking, with some people who don't think for a living. It will help to broaden your outlook, and give you a better chance of overcoming the kind of stereotypes people outside academia (we call them '[muggles][]') have of PhD students.
+So far I've focused on getting your research done, but you will have *some* free time and should make the most of it. Take the time to pursue a hobby and hang out with some people outside academia. By hobby, I don't mean playing dungeons and dragons or learning the oboe. Join a gym, throw shapes in the KrazyHouse on a Friday night, drive down to [Tuebrook][tb] and get in fights...whatever. Just do something that doesn't require thinking, with some people who don't think for a living. It will help to broaden your outlook, and give you a better chance of overcoming the kind of stereotypes people outside academia (we call them '[muggles][]') have of PhD students.
 
 If you get the chance, talk to some muggles about your research. Yes, you'll have to dumb it down, no they won't be interested, but verbalising your work is a really useful way of getting *your* head around it.
 
@@ -88,12 +88,9 @@ Have Fun
 Don't be afraid to play from time to time, even with your work. Who says you can't put PacMan in your presentation slides? The more you enjoy what you're doing, the better you're likely to be at it. So smile at that blank screen and start typing.
 
 
-[Clare]: http://www.csc.liv.ac.uk/~clare
-[Markdown]: http://daringfireball.net/projects/markdown
-[word]: http://i198.photobucket.com/albums/aa167/Comartemis/motivators%20and%20random%20stuff/picard-facepalm.jpg
-[w]: http://en.wikipedia.org/
-[t]: http://twitter.com/rossmcf
-[muggles]: http://en.wikipedia.org/wiki/Muggles
-[kh]: http://www.thekrazyhouse.co.uk/
-[tb]: http://en.wikipedia.org/wiki/Tuebrook
-[mb]: http://www.urbandictionary.com/define.php?term=Metric%20Buttload
+[Clare]: https://research.manchester.ac.uk/en/persons/clare.dixon
+[Markdown]: https://daringfireball.net/projects/markdown
+[w]: https://en.wikipedia.org/
+[muggles]: https://en.wikipedia.org/wiki/Muggles
+[tb]: https://en.wikipedia.org/wiki/Tuebrook
+[mb]: https://www.urbandictionary.com/define.php?term=Metric%20Buttload

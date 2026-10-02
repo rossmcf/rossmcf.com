@@ -22,6 +22,10 @@
                 </div>
                 <a class="u-url" href="{{ .Permalink }}" hidden></a>
                 <span class="p-name" hidden>{{ .Title }}</span>
+                {{ if lt .Date (now.AddDate -3 0 0) }}
+                {{ $years := div (sub now.Unix .Date.Unix) 31557600 }}
+                <p class="age-notice">This post was written in {{ .Date.Format "2006" }}, over {{ $years }} years ago. Some of the content may be out of date, and my views may have changed.</p>
+                {{ end }}
                 <div class="markdown e-content">
                     {{ .Content }}
                     <br>

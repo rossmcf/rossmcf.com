@@ -25,7 +25,7 @@ As an individual contributor, I coached our internal tooling team as they evalua
 I led the build, launch, and production operation of three payment products in the European market. These include one real-time and two batch systems, handling payments for banks with over 1 million customers.
 
 #### Senior Software Engineer — 2018–2019
-I worked on the build of a real-time payments system, and built the initial implementation of our Confirmation of Payee product. I also contributed to the  design of a new cross-currency product.
+I worked on the build of a real-time payments system, and built the initial implementation of our Confirmation of Payee product. I also contributed to the design of a new cross-currency product.
 
 ### Senseye
 #### Senior Software Engineer — 2017–2018
