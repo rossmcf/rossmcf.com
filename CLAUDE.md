@@ -41,4 +41,4 @@ Cache-busting is enabled via `cachebuster = true` in params (appends a Unix time
 
 ## Deployment
 
-Built and deployed by Netlify to AWS S3 using [s3deploy](https://github.com/bep/s3deploy). Build config is in `netlify.toml`. S3 deploy config is in `.s3deploy.yml`. Static assets (CSS, images, fonts) are cached for 20 years; HTML/XML/JSON are not cached.
+Deployed to GitHub Pages by the GitHub Actions workflow in `.github/workflows/deploy.yml`, which runs on every push to `master` (or manually via `workflow_dispatch`). It builds with `hugo --minify` using the Hugo version pinned in the workflow's `HUGO_VERSION`.
