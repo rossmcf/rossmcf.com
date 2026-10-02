@@ -4,7 +4,7 @@ date = 2026-03-01T00:00:00Z
 venue = "QCon London"
 event_date = "March 2026"
 with = "Kevin Holditch"
-external_url = "https://qconlondon.com/presentation/mar2026/how-run-three-clouds-once-and-when-not"
+external_url = "https://www.infoq.com/presentations/form3-multicloud-architecture/"
 image = "/img/qcon-2026-title.png"
 +++
 
