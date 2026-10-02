@@ -2,7 +2,7 @@
 title="Technical Diplomacy"
 description= "A talk given at LeadDev Berlin 2024"
 date= "2024-11-04"
-highlight= "true"
+highlight = true
 +++
 
 This is the transcript of a talk that I gave at LeadDev Berlin 2024. This was my first big conference talk, in a *big* room, but I'm happy with how it went. Revisiting the text of this, I realise that most of my humour relied on visual gags in the slides, so this will probably read a bit dryer than the video, which is over [here](https://www.youtube.com/watch?v=-bNt3t-It5g).

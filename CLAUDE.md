@@ -17,12 +17,12 @@ No linting or test suite exists.
 
 Content lives in `content/` with two sections:
 
-- `content/blog/` — Blog posts, ordered by date. Use `highlight = "true"` in frontmatter to feature a post on the homepage.
+- `content/blog/` — Blog posts, ordered by date. Only posts with `highlight = true` (a boolean, not a string) appear on the homepage; all posts appear at `/blog/`.
 - `content/fixed/` — Static pages (About, CV, etc.) rendered at `/:title/` rather than under `/blog/`.
 
 Frontmatter uses TOML format (delimited by `+++`). Key fields:
 - `title`, `description`, `date` — standard
-- `highlight` — blog only; promotes post to homepage featured section
+- `highlight` — blog only; `true` shows the post in the homepage Writing section
 
 ## Templates and Layouts
 

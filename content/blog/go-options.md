@@ -2,7 +2,7 @@
 title= "Constructor Options in Go"
 description= "A simple way to hook in optional setup for a type, while providing defaults."
 date= "2017-10-27"
-highlight= "true"
+highlight = false
 +++
 
 I started coding full-time in [Go](https://golang.org) about six months ago. In that time, I've picked up various ideas and idioms by looking at the code of my peers, and of the various open source projects we use. I've been wanting to write up some of those ideas, mostly to solidify them in my own mind, but also in case these descriptions could be useful to anyone else.

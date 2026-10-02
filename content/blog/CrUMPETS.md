@@ -2,7 +2,7 @@
 title= "Better Presentations"
 description= ""
 date= "2009-10-20"
-highlight= "true"
+highlight = false
 +++
 
 ## Introduction

@@ -22,7 +22,7 @@
   <section class="home-section" id="writing">
     <h2 class="section-label">Sgwennu</h2>
     <ul class="home-post-list">
-      {{ range first 3 (where .Site.RegularPages "Section" "blog").ByPublishDate.Reverse }}
+      {{ range (where (where .Site.RegularPages "Section" "blog") "Params.highlight" true).ByPublishDate.Reverse }}
       <li class="post-item">
         <span class="meta"><time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2 Jan, 2006" }}</time></span>
         <a href="{{ .Permalink }}">{{ .Title }}</a>

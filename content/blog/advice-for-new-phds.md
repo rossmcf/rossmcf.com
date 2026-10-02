@@ -2,7 +2,7 @@
 title= "Advice for New PhD Students"
 description= "Some advice for PhD students I offered to Computer Science at the University of Liverpool"
 date= "2010-09-30"
-highlight= "true"
+highlight = false
 +++
 
 [Clare][] kindly asked me to contribute any advice I had for new PhD students. Unfortunately, as I'm up to my eyes in thesis-writing, I won't be able to make the induction meeting. What you have here is everything I could think of in a 50-minute train journey from Liverpool to Manchester. If you'd like me to elucidate any of the points made here, feel free to get in touch. Just don't expect a response any time before November.

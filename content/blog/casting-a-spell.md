@@ -2,7 +2,7 @@
 title = "Casting a Spell"
 description = "How I prepare a conference talk."
 date = "2026-08-28"
-highlight = "false"
+highlight = true
 +++
 
 In my teens, my friends and I used to play Dungeons & Dragons. We were bad at it, but we enjoyed ourselves, and plenty of snacks were consumed. Among the mountain of rules[^dnd], one that consistently frustrated us was the way that sorcerers had to prepare to cast a spell.

@@ -2,7 +2,7 @@
 title= "Red, Green, Redraw"
 description= "Using the TDD cycle for incremental design."
 date= "2017-03-06"
-highlight= "true"
+highlight = false
 +++
 
 I've been tinkering with a coding project recently, and like any good toy project it's giving me the opportunity to play with some new stuff. Faced with a world of possibilities, and just a Saturday morning to make some progress, I've found it easy to get lost, or even anxious. Even though it's a fun project, it's going to need a bit of rigour if I'm to avoid an interminable cycle of re-writing my grand plans.
