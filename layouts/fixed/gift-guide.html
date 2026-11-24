@@ -43,9 +43,18 @@
         {{ with .Params.shops }}
         <section class="gg-section gg-shops" id="nice-shops">
             <h2 class="gg-section-heading">Or try a gift card from one of these nice shops</h2>
-            <ul>
+            <ul class="gg-shop-grid">
                 {{ range . }}
-                <li><a href="{{ .url }}">{{ .title }}</a></li>
+                <li class="gg-shop">
+                    <a href="{{ .url }}">
+                        {{ with .images }}
+                        <span class="gg-collage">
+                            {{ range . }}<img src="{{ . }}" alt="" loading="lazy">{{ end }}
+                        </span>
+                        {{ end }}
+                        <span class="gg-shop-name">{{ .title }}</span>
+                    </a>
+                </li>
                 {{ end }}
             </ul>
         </section>

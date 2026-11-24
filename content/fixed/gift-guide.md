@@ -17,22 +17,27 @@ disable = true
 [[params.shops]]
 title = "Community Clothing"
 url = "https://communityclothing.co.uk"
+images = ["/img/gifts/shops/community-1.jpg", "/img/gifts/shops/community-2.jpg", "/img/gifts/shops/community-3.jpg"]
 
 [[params.shops]]
 title = "Mura Cycling"
 url = "https://muracycling.com"
+images = ["/img/gifts/shops/mura-1.jpg", "/img/gifts/shops/mura-2.jpg", "/img/gifts/shops/mura-3.jpg"]
 
 [[params.shops]]
 title = "Albion"
 url = "https://albioncycling.com"
+images = ["/img/gifts/shops/albion-1.jpg", "/img/gifts/shops/albion-2.jpg", "/img/gifts/shops/albion-3.jpg"]
 
 [[params.shops]]
 title = "Ostroy"
 url = "https://www.ostroy.com/collections/resort-shirts-1"
+images = ["/img/gifts/shops/ostroy-1.jpg", "/img/gifts/shops/ostroy-2.jpg", "/img/gifts/shops/ostroy-3.jpg"]
 
 [[params.shops]]
 title = "Freitag"
 url = "https://freitag.ch"
+images = ["/img/gifts/shops/freitag-1.jpg", "/img/gifts/shops/freitag-2.jpg", "/img/gifts/shops/freitag-3.jpg"]
 
 [[params.sections]]
 heading = "For the cyclist"

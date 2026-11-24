@@ -629,9 +629,49 @@ a.gg-buy:hover { background: var(--gg-accent-dark); color: white; }
   .gg-section-heading { font-size: 1.6em; }
 }
 
-.gg-shops li { border-bottom: 1px solid var(--gg-rule); padding: 8px 0; font-size: 1.05em; }
-.gg-shops a { color: var(--gg-accent); }
-.gg-shops a:hover { text-decoration: underline; color: var(--gg-accent); }
+.gg-shop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 20px;
+}
+
+.gg-shop a { display: block; color: var(--gg-accent); }
+.gg-shop a:hover { color: var(--gg-accent); }
+.gg-shop a:hover .gg-shop-name { text-decoration: underline; }
+
+/* One tall image on the left, two stacked on the right */
+.gg-collage {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  aspect-ratio: 4 / 3;
+  margin-bottom: 8px;
+  background: #f6f6f6;
+}
+
+.gg-collage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gg-collage img:first-child { grid-row: 1 / span 2; }
+.gg-collage { overflow: hidden; }
+.gg-shop a:hover .gg-collage img { transform: scale(1.03); }
+
+.gg-shop-name {
+  display: block;
+  font-size: 1.15em;
+  font-weight: bold;
+  border-top: 1px solid var(--gg-rule);
+  padding-top: 6px;
+}
+
+@media (max-width: 520px) {
+  .gg-shop-grid { grid-template-columns: 1fr; }
+}
 
 /* Newspaper-style masthead (used by the wishlist gift guide) */
 .np-masthead {
