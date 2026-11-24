@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+{{ $count := 0 }}
+{{ range .Params.sections }}{{ $count = add $count (len .items) }}{{ end }}
+<section class="main gift-guide">
+    <article class="gg-article">
+        <header class="gg-header">
+            {{ with .Params.kicker }}<span class="gg-kicker">{{ . }}</span>{{ end }}
+            <h1 class="gg-headline">{{ $count }} {{ lower (substr .Title 0 1) }}{{ substr .Title 1 }}</h1>
+            {{ with .Params.standfirst }}<p class="gg-standfirst">{{ . }}</p>{{ end }}
+            <div class="gg-meta">
+                <span class="gg-byline">Ross McFarlane</span>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Mon 2 Jan 2006" }}</time>
+            </div>
+        </header>
+
+        <p class="gg-disclosure">Ross is entirely independent. He earns no commission if you buy something through a link in this article, but he does get the thing.</p>
+
+        <nav class="gg-contents" aria-label="Sections">
+            <h2>Jump to</h2>
+            <ul>
+                {{ range .Params.sections }}
+                <li><a href="#{{ anchorize .heading }}">{{ .heading }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+
+        {{ range .Params.sections }}
+        <section class="gg-section" id="{{ anchorize .heading }}">
+            <h2 class="gg-section-heading">{{ .heading }}</h2>
+            {{ range .items }}
+            <div class="gg-product">
+                <figure class="gg-image">
+                    <a href="{{ .url }}"><img src="{{ .image }}" alt="{{ .name }}" loading="lazy"></a>
+                </figure>
+                <h3 class="gg-name">{{ .name }}{{ with .size }}, size {{ . }}{{ end }}</h3>
+                <a class="gg-buy" href="{{ .url }}">{{ if .price }}£{{ .price }}{{ else }}{{ .note | default "See price" }}{{ end }} at {{ .shop }}</a>
+                <p class="gg-blurb">{{ .blurb | safeHTML }}</p>
+            </div>
+            {{ end }}
+        </section>
+        {{ end }}
+    </article>
+</section>
+{{ partial "footer.html" . }}

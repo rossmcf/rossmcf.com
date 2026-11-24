@@ -37,6 +37,12 @@ price = 100
 url = "https://www.rapha.cc/gb/en/product/trail-knee-pads/KPA02XXBLK"
 
 [[params.items]]
+title = "A gold watch"
+colour = "gold"
+price = 60
+url = "https://www.casio.com/uk/watches/casio/vintage/product.A168WG-9/"
+
+[[params.items]]
 title = "Coffee Kettle"
 price = 57
 url = "https://www.hario.co.uk/collections/coffee-brew-kettles/products/v60-drip-kettle-buono-in-small"
@@ -45,6 +51,11 @@ url = "https://www.hario.co.uk/collections/coffee-brew-kettles/products/v60-drip
 title = "A stupidly loud horn for the bike."
 price = 20
 url = "https://www.sjscycles.co.uk/bells-horns/samui-air-zound-3-rechargeable-horn"
+
+[[params.items]]
+title = "A very bright bike light."
+price = 205
+url = "https://winstanleysbikes.co.uk/accessories/lights/front-lights/supernova-m99-mini-pro-25-2024-e-bike-front-light"
 
 [[params.items]]
 title = "Coffee Carafe"
