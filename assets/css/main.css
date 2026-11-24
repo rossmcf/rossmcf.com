@@ -628,3 +628,7 @@ a.gg-buy:hover { background: var(--gg-accent-dark); color: white; }
   .gg-headline { font-size: 2em; }
   .gg-section-heading { font-size: 1.6em; }
 }
+
+.gg-shops li { border-bottom: 1px solid var(--gg-rule); padding: 8px 0; font-size: 1.05em; }
+.gg-shops a { color: var(--gg-accent); }
+.gg-shops a:hover { text-decoration: underline; color: var(--gg-accent); }

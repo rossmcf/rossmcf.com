@@ -1,7 +1,7 @@
 +++
 date = 2026-11-24T09:00:00Z
 title = "Gift ideas for the Ross McFarlane in your life"
-url = "/gift-guide/"
+url = "/wishlist/"
 layout = "gift-guide"
 noindex = true
 kicker = "The Wishlist"
@@ -12,6 +12,26 @@ list = "never"
 
 [sitemap]
 disable = true
+
+[[params.shops]]
+title = "Community Clothing"
+url = "https://communityclothing.co.uk"
+
+[[params.shops]]
+title = "Mura Cycling"
+url = "https://muracycling.com"
+
+[[params.shops]]
+title = "Albion"
+url = "https://albioncycling.com"
+
+[[params.shops]]
+title = "Ostroy"
+url = "https://www.ostroy.com/collections/resort-shirts-1"
+
+[[params.shops]]
+title = "Freitag"
+url = "https://freitag.ch"
 
 [[params.sections]]
 heading = "For the cyclist"
