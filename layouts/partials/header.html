@@ -5,6 +5,22 @@
 
 <body>
 
+{{ if eq .Params.masthead "newspaper" }}
+<header class="np-masthead">
+    <div class="np-inner">
+        <p class="np-strap">Independent, opinionated, mostly about drums and bikes</p>
+        <a href="/" class="np-wordmark">Ross<br>McFarlane</a>
+        <nav class="np-pillars" aria-label="Site">
+            <ul>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/cv/">CV</a></li>
+                <li><a href="/talks/">Talks</a></li>
+                {{ with .Params.kicker }}<li class="np-current"><span>{{ . }}</span></li>{{ end }}
+            </ul>
+        </nav>
+    </div>
+</header>
+{{ else }}
 <section class="header">
     <a href="/" class="site-title"><img src="/img/masthead.svg" alt="Ross McFarlane" class="site-title-img"></a>
     <nav>
@@ -15,3 +31,4 @@
         </ul>
     </nav>
 </section>
+{{ end }}

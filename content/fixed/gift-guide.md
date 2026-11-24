@@ -3,6 +3,7 @@ date = 2026-11-24T09:00:00Z
 title = "Gift ideas for the Ross McFarlane in your life"
 url = "/wishlist/"
 layout = "gift-guide"
+masthead = "newspaper"
 noindex = true
 kicker = "The Wishlist"
 standfirst = "Drummer, cyclist, coffee pedant and occasional Welsh learner: buying for a Ross can be tricky. We’ve narrowed it down to the presents he actually wants."
@@ -51,7 +52,7 @@ heading = "For the cyclist"
   shop = "Rapha"
   url = "https://www.rapha.cc/gb/en/product/trail-knee-pads/KPA02XXBLK"
   image = "/img/gifts/knee-pads.jpg"
-  blurb = "Slim enough to pedal uphill in, tough enough for the bit where it all goes wrong on the way down. A considerate gift for anyone whose knees are no longer as young as their riding style."
+  blurb = "Slim enough to pedal uphill in, tough enough for the bit where it all goes wrong on the way down. His knees are no longer as young as his riding style, so help him protect his patellas."
 
   [[params.sections.items]]
   name = "Airzound 3 rechargeable horn"
